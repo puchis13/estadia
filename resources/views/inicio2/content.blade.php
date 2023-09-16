@@ -1,9 +1,12 @@
 <body id="contenedor">
-  
+  <section>
+<div>
   <h1>
     Nuestra Empresa
   </h1> 
-  <br><br><br><br>
+</div>
+<div style="align-content: center">_________________________________________________________________________</div>
+ 
   <p id="p1">
     Bombas y Motores de Occidente (BOMOC) somos una empresa 100% mexicana, 
     fabricantes de tableros de control para contraincendios, hidroneumáticos, 
@@ -27,4 +30,5 @@ Textil, Petroquímica, Farmacéutica, Química, Pulpa y papel, Industria en gene
   <img src="{{{asset('imagenes/ehsr.jpg')}}}" alt="" width=200px height=200px alt="">
 </section>
 </div>
+</section>
 </body>

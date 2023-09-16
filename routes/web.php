@@ -29,5 +29,9 @@ Route::middleware([
 });
 Route::view('/inicio2','inicio2.index')->name('inicio');
 Route::view('/contraincendios','contraincendios.index')->name('contraincendios');
+
 Route::view('/bombas','bombas.index')->name('bombas');
+// Estas rutas son de menus de parte de la pestaña de Bombas
+Route::view('/barmesa','barmesa.index')->name('barmesa');
+
 
