@@ -1,3 +1,0 @@
-<body id="contenedor">
-    
-</body>

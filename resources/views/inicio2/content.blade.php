@@ -5,7 +5,7 @@
     Nuestra Empresa
   </h1> 
 </div>
-<div style="align-content: center">_________________________________________________________________________</div>
+<div >_________________________________________________________________________________________________</div>
  
   <p id="p1">
     Bombas y Motores de Occidente (BOMOC) somos una empresa 100% mexicana, 
@@ -25,9 +25,20 @@ de proceso químico. Estas bombas suelen usarse para las industrias como son: Au
 Textil, Petroquímica, Farmacéutica, Química, Pulpa y papel, Industria en general.
 <br><br><br><br>
   </p>
+  <div>
+    <h1>BOMBAS INDUSTRIALES Y REFACCIONES DE ALTA PRECISIÓN.</h1>
+
+
+  </div>
+
+  <div>
+    <h1>NUESTRAS MARCAS</h1>
+
+  </div>
 <div id=contenido>
+
 <section id=seccion>soy la seccion
-  <img src="{{{asset('imagenes/ehsr.jpg')}}}" alt="" width=200px height=200px alt="">
+  <img src="{{asset('imagenes/inicio/ehsr.jpg')}}" alt="" width=200px height=200px alt="">
 </section>
 </div>
 </section>

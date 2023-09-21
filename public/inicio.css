@@ -7,25 +7,246 @@
     padding: auto;
 }
 
-header {
-    background: #3789C8 url(../imagenes/portada.jpg) center center no-repeat;
+/* Header Inicio */
+.header-inicio, .header-contraincendios, .header-motores , .header-hidroneumaticos{
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
-    padding: 100px 70px 70px;
+    padding: 150px 70px 70px;
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;
 }
 
+/* Herader de Blog */
+.header-blog {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+/* Herader de Tienda */
+.header-tienda {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+/* Herader de Contacto */
+.header-contacto {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+/* Herader de Servicios */
+.header-servicios {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/* Headers de Otras lineas de porductos */
+/* .header-contraincendios {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-motores {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-hidroneumaticos {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+} */
+
+/* Headers de Bombas */
+.header-altamira {
+    background: #3789C8 url(../imagenes/bombas/altamira/portada.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-armstrong {
+    background: #3789C8 url(../imagenes/bombas/armstrong/portada.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-aurora {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-barmesa {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-franklin {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-grundfos {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-impel {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-jandy {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-mann {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-netzsch {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-pentar {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-scott {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-tsurumi {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-wdm {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-wilo {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-yamada {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-zoeller {
+    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+/* Estilos de textos */
 h1 {
     padding: 10px;
     text-align: center;
     font-family: Helvetica;
     font-size: 25px;
-    
-    /* Cambia el tamaño según tus preferencias */
+
 }
 
-#h1Contrainccnedios {
+#h1-contraincendios {
     text-decoration: underline red;
     text-align: left;
     font-family: Helvetica;
@@ -33,20 +254,18 @@ h1 {
 
 }
 
-#p1Contrainccnedios {
+#p1-contraincendios {
     text-align: left;
     font-family: Helvetica;
     font-size: 14px;
     width: 100%;
     height: 50%;
-    /* Cambia el tamaño según tus preferencias */
 }
 
 #p1 {
     text-align: left;
     font-family: Helvetica;
     font-size: 14px;
-    /* Cambia el tamaño según tus preferencias */
     margin: 2%;
 
 }
@@ -71,9 +290,6 @@ div {
 }
 
 #logo {
-    /* width: 50%;
-    height: 50%;
-   background-color:aquamarine; */
     float: left;
     margin: auto;
     color: black;
@@ -173,33 +389,3 @@ div {
 }
 
 /* Aqui termina el Nav */
-
-/* Tablas */
-table {
-    border-collapse:  collapse;
-    border-style: groove;
-    border-radius: 4%;
-    padding: 0.4em;
-	margin: 0 0 1.5em;
-	width: 100%;
-}
-
-
-
-th {
-    border-style: groove;
-	padding: 0.4em;
-	text-align: left;
-}
-
-tr {
-    
-	border-bottom: 1px solid #eee;
-}
-
-td {
-    border-collapse:  collapse;
-
-    border-style: groove;
-	padding: 0.4em;
-}
