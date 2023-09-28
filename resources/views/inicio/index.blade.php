@@ -1,6 +1,6 @@
 @extends('inicio.inicio')
 
-@include('inicio2.header')
+@include('inicio.header')
 @section('dinamico')
-    @include('inicio2.content')
+    @include('inicio.content')
 @endsection

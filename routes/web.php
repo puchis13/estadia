@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('inicio2.index');
+    return view('inicio.index');
     // return view('welcome');
 });
 
@@ -27,7 +27,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-Route::view('/inicio2','inicio2.index')->name('inicio');
+Route::view('/inicio','inicio.index')->name('inicio');
 
 //Rutas de Bombas
 Route::view('/bombas/altamira', 'bombas/altamira.index')->name('altamira');

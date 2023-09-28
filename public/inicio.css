@@ -1,12 +1,3 @@
-#contenedor {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    background-color: white;
-    margin: auto;
-    padding: auto;
-}
-
 /* Header Inicio */
 .header-inicio, .header-contraincendios, .header-motores , .header-hidroneumaticos{
     background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
@@ -19,9 +10,9 @@
 
 /* Herader de Blog */
 .header-blog {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: black;
     background-size: cover;
-    padding: 150px 70px 70px;
+    padding: 90px 50px 30px;
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;
@@ -53,34 +44,6 @@
     font-size: 2.5rem;
     font-weight: 800;
 }
-
-/* Headers de Otras lineas de porductos */
-/* .header-contraincendios {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 150px 70px 70px;
-    margin: auto;
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-
-.header-motores {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 150px 70px 70px;
-    margin: auto;
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-
-.header-hidroneumaticos {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 150px 70px 70px;
-    margin: auto;
-    font-size: 2.5rem;
-    font-weight: 800;
-} */
 
 /* Headers de Bombas */
 .header-altamira {
@@ -236,59 +199,6 @@
     font-weight: 800;
 }
 
-
-/* Estilos de textos */
-h1 {
-    padding: 10px;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 25px;
-
-}
-
-#h1-contraincendios {
-    text-decoration: underline red;
-    text-align: left;
-    font-family: Helvetica;
-    font-size: 14px;
-
-}
-
-#p1-contraincendios {
-    text-align: left;
-    font-family: Helvetica;
-    font-size: 14px;
-    width: 100%;
-    height: 50%;
-}
-
-#p1 {
-    text-align: left;
-    font-family: Helvetica;
-    font-size: 14px;
-    margin: 2%;
-
-}
-
-#contenido {
-    width: 100%;
-    height: 100%;
-    color: black;
-}
-
-#seccion {
-    width: 30%;
-    height: 30%;
-    text-align: left;
-    color: black;
-    margin: auto;
-    float: left;
-}
-
-div {
-    margin: 5%;
-}
-
 #logo {
     float: left;
     margin: auto;
@@ -389,3 +299,8 @@ div {
 }
 
 /* Aqui termina el Nav */
+
+div, nav{
+    font-family: Helvetica;
+}
+
