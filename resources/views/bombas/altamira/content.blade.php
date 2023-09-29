@@ -12,7 +12,7 @@
             {{-- Imagenes al seleccionar --}}
             <div>
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-
+{{-- Imagen de Series Tx --}}
                     <div class="col">
                         <figure class="figure">
                             <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
@@ -22,7 +22,7 @@
                             </figcaption>
                         </figure>
                     </div>
-
+{{-- Imagen de Series KOR --}}
                     <div class="col">
                         <figure class="figure">
                             <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="50%"
@@ -32,11 +32,10 @@
                             </figcaption>
                         </figure>
                     </div>
-
+{{-- Imagen de Series Flux --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#flux"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"  class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series TX, TXE & TXN</h6>
                             </figcaption>
@@ -130,7 +129,7 @@
                         <h6 class="h6">Series TX, TXE & TXN</h6>
                     </figcaption>
                     {{-- <button type="button" class="btn btn-primary ms-4">Ver Catalogo</button> --}}
-                    <a href="https://mortonpumps.com/nuevo-sitio/wp-content/uploads/2021/01/Ficha-Tecnica-de-Bombas-Multietapas-Verticales-Altamira-de-la-Serie-TX.pdf" class="btn btn-primary ms-4">Ver Catalogo</a>
+                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf" class="btn btn-primary ms-4">TX, TXE</a>
                 </div>
                 {{-- lh-base --}}
                 <div class="col me-5 pe-5">
@@ -273,7 +272,9 @@
                     <figcaption>
                         <h6 class="h6">Series KOR</h6>
                     </figcaption>
-                    <button type="button" class="btn btn-primary ms-4">Ver Catalogo</button>
+                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf" class="btn btn-primary ms-4">KOR 4$</a>
+                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf" class="btn btn-primary ms-4">KOR  6” 8” 10”  </a>
+
                 </div>
                 {{-- lh-base --}}
                 <div class="col me-5 pe-5">
@@ -402,4 +403,102 @@
             </div>
         </div>
 
+
+                {{-- Contenido Series Flux --}}
+                <div class=" m-2 p-2">
+                    <div class="row m-1">
+                        <h4 id="flux" class="h4">Bombas Centrifugas Horizontales Altamira Serie Flux</h4>
+                    </div>
+                    <div class="row m-5 ps-5">
+        
+                        <div class="col ms-3 ps-5">
+                            <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}" class="figure-img img-fluid rounded" alt=""></figure>
+                            <figcaption>
+                                <h6 class="h6">Series FLUX</h6>
+                            </figcaption>
+                            <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/" class="btn btn-primary ms-4">Ver Catalogo</a>
+                        </div>
+                        <div class="col me-5 pe-5">
+                            <p>
+                                Las bombas  <b>bombas Serie FLUX de Altamira son una amplia gama de Motobombas
+                                    Centrífugas Horizontales monoetapa </b>, el cuerpo esta fabricado en acero
+                                    inoxidable 304 y son utiles para aplicaciones donde se requiere que el agua no
+                                    tenga contacto con materiales sujetos a oxidación.</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col ms-5">
+                            <h4 class="h4">Aplicaciones de las bombas Altamira FLUX:</h4>
+                            <ul>
+                                <li>Sistemas de agua potable</li>
+                                <li>Alimentación de calderas</li>
+                                <li>Aplicaciones en el sector de la agricultura</li>
+                                <li>Aplicaciones en sistemas de agua potable</li>
+                                <li>Sistemas contra incendio</li>
+                                <li>Sistemas de condensación</li>
+                                <li>Sistemas de enfriamiento</li>
+                                <li>Sistemas de la industria de alimentos</li>
+                                <li>Sistemas de limpieza</li>
+        
+                            </ul>
+                        </div>
+                        <div class="col me-5">
+                            <h4 class="h4">Especificaciones Técnicas de la Serie FLUX:</h4>
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th class="border">Serie</th>
+                                        <th class="border">Flujo Máximo (GPM)</th>
+                                        <th class="border">Carga Máxima (m)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border">FLUX4</td>
+                                        <td class="border">100</td>
+                                        <td class="border">35</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border">FLUX5</td>
+                                        <td class="border">100</td>
+                                        <td class="border">65</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border">FLUX7</td>
+                                        <td class="border">175</td>
+                                        <td class="border">70</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border">FLUX12</td>
+                                        <td class="border">300</td>
+                                        <td class="border">75</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border">FLUX24</td>
+                                        <td class="border">570</td>
+                                        <td class="border">30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border">FLUX28</td>
+                                        <td class="border">570</td>
+                                        <td class="border">75</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border">FLUX38</td>
+                                        <td class="border">870</td>
+                                        <td class="border">40</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border">FLUX44</td>
+                                        <td class="border">870</td>
+                                        <td class="border">65</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+        
     </div>

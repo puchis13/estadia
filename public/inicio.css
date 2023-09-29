@@ -10,9 +10,9 @@
 
 /* Herader de Blog */
 .header-blog {
-    background: black;
+    background: #3789C8 url(../imagenes/blog/portada.jpg) center center no-repeat;
     background-size: cover;
-    padding: 90px 50px 30px;
+    padding: 10%;
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;

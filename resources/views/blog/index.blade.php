@@ -7,4 +7,6 @@
 @section('dinamico')
 {{-- content propio --}}
     @include('blog.content')
+    @include('blog.impulsores')
+
 @endsection

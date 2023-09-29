@@ -1,8 +1,8 @@
-
-<nav class="navbar navbar-expand-md  fixed-top navbar-primary bg-dark" >
+<div class="container-fluid">
+<nav class="navbar navbar-expand-md  fixed-top bg-light text-black"  >
   <div class="container-fluid">
 
-      <a class="navbar-brand" href="{{ route('inicio') }}"> <img src="{{ asset('imagenes/logo/logo.png') }}" width=200px height=50px alt=""></a>
+      <a class="navbar-brand" href="{{ route('inicio') }}"> <img src="{{ asset('imagenes/logo/logoBO10.png') }}" width=200px height=50px alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -14,25 +14,26 @@
               data-bs-toggle="dropdown" aria-expanded="false">
               Bombas
           </a>
-          <ul class="dropdown-menu bg-dark" style="max-height: 300px; 
-          overflow-x: hidden; overflow-y: scroll;" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item text-primary" href="{{ route('altamira') }}">Altamira</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('armstrong') }}">Armstrong</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('aurora') }}">Aurora picsa</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('barmesa') }}">Barmesa</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('franklin') }}">Franklin Electric</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('grundfos') }}">Grundfos</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('impel') }}">Impel</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('jandy') }}">Jandy</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('mann') }}">Mann pumps</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('netzsch') }}">Netzsch</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('pentar') }}">Pentar</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('scott') }}">Scott pump</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('tsurumi') }}">Tsurumi Pump</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('wdm') }}">Wilo</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('wilo') }}">Wdm</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('yamada') }}">Yamada</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('zoeller') }}">Zoeller</a></li>
+          <ul class="dropdown-menu " style="max-height: 300px;
+          overflow-x: hidden;
+          overflow-y: scroll;" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="{{ route('altamira') }}">Altamira</a></li>
+              <li><a class="dropdown-item" href="{{ route('armstrong') }}">Armstrong</a></li>
+              <li><a class="dropdown-item" href="{{ route('aurora') }}">Aurora picsa</a></li>
+              <li><a class="dropdown-item" href="{{ route('barmesa') }}">Barmesa</a></li>
+              <li><a class="dropdown-item" href="{{ route('franklin') }}">Franklin Electric</a></li>
+              <li><a class="dropdown-item" href="{{ route('grundfos') }}">Grundfos</a></li>
+              <li><a class="dropdown-item" href="{{ route('impel') }}">Impel</a></li>
+              <li><a class="dropdown-item" href="{{ route('jandy') }}">Jandy</a></li>
+              <li><a class="dropdown-item" href="{{ route('mann') }}">Mann pumps</a></li>
+              <li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>
+              <li><a class="dropdown-item" href="{{ route('pentar') }}">Pentar</a></li>
+              <li><a class="dropdown-item" href="{{ route('scott') }}">Scott pump</a></li>
+              <li><a class="dropdown-item" href="{{ route('tsurumi') }}">Tsurumi Pump</a></li>
+              <li><a class="dropdown-item" href="{{ route('wdm') }}">Wilo</a></li>
+              <li><a class="dropdown-item" href="{{ route('wilo') }}">Wdm</a></li>
+              <li><a class="dropdown-item" href="{{ route('yamada') }}">Yamada</a></li>
+              <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li>
           </ul>
           <!-- end menu desplegable -->
       </li>
@@ -42,10 +43,10 @@
               Otras lineas de productos
           </a>
           <!-- start menu desplegable -->
-          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item text-primary" href="{{ route('contraincendios') }}">Contraincendios</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('hidroneumaticos') }}">Hidroneumaticos</a></li>
-              <li><a class="dropdown-item text-primary" href="{{ route('motores') }}">Motores</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="{{ route('contraincendios') }}">Contraincendios</a></li>
+              <li><a class="dropdown-item" href="{{ route('hidroneumaticos') }}">Hidroneumaticos</a></li>
+              <li><a class="dropdown-item" href="{{ route('motores') }}">Motores</a></li>
           </ul>
           <!-- end menu desplegable -->
       </li>
@@ -96,5 +97,5 @@
   </div>
   </div>
 </nav>
-
+</div>
 <!-- end nav -->
