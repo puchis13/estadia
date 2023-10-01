@@ -56,7 +56,7 @@ Route::view('/motores','motores.index')->name('motores');
 
 //Ruta de Blog
 Route::view('/blog','blog.index')->name('blog');
-
+Route::view('/impulsores', 'blog.impulsores')->name('impulsores');
 //Ruta de Contacto
 Route::view('/contacto','contacto.index')->name('contacto');
 

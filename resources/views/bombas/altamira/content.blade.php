@@ -272,7 +272,7 @@
                     <figcaption>
                         <h6 class="h6">Series KOR</h6>
                     </figcaption>
-                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf" class="btn btn-primary ms-4">KOR 4$</a>
+                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf" class="btn btn-primary ms-4">KOR 4”</a>
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf" class="btn btn-primary ms-4">KOR  6” 8” 10”  </a>
 
                 </div>
