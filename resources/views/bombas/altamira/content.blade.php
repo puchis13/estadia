@@ -12,32 +12,43 @@
             {{-- Imagenes al seleccionar --}}
             <div>
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-{{-- Imagen de Series Tx --}}
+                    {{-- Imagen de Series Tx --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
+                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="47%"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series TX, TXE & TXN</h6>
                             </figcaption>
                         </figure>
                     </div>
-{{-- Imagen de Series KOR --}}
+                    {{-- Imagen de Series KOR --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="50%"
+                            <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="57%"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series KOR</h6>
                             </figcaption>
                         </figure>
                     </div>
-{{-- Imagen de Series Flux --}}
+                    {{-- Imagen de Series Flux --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#flux"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"  class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#flux"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series TX, TXE & TXN</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    {{-- Imagen de Series EKRC Y Eco-Kal --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#ekrc"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="80%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Series EKRC y Eco-Kal</h6>
                             </figcaption>
                         </figure>
                     </div>
@@ -96,17 +107,6 @@
                         <figure class="figure">
                             <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}"
-                                    width="50%" height="25%" class="figure-img img-fluid rounded"
-                                    alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series TX, TXE & TXN</h6>
                             </figcaption>
@@ -129,7 +129,8 @@
                         <h6 class="h6">Series TX, TXE & TXN</h6>
                     </figcaption>
                     {{-- <button type="button" class="btn btn-primary ms-4">Ver Catalogo</button> --}}
-                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf" class="btn btn-primary ms-4">TX, TXE</a>
+                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                        class="btn btn-primary ms-4">TX, TXE</a>
                 </div>
                 {{-- lh-base --}}
                 <div class="col me-5 pe-5">
@@ -171,87 +172,87 @@
                 </div>
                 <div class="col me-5">
                     <h4 class="h4">RENDIMIENTO HIDRÁULICO </h4>
-                    <table class="table ">
+                    <table class="table table-striped">
                         <thead>
-                            <tr>
-                                <th class="border">Modelo Serie TX</th>
-                                <th class="border">LPS</th>
-                                <th class="border">LPM</th>
-                                <th class="border">GPM</th>
+                            <tr class="border-top border-danger">
+                                <th scope="col" class="border-bottom border-dark">Modelo Serie TX</th>
+                                <th scope="col" class="border-bottom border-dark">LPS</th>
+                                <th scope="col" class="border-bottom border-dark">LPM</th>
+                                <th scope="col" class="border-bottom border-dark">GPM</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="border">T0.6X</td>
-                                <td class="border">0.6</td>
-                                <td class="border">36</td>
-                                <td class="border">9.5</td>
+                                <td scope="col">T0.6X</td>
+                                <td scope="col">0.6</td>
+                                <td scope="col">36</td>
+                                <td scope="col">9.5</td>
                             </tr>
                             <tr>
-                                <td class="border">T1X</td>
-                                <td class="border">1</td>
-                                <td class="border">60</td>
-                                <td class="border">15.85</td>
+                                <td scope="col">T1X</td>
+                                <td scope="col">1</td>
+                                <td scope="col">60</td>
+                                <td scope="col">15.85</td>
                             </tr>
                             <tr>
-                                <td class="border">T2X</td>
-                                <td class="border">2</td>
-                                <td class="border">120</td>
-                                <td class="border">31.7</td>
+                                <td scope="col">T2X</td>
+                                <td scope="col">2</td>
+                                <td scope="col">120</td>
+                                <td scope="col">31.7</td>
                             </tr>
                             <tr>
-                                <td class="border">T3.5X</td>
-                                <td class="border">3.5</td>
-                                <td class="border">210</td>
-                                <td class="border">55.48</td>
+                                <td scope="col">T3.5X</td>
+                                <td scope="col">3.5</td>
+                                <td scope="col">210</td>
+                                <td scope="col">55.48</td>
                             </tr>
                             <tr>
-                                <td class="border">T6X</td>
-                                <td class="border">6</td>
-                                <td class="border">360</td>
-                                <td class="border">95.11</td>
+                                <td scope="col">T6X</td>
+                                <td scope="col">6</td>
+                                <td scope="col">360</td>
+                                <td scope="col">95.11</td>
                             </tr>
                             <tr>
-                                <td class="border">T7.5X</td>
-                                <td class="border">7.5</td>
-                                <td class="border">450</td>
-                                <td class="border">118.89</td>
+                                <td scope="col">T7.5X</td>
+                                <td scope="col">7.5</td>
+                                <td scope="col">450</td>
+                                <td scope="col">118.89</td>
                             </tr>
                             <tr>
-                                <td class="border">T10X</td>
-                                <td class="border">10</td>
-                                <td class="border">600</td>
-                                <td class="border">158.52</td>
+                                <td scope="col">T10X</td>
+                                <td scope="col">10</td>
+                                <td scope="col">600</td>
+                                <td scope="col">158.52</td>
                             </tr>
                             <tr>
-                                <td class="border">T13X</td>
-                                <td class="border">13</td>
-                                <td class="border">780</td>
-                                <td class="border">206.07</td>
+                                <td scope="col">T13X</td>
+                                <td scope="col">13</td>
+                                <td scope="col">780</td>
+                                <td scope="col">206.07</td>
                             </tr>
                             <tr>
-                                <td class="border">T21X</td>
-                                <td class="border">21</td>
-                                <td class="border">1260</td>
-                                <td class="border">332.89</td>
+                                <td scope="col">T21X</td>
+                                <td scope="col">21</td>
+                                <td scope="col">1260</td>
+                                <td scope="col">332.89</td>
                             </tr>
                             <tr>
-                                <td class="border">T29X</td>
-                                <td class="border">29</td>
-                                <td class="border">1740</td>
-                                <td class="border">459.7</td>
+                                <td scope="col">T29X</td>
+                                <td scope="col">29</td>
+                                <td scope="col">1740</td>
+                                <td scope="col">459.7</td>
                             </tr>
                             <tr>
-                                <td class="border">T33X</td>
-                                <td class="border">33</td>
-                                <td class="border">1980</td>
-                                <td class="border">52.11</td>
+                                <td scope="col">T33X</td>
+                                <td scope="col">33</td>
+                                <td scope="col">1980</td>
+                                <td scope="col">52.11</td>
                             </tr>
-                            <tr>
-                                <td class="border">T41X</td>
-                                <td class="border">41</td>
-                                <td class="border">2460</td>
-                                <td class="border">649.93</td>
+                            <tr class="border-top-2 border-dark">
+                                <td scope="col">T41X</td>
+                                <td scope="col">41</td>
+                                <td scope="col">2460</td>
+                                <td scope="col">649.93</td>
                             </tr>
                         </tbody>
                     </table>
@@ -272,11 +273,12 @@
                     <figcaption>
                         <h6 class="h6">Series KOR</h6>
                     </figcaption>
-                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf" class="btn btn-primary ms-4">KOR 4”</a>
-                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf" class="btn btn-primary ms-4">KOR  6” 8” 10”  </a>
+                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
+                        class="btn btn-primary ms-4">KOR 4”</a>
+                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
+                        class="btn btn-primary ms-4">KOR 6” 8” 10” </a>
 
                 </div>
-                {{-- lh-base --}}
                 <div class="col me-5 pe-5">
                     <p>
                         La familia de <b>Bombas Sumergibles Altamira de la Serie KOR </b> son totalmente en acero
@@ -302,100 +304,100 @@
                     </ul>
                 </div>
                 <div class="col me-5">
-                    <h4 class="h4">RANGOS DE OPERACIÓN  </h4>
-                    <table class="table ">
+                    <h4 class="h4">RANGOS DE OPERACIÓN </h4>
+                    <table class="table table-striped ">
                         <thead>
-                            <tr>
-                                <th class="border">Modelo Altamira Serie KOR</th>
-                                <th class="border">LPS</th>
-                                <th class="border">LPM</th>
-                                <th class="border">GPM</th>
+                            <tr class="border-top border-danger">
+                                <th scope="col" class="border-bottom border-dark">Modelo Altamira Serie KOR</th>
+                                <th scope="col" class="border-bottom border-dark">LPS</th>
+                                <th scope="col" class="border-bottom border-dark">LPM</th>
+                                <th scope="col" class="border-bottom border-dark">GPM</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="border">KOR07</td>
-                                <td class="border">0.7</td>
-                                <td class="border">42</td>
-                                <td class="border">11</td>
+                                <td scope="col">KOR07</td>
+                                <td scope="col">0.7</td>
+                                <td scope="col">42</td>
+                                <td scope="col">11</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR1.2</td>
-                                <td class="border">1.2</td>
-                                <td class="border">72</td>
-                                <td class="border">19</td>
+                                <td scope="col">KOR1.2</td>
+                                <td scope="col">1.2</td>
+                                <td scope="col">72</td>
+                                <td scope="col">19</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR2</td>
-                                <td class="border">2</td>
-                                <td class="border">120</td>
-                                <td class="border">31</td>
+                                <td scope="col">KOR2</td>
+                                <td scope="col">2</td>
+                                <td scope="col">120</td>
+                                <td scope="col">31</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR3</td>
-                                <td class="border">3</td>
-                                <td class="border">180</td>
-                                <td class="border">47</td>
+                                <td scope="col">KOR3</td>
+                                <td scope="col">3</td>
+                                <td scope="col">180</td>
+                                <td scope="col">47</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR4.5</td>
-                                <td class="border">4.5</td>
-                                <td class="border">270</td>
-                                <td class="border">71</td>
+                                <td scope="col">KOR4.5</td>
+                                <td scope="col">4.5</td>
+                                <td scope="col">270</td>
+                                <td scope="col">71</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR6</td>
-                                <td class="border">6</td>
-                                <td class="border">360</td>
-                                <td class="border">95</td>
+                                <td scope="col">KOR6</td>
+                                <td scope="col">6</td>
+                                <td scope="col">360</td>
+                                <td scope="col">95</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR10</td>
-                                <td class="border">10</td>
-                                <td class="border">600</td>
-                                <td class="border">158</td>
+                                <td scope="col">KOR10</td>
+                                <td scope="col">10</td>
+                                <td scope="col">600</td>
+                                <td scope="col">158</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR15</td>
-                                <td class="border">15</td>
-                                <td class="border">900</td>
-                                <td class="border">237</td>
+                                <td scope="col">KOR15</td>
+                                <td scope="col">15</td>
+                                <td scope="col">900</td>
+                                <td scope="col">237</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR20</td>
-                                <td class="border">20</td>
-                                <td class="border">1200</td>
-                                <td class="border">317</td>
+                                <td scope="col">KOR20</td>
+                                <td scope="col">20</td>
+                                <td scope="col">1200</td>
+                                <td scope="col">317</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR25</td>
-                                <td class="border">25</td>
-                                <td class="border">1500</td>
-                                <td class="border">396</td>
+                                <td scope="col">KOR25</td>
+                                <td scope="col">25</td>
+                                <td scope="col">1500</td>
+                                <td scope="col">396</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR32</td>
-                                <td class="border">32</td>
-                                <td class="border">1920</td>
-                                <td class="border">507</td>
+                                <td scope="col">KOR32</td>
+                                <td scope="col">32</td>
+                                <td scope="col">1920</td>
+                                <td scope="col">507</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR40</td>
-                                <td class="border">40</td>
-                                <td class="border">2400</td>
-                                <td class="border">634</td>
+                                <td scope="col">KOR40</td>
+                                <td scope="col">40</td>
+                                <td scope="col">2400</td>
+                                <td scope="col">634</td>
                             </tr>
                             <tr>
-                                <td class="border">KOR53</td>
-                                <td class="border">53</td>
-                                <td class="border">3180</td>
-                                <td class="border">840</td>
+                                <td scope="col">KOR53</td>
+                                <td scope="col">53</td>
+                                <td scope="col">3180</td>
+                                <td scope="col">840</td>
                             </tr>
-                            <tr>
-                                <td class="border">KOR70</td>
-                                <td class="border">70</td>
-                                <td class="border">4200</td>
-                                <td class="border">1109</td>
+                            <tr class="border-top-2 border-dark">
+                                <td scope="col">KOR70</td>
+                                <td scope="col">70</td>
+                                <td scope="col">4200</td>
+                                <td scope="col">1109</td>
                             </tr>
                         </tbody>
                     </table>
@@ -404,101 +406,325 @@
         </div>
 
 
-                {{-- Contenido Series Flux --}}
-                <div class=" m-2 p-2">
-                    <div class="row m-1">
-                        <h4 id="flux" class="h4">Bombas Centrifugas Horizontales Altamira Serie Flux</h4>
-                    </div>
-                    <div class="row m-5 ps-5">
-        
-                        <div class="col ms-3 ps-5">
-                            <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}" class="figure-img img-fluid rounded" alt=""></figure>
-                            <figcaption>
-                                <h6 class="h6">Series FLUX</h6>
-                            </figcaption>
-                            <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/" class="btn btn-primary ms-4">Ver Catalogo</a>
-                        </div>
-                        <div class="col me-5 pe-5">
-                            <p>
-                                Las bombas  <b>bombas Serie FLUX de Altamira son una amplia gama de Motobombas
-                                    Centrífugas Horizontales monoetapa </b>, el cuerpo esta fabricado en acero
-                                    inoxidable 304 y son utiles para aplicaciones donde se requiere que el agua no
-                                    tenga contacto con materiales sujetos a oxidación.</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col ms-5">
-                            <h4 class="h4">Aplicaciones de las bombas Altamira FLUX:</h4>
-                            <ul>
-                                <li>Sistemas de agua potable</li>
-                                <li>Alimentación de calderas</li>
-                                <li>Aplicaciones en el sector de la agricultura</li>
-                                <li>Aplicaciones en sistemas de agua potable</li>
-                                <li>Sistemas contra incendio</li>
-                                <li>Sistemas de condensación</li>
-                                <li>Sistemas de enfriamiento</li>
-                                <li>Sistemas de la industria de alimentos</li>
-                                <li>Sistemas de limpieza</li>
-        
-                            </ul>
-                        </div>
-                        <div class="col me-5">
-                            <h4 class="h4">Especificaciones Técnicas de la Serie FLUX:</h4>
-                            <table class="table ">
-                                <thead>
-                                    <tr>
-                                        <th class="border">Serie</th>
-                                        <th class="border">Flujo Máximo (GPM)</th>
-                                        <th class="border">Carga Máxima (m)</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="border">FLUX4</td>
-                                        <td class="border">100</td>
-                                        <td class="border">35</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border">FLUX5</td>
-                                        <td class="border">100</td>
-                                        <td class="border">65</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border">FLUX7</td>
-                                        <td class="border">175</td>
-                                        <td class="border">70</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border">FLUX12</td>
-                                        <td class="border">300</td>
-                                        <td class="border">75</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border">FLUX24</td>
-                                        <td class="border">570</td>
-                                        <td class="border">30</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border">FLUX28</td>
-                                        <td class="border">570</td>
-                                        <td class="border">75</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border">FLUX38</td>
-                                        <td class="border">870</td>
-                                        <td class="border">40</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border">FLUX44</td>
-                                        <td class="border">870</td>
-                                        <td class="border">65</td>
-                                    </tr>
-                                    
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+        {{-- Contenido Series Flux --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="flux" class="h4">Bombas Centrifugas Horizontales Altamira Serie Flux</h4>
+            </div>
+            <div class="row m-5 ps-5">
+
+                <div class="col ms-3 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption>
+                        <h6 class="h6">Series FLUX</h6>
+                    </figcaption>
+                    <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/"
+                        class="btn btn-primary ms-4">Ver Catalogo</a>
                 </div>
-        
+                <div class="col me-5 pe-5">
+                    <p>
+                        Las bombas <b>bombas Serie FLUX de Altamira son una amplia gama de Motobombas
+                            Centrífugas Horizontales monoetapa </b>, el cuerpo esta fabricado en acero
+                        inoxidable 304 y son utiles para aplicaciones donde se requiere que el agua no
+                        tenga contacto con materiales sujetos a oxidación.</p>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col ms-5">
+                    <h4 class="h4">Aplicaciones de las bombas Altamira FLUX:</h4>
+                    <ul>
+                        <li>Sistemas de agua potable</li>
+                        <li>Alimentación de calderas</li>
+                        <li>Aplicaciones en el sector de la agricultura</li>
+                        <li>Aplicaciones en sistemas de agua potable</li>
+                        <li>Sistemas contra incendio</li>
+                        <li>Sistemas de condensación</li>
+                        <li>Sistemas de enfriamiento</li>
+                        <li>Sistemas de la industria de alimentos</li>
+                        <li>Sistemas de limpieza</li>
+
+                    </ul>
+                </div>
+                <div class="col me-5">
+                    <h4 class="h4">Especificaciones Técnicas de la Serie FLUX:</h4>
+                    <table class="table ">
+                        <thead>
+                            <tr>
+                                <th class="border">Serie</th>
+                                <th class="border">Flujo Máximo (GPM)</th>
+                                <th class="border">Carga Máxima (m)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border">FLUX4</td>
+                                <td class="border">100</td>
+                                <td class="border">35</td>
+                            </tr>
+                            <tr>
+                                <td class="border">FLUX5</td>
+                                <td class="border">100</td>
+                                <td class="border">65</td>
+                            </tr>
+                            <tr>
+                                <td class="border">FLUX7</td>
+                                <td class="border">175</td>
+                                <td class="border">70</td>
+                            </tr>
+                            <tr>
+                                <td class="border">FLUX12</td>
+                                <td class="border">300</td>
+                                <td class="border">75</td>
+                            </tr>
+                            <tr>
+                                <td class="border">FLUX24</td>
+                                <td class="border">570</td>
+                                <td class="border">30</td>
+                            </tr>
+                            <tr>
+                                <td class="border">FLUX28</td>
+                                <td class="border">570</td>
+                                <td class="border">75</td>
+                            </tr>
+                            <tr>
+                                <td class="border">FLUX38</td>
+                                <td class="border">870</td>
+                                <td class="border">40</td>
+                            </tr>
+                            <tr>
+                                <td class="border">FLUX44</td>
+                                <td class="border">870</td>
+                                <td class="border">65</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        {{-- Contenido Series EKRC Y Eco-Kal --}}
+
+        {{-- Esto es del contenido de Serie EKRC --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="ekrc" class="h4">Bombas de calor para piscina Hidrocontrol serie EKRC</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}"
+                            width="90%" class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Serie EKRC</h6>
+                    </figcaption>
+                    <a href="https://drive.google.com/file/d/1WHK3xLg5aLM3CPTybyUbBwYOfrw8-R8a/view"
+                        class="btn btn-primary ms-4">EKRC</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Las bombas de calor Hidrocontrol son muy competitivas en el mercado, además la serie EKRC tienen
+                        un display de LCD y un robusto intercambiador de calor construido en titanio, refrigerante
+                        ecologico, función Spa (hasta 40ºC) y temporalizador programable (excepto modelo 24).
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col ms-5">
+                    <h4 class="h4">Aplicaciones</h4>
+                    <ul>
+                        <li>Piscinas residenciales y comerciales</li>
+                        <li>Tinas de hidromasaje (Spa) </li>
+                    </ul>
+                </div>
+                <div class="col me-5">
+                    {{-- <h4 class="h4">RENDIMIENTO</h4> --}}
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="border-top border-danger">
+                                <th scope="col" class="border-bottom border-dark">CÓDIGO</th>
+                                <th scope="col" class="border-bottom border-dark">BTU</th>
+                                <th scope="col" class="border-bottom border-dark">∆ COEF. DESEM.</th>
+                                <th scope="col" class="border-bottom border-dark">FASES x VOLTS</th>
+                                <th scope="col" class="border-bottom border-dark">COMPRESOR RLA/LRA</th>
+                                <th scope="col" class="border-bottom border-dark">FLUJO DE CIRCULACIÓN DE AGUA
+                                </th>
+                                <th scope="col" class="border-bottom border-dark">DECIBELES</th>
+                                <th scope="col" class="border-bottom border-dark">SUCCIÓN x DESCARGA (Pulgadas)
+                                </th>
+                                <th scope="col" class="border-bottom border-dark">PESO (kg)</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="col">EKRC-24SPA/1230</td>
+                                <td scope="col">24,000</td>
+                                <td scope="col">5.5 A</td>
+                                <td scope="col">1 x 230 Vca (± 10%)</td>
+                                <td scope="col">4.8 A</td>
+                                <td scope="col">12 GPM</td>
+                                <td scope="col">55 dB</td>
+                                <td scope="col">1.5 x 1.5 (Rosca macho)</td>
+                                <td scope="col">32</td>
+
+                            </tr>
+                            <tr>
+                                <td scope="col">EKRC-32SPA/1230</td>
+                                <td scope="col">32,000</td>
+                                <td scope="col">6.6 A</td>
+                                <td scope="col">1 x 230 Vca (± 10%)</td>
+                                <td scope="col">6.5 A</td>
+                                <td scope="col">11 - 17 GPM</td>
+                                <td scope="col">50 dB</td>
+                                <td scope="col">2 x2 (Cementar)</td>
+                                <td scope="col">56</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">EKRC-53SPA/1230</td>
+                                <td scope="col">53,000</td>
+                                <td scope="col">6.6 A</td>
+                                <td scope="col">1 x 230 Vca (± 10%)</td>
+                                <td scope="col">10.8 A</td>
+                                <td scope="col">20 - 27 GPM</td>
+                                <td scope="col">53 dB</td>
+                                <td scope="col">2 x2 (Cementar)</td>
+                                <td scope="col">69</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">EKRC-80SPA/1230</td>
+                                <td scope="col">80,000</td>
+                                <td scope="col">6.5 A</td>
+                                <td scope="col">1 x 230 Vca (± 10%)</td>
+                                <td scope="col">16.5 A</td>
+                                <td scope="col">33 - 39 GPM</td>
+                                <td scope="col">56 dB</td>
+                                <td scope="col">2 x2 (Cementar)</td>
+                                <td scope="col">99</td>
+                            </tr>
+                            <tr class="border-top-2 border-dark">
+                                <td scope="col">EKRC-110SPA/1230</td>
+                                <td scope="col">110,000</td>
+                                <td scope="col">6.7 A</td>
+                                <td scope="col">1 x 230 Vca (± 10%)</td>
+                                <td scope="col">22A</td>
+                                <td scope="col">36 - 53 GPM</td>
+                                <td scope="col">61 dB</td>
+                                <td scope="col">2 x2 (Cementar)</td>
+                                <td scope="col">119</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {{-- Esto es del contenido de Serie Eco-Kal --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 class="h4">Bomba para piscina Hidrocontrol serie Eco-Kal</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ecokal.jpg') }}"
+                            width="100%" height="35%" class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Serie Eco-Kal</h6>
+                    </figcaption>
+                    <a href="https://drive.google.com/file/d/1NChOmaDmm6ltMKufbeEweQYwXoXAdZ6u/view"
+                        class="btn btn-primary ms-4">Eco-Kal</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        • La bomba de calor Eco-Kal es muy silenciosa gracias al ventilador de baja velocidad y al
+                        excelente diseño del compresor (56 decibeles), Intercambiador de titanio, protecciones contra:
+                        Alta y baja presión del refrigerante, ahorra energia, automatización basica a traves de un
+                        interruptor inalámbrico
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col ms-5">
+                    <h4 class="h4">Aplicaciones</h4>
+                    <ul>
+                        <li>Piscinas residenciales y comerciales</li>
+                    </ul>
+                </div>
+                <div class="col me-5">
+                    {{-- <h4 class="h4">RENDIMIENTO</h4> --}}
+                    <table class="table table-striped text-center">
+                        <thead>
+                            <tr class="border-top border-danger">
+                                <th scope="col" class="border-bottom border-dark">CÓDIGO</th>
+                                <th scope="col" class="border-bottom border-dark">DESCRIPCIÓN</th>
+                                <th scope="col" class="border-bottom border-dark">BTU</th>
+                                <th scope="col" class="border-bottom border-dark">∆ COEF. DESEM.</th>
+                                <th scope="col" class="border-bottom border-dark">MCA</th>
+                                <th scope="col" class="border-bottom border-dark">MOP</th>
+                                <th scope="col" class="border-bottom border-dark">FASES x VOLTS</th>
+                                <th scope="col" class="border-bottom border-dark">SUCCIÓN x DESCARGA (Pulgadas)
+                                </th>
+                                <th scope="col" class="border-bottom border-dark">CALOR / FRIO</th>
+                                <th scope="col" class="border-bottom border-dark">PESO (kg)</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="col">EKN 110/1230-C</td>
+                                <td scope="col">Bomba de calor 110KBTU 1F 230V</td>
+                                <td scope="col">110,000</td>
+                                <td scope="col">6.4</td>
+                                <td scope="col">37</td>
+                                <td scope="col">40</td>
+                                <td scope="col">1 x 230</td>
+                                <td scope="col">Cementar 2 x 2 (H-H)</td>
+                                <td scope="col">No</td>
+                                <td scope="col">99</td>
+
+                            </tr>
+                            <tr>
+                                <td scope="col">EKN 120/1230-C</td>
+                                <td scope="col">Bomba de calor 120KBTU 1F 230V</td>
+                                <td scope="col">120,000</td>
+                                <td scope="col">6.3</td>
+                                <td scope="col">37</td>
+                                <td scope="col">50</td>
+                                <td scope="col">1 x 230</td>
+                                <td scope="col">Cementar 2 x 2 (H-H)</td>
+                                <td scope="col">No</td>
+                                <td scope="col">99</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">EKN 136/1230-C</td>
+                                <td scope="col">Bomba de calor 136KBTU 1F 230V</td>
+                                <td scope="col">136,000</td>
+                                <td scope="col">6</td>
+                                <td scope="col">37</td>
+                                <td scope="col">50</td>
+                                <td scope="col">1 x 230</td>
+                                <td scope="col">Cementar 2 x 2 (H-H)</td>
+                                <td scope="col">No</td>
+                                <td scope="col">101</td>
+                            </tr>
+                            <tr class="border-top-2 border-dark">
+                                <td scope="col">EKN 120/1230-FC</td>
+                                <td scope="col">Bomba de calor/Chiller 120KBTU 1F 230V</td>
+                                <td scope="col">120,000</td>
+                                <td scope="col">6.1</td>
+                                <td scope="col">40</td>
+                                <td scope="col">50</td>
+                                <td scope="col">1 x 230</td>
+                                <td scope="col">Cementar 2 x 2 (H-H)</td>
+                                <td scope="col">Si</td>
+                                <td scope="col">101</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>

@@ -128,9 +128,9 @@
 }
 
 .header-netzsch {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: white  center bottom no-repeat;
     background-size: cover;
-    padding: 150px 70px 70px;
+    padding: 10px 70px 70px;
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;
@@ -303,4 +303,6 @@
 div, nav{
     font-family: Helvetica;
 }
-
+.nav-link{
+    color: black;
+}
