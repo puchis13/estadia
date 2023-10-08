@@ -1,120 +1,569 @@
-    <div class="container-fluid">
-      <div>
-        {{-- Logo --}}
-        <div class="text-center">
+      <div class="container-fluid">
+          {{-- Menu --}}
+          <div>
+              {{-- Logo --}}
+              <div class="text-center">
 
-            <figure class="figure">
-                <img src="{{ asset('imagenes/bombas/armstrong/logo.png') }}" width=50% height=10%
-                    class="figure-img img-fluid rounded" alt="...">
-            </figure>
-        </div>
+                  <figure class="figure">
+                      <img src="{{ asset('imagenes/bombas/armstrong/logo.png') }}" width="100%"
+                          class="figure-img img-fluid rounded" alt="...">
+                  </figure>
+              </div>
+              {{-- Imagenes al seleccionar --}}
+              <div>
+                  {{-- Esto es la Fila --}}
+                  <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
 
-        {{-- Imagenes al seleccionar --}}
-        <div>
-            <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                      {{-- Imagen de Serie 4300 --}}
+                      <div class="col">
+                          <figure class="figure">
+                              <a href="#4300"><img src="{{ asset('imagenes/bombas/armstrong/4300.png') }}"
+                                      width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                              <figcaption class="figure-caption ">
+                                  <h6 class="h6">Serie 4300</h6>
+                              </figcaption>
+                          </figure>
+                      </div>
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+                      {{-- Imagen de Series Circuladores --}}
+                      <div class="col">
+                          <figure class="figure">
+                              <a href="#circuladores"><img
+                                      src="{{ asset('imagenes/bombas/armstrong/circuladores.png') }}" width="100%"
+                                      class="figure-img img-fluid rounded" alt=""></a>
+                              <figcaption class="figure-caption ">
+                                  <h6 class="h6">Linea 1050-1060</h6>
+                              </figcaption>
+                          </figure>
+                      </div>
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series KOR</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+                      {{-- Cierre de Fila --}}
+                  </div>
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+                  {{-- Cierre de imagenes --}}
+              </div>
+              {{-- Fin de Menu --}}
+          </div>
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+          {{-- Inicio de Contenidos --}}
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+          {{-- Contenido Series 4300 --}}
+          <div class=" m-2 p-2">
+              <div class="row m-1">
+                  <h4 id="4300" class="h4">Bombas Verticales en Línea Armstrong Modelo 4300</h4>
+              </div>
+              <div class="row m-5 ps-5">
+                  <div class="col ms-5 ps-5">
+                      <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4300.png') }}" width="100%"
+                              height="35%" class="figure-img img-fluid rounded" alt=""></figure>
+                      <figcaption>
+                          <h6 class="h6">Serie 4300</h6>
+                      </figcaption>
+                      {{-- direccion de catalogo --}}
+                      <a href="https://drive.google.com/file/d/1J1I821J9AZvo-WCQcGec7wpUFiStFiKD/view?usp=sharing"
+                          class="btn btn-primary ms-4">Ficha Tecnica</a>
+                  </div>
+                  <div class="col me-5 pe-5">
+                      <p>
+                          La Serie 4300 es el mejor diseño de bombas HVAC comerciales disponibles desde 1969, este
+                          modelo es un modelo para agua limpia, estas bombas son montadas en tuberías ó bombas de final
+                          de linea, están diseñadas para ahorrar espacio , tener una alta eficiencia operativa y una
+                          larga vida útil.
+                          Motores desde 1200rpm, 1800rpm y 3600rpm. Temperaturas de hasta 150ºC. Tamaños de 1.5” a 20” y
+                          estan fabricadas la carcasa y el impulsor pueden ser de de hierro fundido ASTM A48 Clase 30,
+                          hierro dúctil fundido ASTM A536 grado 65-45-12 o bronce.
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+                      </p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col ms-5">
+                      <h4 class="h4">Aplicaciones</h4>
+                      <ul>
+                          <li>Bombeo de (Agua glicol)</li>
+                          <li>Bombeo HVAV</li>
+                          <li>Bombeo industrial ligero</li>
+                      </ul>
+                  </div>
+                  <div class="col me-5">
+                      <table class="table table-striped">
+                          <thead>
+                              <tr class="border-top border-danger">
+                                  <th scope="col" class="border-bottom border-dark">Tamaños</th>
+                                  <th scope="col" class="border-bottom border-dark">Ficha técnica</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td scope="col">1.5 x 1.5 x 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-501_4300_60hz_1-5x1-5x6_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">2 x 2 x 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-503_4300_60hz_2x2x6_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+                              <tr>
+                                  <td scope="col">3 x 3 x 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-505_4300_60hz_3x3x6_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+                              <tr>
+                                  <td scope="col">4 x 4 x 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-507_4300_60hz_4x4x6_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">6 x 6x 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-508_4300_60hz_6x6x6_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1.5 x 1.5 x 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-509_4300_60hz_1-5x1-5x8_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">2x 2 x 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-511_4300_60hz_2x2x8_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">3 x 3 x 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-513_4300_60hz_3x3x8_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">4 x 4 x 8 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-515_4300_60hz_4x4x8_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">5 x 5 x 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-517_4300_60hz_5x5x8_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">6 x 6 x 8 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-519_4300_60hz_6x6x8_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">8 x 8 x 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-520_4300_60hz_8x8x8_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">2 x 2 x 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-521_4300_60hz_2x2x10_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">3 x 3 x 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-523_4300_60hz_3x3x10_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">4 x 4 x 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-525_4300_60hz_4x4x10_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">6 x 6 x 10 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-527_4300_60hz_6x6x10_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">8 x 8 x 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-529_4300_60hz_8x8x10_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">4 x 4 x 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-531_4300_60hz_4x4x11-5_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">5 x 5 x 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-533_4300_60hz_5x5x11-5_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">6 x 6 x 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-535_4300_60hz_6x6x11-5_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">8 x 8 x 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-537_4300_60hz_8x8x11-5_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">3 x 3 x 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-539_4300_60hz_3x3x13_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">4 x 4 x 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-541_4300_60hz_4x4x13_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">4 x 4 x 13L</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-543_4300_60hz_4x4x13l_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">5 x 5 x 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-544_4300_5x5x13_60hz_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">5 x 5 x 13H</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-5441_4300_60hz_5x5x13h_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">6 x 6 x 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-545_4300_60hz_6x6x13_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">6 x 6 x 13H</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-546_4300_60hz_6x6x13h_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">8 x 8 x 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-547_4300_60hz_8x8x13_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">10 x 10 x 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-549_4300_60hz_10x10x13_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">12 x 12 x 13 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-551_4300_60hz_12x12x13_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">14 x 14 x 15</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-553_4300_60hz_14x14x14_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">16 x 16 x 15 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-561_4300_60hz_16x16x15_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">12 x 12 x 17 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-563_4300_60hz_12x12x17_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">16 x 16 x 19 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-565_4300_60hz_16x16x19_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">20x 20 x 19</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-567_4300_60hz_20x20x19_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">3 x 3 x 6B</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-570_4300_60hz_3x3x6b_6inch_pump_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">4 x 4 x 6C</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-571_4300_60hz_4x4x6c_6inch_pump_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr class="border-bottom border-dark">
+                                  <td scope="col">5 x 5 x 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4300-vertical-in-line-vil-single-pumps/43-572_4300_60hz_5x5x6_6inch_pump_submittal.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+          {{-- Contenido Series Circuladores 1050-1060 --}}
+          <div class=" m-2 p-2">
+              <div class="row m-1">
+                  <h4 id="circuladores" class="h4">Circuladores en Línea 1050-1060 </h4>
+              </div>
+              <div class="row m-5 ps-5">
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}"
-                                width="50%" height="25%" class="figure-img img-fluid rounded"
-                                alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+                  <div class="col ms-5 ps-5">
+                      <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/circuladores.png') }}"
+                              width="100%" height="35%" class="figure-img img-fluid rounded" alt="">
+                      </figure>
+                      <figcaption>
+                          <h6 class="h6">Linea 1050-1060</h6>
+                      </figcaption>
+                      {{-- direccion de catalogo --}}
+                      <a href="https://drive.google.com/file/d/189qFudN5-pO2i7ebzXtLV0vxpwptkS6O/view?usp=sharing"
+                          class="btn btn-primary ms-4">Ficha técnica</a>
 
-            </div>
-        </div>
-    </div>
+                  </div>
+                  <div class="col me-5 pe-5">
+                      <p>
+                          Los circuladores en línea Modelo 1050 y 1060 de Armstrong son fabricados para trabajo continuo
+                          y en materiales como la voluta de hierro fundido y bronce sin plomo.
+                          Rango de trabajo: Gasto hasta 250 GPM ; carga hasta 16 metros. y temperaturas máximas de
+                          bombeo de 107º C. a una presión máx de 175 PSI. Y van desde los ¼ hp hasta 3hp.
+
+                      </p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col ms-5">
+                      <h4 class="h4">Aplicaciones</h4>
+                      <ul>
+                          <li>Calefacción residencial</li>
+                          <li>Calefacción industrial</li>
+                          <li>Recirculación de agua fría y caliente</li>
+                          <li>Distribución de agua potable</li>
+                          <li>Servicio industrial en general</li>
+                      </ul>
+                  </div>
+                  <div class="col me-5">
+                      <table class="table table-striped ">
+                          <thead>
+                              <tr class="border-top border-danger">
+                                  <th scope="col" class="border-bottom border-dark">Serie</th>
+                                  <th scope="col" class="border-bottom border-dark">Tamaño</th>
+                                  <th scope="col" class="border-bottom border-dark">HP</th>
+                                  <th scope="col" class="border-bottom border-dark">Fase/Volts</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1”</td>
+                                  <td scope="col">1/4</td>
+                                  <td scope="col">1 F/115 volts</td>
+                              </tr>
+                              <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1”</td>
+                                <td scope="col">1/3</td>
+                                <td scope="col">1 F/115 volts</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1” ¼”</td>
+                                <td scope="col">1/4</td>
+                                <td scope="col">1F/115 volts</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1” ¼”</td>
+                                <td scope="col">1/3</td>
+                                <td scope="col">1F/ 116 volts</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1” ¼”</td>
+                                <td scope="col">½</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1.5”</td>
+                                <td scope="col">1/4</td>
+                                <td scope="col">1F/115 volts</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1.5”</td>
+                                <td scope="col">1/3</td>
+                                <td scope="col">1F/115 volts</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1.5”</td>
+                                <td scope="col">½</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1050</td>
+                                <td scope="col">1.5”</td>
+                                <td scope="col">¾</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">1.5”</td>
+                                <td scope="col">½</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                                                          <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">¾</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                                                            <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">1</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                                                            <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">1.25</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                                                            <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">2”</td>
+                                  <td scope="col">½</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">2”</td>
+                                <td scope="col">3/4</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">2”</td>
+                                <td scope="col">1</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">2”</td>
+                                <td scope="col">1.5</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">2”</td>
+                                <td scope="col">2</td>
+                                <td scope="col">3F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">3”</td>
+                                <td scope="col">1</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">3”</td>
+                                <td scope="col">1 1/2</td>
+                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">1060</td>
+                                <td scope="col">3”</td>
+                                <td scope="col">2</td>
+                                <td scope="col">3F/220-440</td>
+                            </tr>
+                            <tr class="border-bottom border-dark">
+                                <td scope="col">1060</td>
+                                <td scope="col">3”</td>
+                                <td scope="col">3</td>
+                                <td scope="col">3/220-440</td>
+                            </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+
+
+          {{-- Fin de container --}}
       </div>

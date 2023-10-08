@@ -1,4 +1,5 @@
     <div class="container-fluid">
+        {{-- Menu --}}
         <div>
             {{-- Logo --}}
             <div class="text-center">
@@ -11,7 +12,9 @@
 
             {{-- Imagenes al seleccionar --}}
             <div>
+                {{-- Esto es la Fila --}}
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
                     {{-- Imagen de Series Tx --}}
                     <div class="col">
                         <figure class="figure">
@@ -22,6 +25,7 @@
                             </figcaption>
                         </figure>
                     </div>
+
                     {{-- Imagen de Series KOR --}}
                     <div class="col">
                         <figure class="figure">
@@ -32,6 +36,7 @@
                             </figcaption>
                         </figure>
                     </div>
+
                     {{-- Imagen de Series Flux --}}
                     <div class="col">
                         <figure class="figure">
@@ -42,6 +47,7 @@
                             </figcaption>
                         </figure>
                     </div>
+
                     {{-- Imagen de Series EKRC Y Eco-Kal --}}
                     <div class="col">
                         <figure class="figure">
@@ -53,69 +59,16 @@
                         </figure>
                     </div>
 
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="50%"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
+                    {{-- Cierre de Fila --}}
                 </div>
+
+                {{-- Cierre de imagenes --}}
             </div>
+            {{-- Fin de Menu --}}
         </div>
+
+        {{-- Inicio de Contenidos --}}
+
         {{-- Contenido Series TX --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
@@ -128,11 +81,10 @@
                     <figcaption>
                         <h6 class="h6">Series TX, TXE & TXN</h6>
                     </figcaption>
-                    {{-- <button type="button" class="btn btn-primary ms-4">Ver Catalogo</button> --}}
+                    {{-- direccion de catalogo --}}
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
                         class="btn btn-primary ms-4">TX, TXE</a>
                 </div>
-                {{-- lh-base --}}
                 <div class="col me-5 pe-5">
                     <p>
                         Las <b>Bombas Multietapas Altamira TX, TXE & TXN</b> son ideales para aplicaciones industriales
@@ -248,7 +200,7 @@
                                 <td scope="col">1980</td>
                                 <td scope="col">52.11</td>
                             </tr>
-                            <tr class="border-top-2 border-dark">
+                            <tr class="border-bottom border-dark">
                                 <td scope="col">T41X</td>
                                 <td scope="col">41</td>
                                 <td scope="col">2460</td>
@@ -273,6 +225,7 @@
                     <figcaption>
                         <h6 class="h6">Series KOR</h6>
                     </figcaption>
+                    {{-- direccion de catalogo --}}
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
                         class="btn btn-primary ms-4">KOR 4”</a>
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
@@ -393,7 +346,7 @@
                                 <td scope="col">3180</td>
                                 <td scope="col">840</td>
                             </tr>
-                            <tr class="border-top-2 border-dark">
+                            <tr class="border-bottom border-dark">
                                 <td scope="col">KOR70</td>
                                 <td scope="col">70</td>
                                 <td scope="col">4200</td>
@@ -404,7 +357,6 @@
                 </div>
             </div>
         </div>
-
 
         {{-- Contenido Series Flux --}}
         <div class=" m-2 p-2">
@@ -419,6 +371,7 @@
                     <figcaption>
                         <h6 class="h6">Series FLUX</h6>
                     </figcaption>
+                    {{-- direccion de catalogo --}}
                     <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/"
                         class="btn btn-primary ms-4">Ver Catalogo</a>
                 </div>
@@ -449,54 +402,54 @@
                 </div>
                 <div class="col me-5">
                     <h4 class="h4">Especificaciones Técnicas de la Serie FLUX:</h4>
-                    <table class="table ">
+                    <table class="table table-striped">
                         <thead>
-                            <tr>
-                                <th class="border">Serie</th>
-                                <th class="border">Flujo Máximo (GPM)</th>
-                                <th class="border">Carga Máxima (m)</th>
+                            <tr class="border-top border-danger">
+                                <th scope="col" class="border-bottom border-dark">Serie</th>
+                                <th scope="col" class="border-bottom border-dark">Flujo Máximo (GPM)</th>
+                                <th scope="col" class="border-bottom border-dark">Carga Máxima (m)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="border">FLUX4</td>
-                                <td class="border">100</td>
-                                <td class="border">35</td>
+                                <td scope="col">FLUX4</td>
+                                <td scope="col">100</td>
+                                <td scope="col">35</td>
                             </tr>
                             <tr>
-                                <td class="border">FLUX5</td>
-                                <td class="border">100</td>
-                                <td class="border">65</td>
+                                <td scope="col">FLUX5</td>
+                                <td scope="col">100</td>
+                                <td scope="col">65</td>
                             </tr>
                             <tr>
-                                <td class="border">FLUX7</td>
-                                <td class="border">175</td>
-                                <td class="border">70</td>
+                                <td scope="col">FLUX7</td>
+                                <td scope="col">175</td>
+                                <td scope="col">70</td>
                             </tr>
                             <tr>
-                                <td class="border">FLUX12</td>
-                                <td class="border">300</td>
-                                <td class="border">75</td>
+                                <td scope="col">FLUX12</td>
+                                <td scope="col">300</td>
+                                <td scope="col">75</td>
                             </tr>
                             <tr>
-                                <td class="border">FLUX24</td>
-                                <td class="border">570</td>
-                                <td class="border">30</td>
+                                <td scope="col">FLUX24</td>
+                                <td scope="col">570</td>
+                                <td scope="col">30</td>
                             </tr>
                             <tr>
-                                <td class="border">FLUX28</td>
-                                <td class="border">570</td>
-                                <td class="border">75</td>
+                                <td scope="col">FLUX28</td>
+                                <td scope="col">570</td>
+                                <td scope="col">75</td>
                             </tr>
                             <tr>
-                                <td class="border">FLUX38</td>
-                                <td class="border">870</td>
-                                <td class="border">40</td>
+                                <td scope="col">FLUX38</td>
+                                <td scope="col">870</td>
+                                <td scope="col">40</td>
                             </tr>
-                            <tr>
-                                <td class="border">FLUX44</td>
-                                <td class="border">870</td>
-                                <td class="border">65</td>
+                            <tr class="border-bottom border-dark">
+                                <td scope="col">FLUX44</td>
+                                <td scope="col">870</td>
+                                <td scope="col">65</td>
                             </tr>
 
                         </tbody>
@@ -504,7 +457,6 @@
                 </div>
             </div>
         </div>
-
 
         {{-- Contenido Series EKRC Y Eco-Kal --}}
 
@@ -516,11 +468,12 @@
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}"
-                            width="90%" class="figure-img img-fluid rounded" alt="">
+                            width="60%" class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
                         <h6 class="h6">Serie EKRC</h6>
                     </figcaption>
+                    {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1WHK3xLg5aLM3CPTybyUbBwYOfrw8-R8a/view"
                         class="btn btn-primary ms-4">EKRC</a>
                 </div>
@@ -605,7 +558,7 @@
                                 <td scope="col">2 x2 (Cementar)</td>
                                 <td scope="col">99</td>
                             </tr>
-                            <tr class="border-top-2 border-dark">
+                            <tr class="border-bottom border-dark">
                                 <td scope="col">EKRC-110SPA/1230</td>
                                 <td scope="col">110,000</td>
                                 <td scope="col">6.7 A</td>
@@ -629,11 +582,12 @@
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ecokal.jpg') }}"
-                            width="100%" height="35%" class="figure-img img-fluid rounded" alt="">
+                            width="60%" class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
                         <h6 class="h6">Serie Eco-Kal</h6>
                     </figcaption>
+                    {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1NChOmaDmm6ltMKufbeEweQYwXoXAdZ6u/view"
                         class="btn btn-primary ms-4">Eco-Kal</a>
                 </div>
@@ -710,7 +664,7 @@
                                 <td scope="col">No</td>
                                 <td scope="col">101</td>
                             </tr>
-                            <tr class="border-top-2 border-dark">
+                            <tr class="border-bottom border-dark">
                                 <td scope="col">EKN 120/1230-FC</td>
                                 <td scope="col">Bomba de calor/Chiller 120KBTU 1F 230V</td>
                                 <td scope="col">120,000</td>
@@ -727,4 +681,7 @@
                 </div>
             </div>
         </div>
+
+
+        {{-- Fin de container --}}
     </div>

@@ -47,7 +47,7 @@
 
 /* Headers de Bombas */
 .header-altamira {
-    background: #3789C8 url(../imagenes/bombas/altamira/portada.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/altamira/portada.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -56,16 +56,17 @@
 }
 
 .header-armstrong {
-    background: #3789C8 url(../imagenes/bombas/armstrong/portada.jpg) center center no-repeat;
+    background:  url(../imagenes/bombas/armstrong/portada.jpg) no-repeat;
+    background-position: center 50%;
     background-size: cover;
-    padding: 150px 70px 70px;
+    padding: 250px 70px 70px;
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;
 }
 
 .header-aurora {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background:  url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -74,7 +75,7 @@
 }
 
 .header-barmesa {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -83,7 +84,7 @@
 }
 
 .header-franklin {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background:  url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -92,7 +93,7 @@
 }
 
 .header-grundfos {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background:  url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -101,7 +102,7 @@
 }
 
 .header-impel {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background:  url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -110,7 +111,7 @@
 }
 
 .header-jandy {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -119,7 +120,7 @@
 }
 
 .header-mann {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/mann/portada.png) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -128,7 +129,7 @@
 }
 
 .header-netzsch {
-    background: white  center bottom no-repeat;
+    background: center bottom no-repeat;
     background-size: cover;
     padding: 10px 70px 70px;
     margin: auto;
@@ -137,7 +138,7 @@
 }
 
 .header-pentar {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -146,7 +147,7 @@
 }
 
 .header-scott {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -155,7 +156,7 @@
 }
 
 .header-tsurumi {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -164,7 +165,7 @@
 }
 
 .header-wdm {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -173,7 +174,7 @@
 }
 
 .header-wilo {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -182,7 +183,7 @@
 }
 
 .header-yamada {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -191,7 +192,7 @@
 }
 
 .header-zoeller {
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;
     margin: auto;
@@ -204,101 +205,6 @@
     margin: auto;
     color: black;
 }
-
-#pie {
-    clear: both;
-    text-align: left;
-    background-color: white;
-    padding: 5px;
-    color: black;
-    font-family: Helvetica;
-}
-
-/* Aqui inicia el Nav */
-/* menu */
-
-#menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* items del menu */
-
-#menu ul li {
-    background-color: white;
-}
-
-/* enlaces del menu */
-
-#menu ul a {
-    border-color: transparent transparent #bbb;
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 20px;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 14px;
-
-    /* Cambia el tamaño según tus preferencias */
-    letter-spacing: 1px;
-    margin: auto;
-}
-
-/* items del menu */
-
-#menu ul li {
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-
-}
-
-/* efecto al pasar el ratón por los items del menu */
-
-#menu ul li:hover {
-    background: aliceblue;
-}
-
-/* menu desplegable */
-
-#menu ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #eee;
-    padding: 0;
-}
-
-/* items del menu desplegable */
-
-#menu ul ul li {
-    float: none;
-    width: 150px
-}
-
-/* enlaces de los items del menu desplegable */
-
-#menu ul ul a {
-    line-height: 120%;
-    padding: 10px 15px;
-    font-family: Helvetica;
-    font-size: 14px;
-    /* Cambia el tamaño según tus preferencias */
-    color: black;
-}
-
-/* items del menu desplegable al pasar el ratón */
-
-#menu ul li:hover>ul {
-    display: block;
-}
-
-/* Aqui termina el Nav */
 
 div, nav{
     font-family: Helvetica;

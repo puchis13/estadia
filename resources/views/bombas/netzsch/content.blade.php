@@ -1,10 +1,11 @@
 <div class="container-fluid">
+    {{-- Menu --}}
     <div>
         {{-- Logo --}}
         <div class="text-center">
             <figure class="figure">
-                <img src="{{ asset('imagenes/bombas/netzsch/portada.png') }}"
-                    class="figure-img img-fluid rounded" alt="...">
+                <img src="{{ asset('imagenes/bombas/netzsch/portada.png') }}" class="figure-img img-fluid rounded"
+                    alt="...">
             </figure>
             <figure class="figure">
                 <img src="{{ asset('imagenes/bombas/netzsch/logo.png') }}" width=30% height=10%
@@ -14,90 +15,118 @@
 
         {{-- Imagenes al seleccionar --}}
         <div>
+            {{-- Esto es la Fila --}}
             <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
                 {{-- Imagen de Series Nemo --}}
                 <div class="col">
                     <figure class="figure">
-                        <a href="#nemo"><img src="{{ asset('imagenes/bombas/netzsch/nemo.jpg') }}" width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="#nemo"><img src="{{ asset('imagenes/bombas/netzsch/nemo.png') }}" width="100%"
+                                class="figure-img img-fluid rounded" alt=""></a>
                         <figcaption class="figure-caption ">
                             <h6 class="h6">Serie Nemo</h6>
                         </figcaption>
                     </figure>
                 </div>
-                {{-- Imagen de Series KOR --}}
+
+                {{-- Imagen de Series Notos --}}
                 <div class="col">
                     <figure class="figure">
-                        <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="50%"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Series KOR</h6>
-                        </figcaption>
-                    </figure>
-                </div>
-                {{-- Imagen de Series Flux --}}
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#flux"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
+                        <a href="#notos"><img src="{{ asset('imagenes/bombas/netzsch/notos.png') }}" width="100%"
                                 class="figure-img img-fluid rounded" alt=""></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">Series TX, TXE & TXN</h6>
+                            <h6 class="h6">Serie Notos</h6>
                         </figcaption>
                     </figure>
                 </div>
+
+                {{-- Imagen de Series Tornado --}}
+                <div class="col">
+                    <figure class="figure">
+                        <a href="#tornado"><img src="{{ asset('imagenes/bombas/netzsch/tornado.png') }}" width="100%"
+                                class="figure-img img-fluid rounded" alt=""></a>
+                        <figcaption class="figure-caption ">
+                            <h6 class="h6">Serie Tornado</h6>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                {{-- Imagen de Series Peripro --}}
+                <div class="col">
+                    <figure class="figure">
+                        <a href="#peripro"><img src="{{ asset('imagenes/bombas/netzsch/peripro.png') }}" width="100%"
+                                class="figure-img img-fluid rounded" alt=""></a>
+                        <figcaption class="figure-caption ">
+                            <h6 class="h6">Serie Peripro</h6>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                {{-- Imagen de Series Trituradora --}}
+                <div class="col">
+                    <figure class="figure">
+                        <a href="#trituradora"><img src="{{ asset('imagenes/bombas/netzsch/trituradora.png') }}"
+                                width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                        <figcaption class="figure-caption ">
+                            <h6 class="h6">Serie Trituradora</h6>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                {{-- Cierre de Fila --}}
             </div>
+
+            {{-- Cierre de imagenes --}}
         </div>
+        {{-- Fin de Menu --}}
     </div>
 
+    {{-- Inicio de Contenidos --}}
 
     {{-- Contenido Series Nemo --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
-            <h4 id="nemo" class="h4">BOMBAS DE CAVIDAD PROGRESIVA INDUSTRIAL</h4>
+            <h4 id="nemo" class="h4">BOMBAS DE TORNILLO HELICOIDAL NEMO</h4>
         </div>
         <div class="row m-5 ps-5">
             <div class="col ms-5 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/nemo.jpg') }}" width="70%"
-                    class="figure-img img-fluid rounded" alt=""></figure>
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/nemo.png') }}" width="70%"
+                        class="figure-img img-fluid rounded" alt=""></figure>
                 <figcaption>
                     <h6 class="h6">Serie Nemo</h6>
                 </figcaption>
-                {{-- <button type="button" class="btn btn-primary ms-4">Ver Catalogo</button> --}}
+                {{-- direccion de catalogo --}}
                 <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
                     class="btn btn-primary ms-4">Nemo</a>
             </div>
-            {{-- lh-base --}}
             <div class="col me-5 pe-5">
                 <p>
                     Las avanzadas bombas de desplazamiento positivo de tornillo excéntrico de la reconocida marca
                     NETZSCH, pertenecientes a la serie NEMO, son altamente valoradas en diversas aplicaciones que
-                    requieren un bombeo continuo, estable en cuanto a la presión, suave y con pocas pulsaciones.
+                    requieren un bombeo un bombeo continuo, estable en cuanto a la presión, suave y con pocas
+                    pulsaciones.
                 </p>
                 <p>La versatilidad de la gama de bombas NETZSCH de la serie NEMO las convierte en una elección frecuente
                     en entornos industriales para transportar una amplia variedad de fluidos, desde materiales con
                     fibras, lodos, adhesivos, entre otros. Como por ejemplo el petróleo.</p>
+                <p>Destacando entre los productos estrella de NETZSCH se encuentra la bomba de tornillo, pero la serie
+                    ofrece también opciones como bombas de cavidad progresiva, dosificadoras, higiénicas, de tornillo
+                    excéntrico con tolva Nemo, de inmersión y de trasvase. Estas bombas demuestran ser especialmente
+                    eficaces en el manejo de productos de difícil bombeo.</p>
             </div>
-            <p>Ventajas</p>
-            <li>Gran capacidad de succión- hasta 9 metros</li>
-            <li>Posibilidad de invertir el sentido de giro y del caudal</li>
-            <li>Puede instalarse en cualquier posición</li>
-            <li>Funcionamiento silensiono y uniforme</li>
-            <li>Temperatura desde -20ºC a +200 ºC</li>
-            <li>El servicio puede efectuarse sin desconectar tubeías</li>
 
         </div>
         <div class="row">
             <div class="col ms-5">
                 <h4 class="h4">Aplicaciones de las Bombas NETZSCH NEMO:</h4>
                 <ul>
-                    <li>Aplicaciones industriales en ingeniería ambiental</li>
-                    <li>Bombeo de desechos en fábricas de procesamiento de animales</li>
-                    <li>Descarga de pescado de barcos pesqueros</li>
-                    <li>Dosificación de químicos y fluidos viscosas en la industria química</li>
-                    <li>Procesamiento de fluidos compactos, delicados y fáciles de quebrarse en la industria química</li>
-                    <li>Transferencia de fluidos viscosos en la industria alimenticia</li>
-                    <li>Trasvase de gases y derivados de petróleo en la industria petrolera</li>
-                    <li>Tratamiento de aguas de bombeo y residuales</li>
-
+                    <li>Química, Pulpa y Papel</li>
+                    <li>Alimentación y Farmacéutica</li>
+                    <li>Petróleo y Gas</li>
+                    <li>Minería</li>
+                    <li>Batería (litio)</li>
+                    <li>Bombeo suave de aguas medicinales con alto contenido de sal</li>
+                    <li>Tratamiento de aguas residuales y lodos</li>
                 </ul>
             </div>
             <div class="col me-5">
@@ -178,25 +207,25 @@
                             <td scope="col">36</td>
                             <td scope="col">6</td>
                         </tr>
-                        <tr class="border-top-2 border-dark">
+                        <tr>
                             <td scope="col">NEMO B.Max</td>
                             <td scope="col">120</td>
                             <td scope="col">24</td>
                             <td scope="col">4</td>
                         </tr>
-                        <tr class="border-top-2 border-dark">
+                        <tr>
                             <td scope="col">NEMO BT</td>
                             <td scope="col">310</td>
                             <td scope="col">24</td>
                             <td scope="col">11</td>
                         </tr>
-                        <tr class="border-top-2 border-dark">
+                        <tr>
                             <td scope="col">NEMO Multifásica</td>
                             <td scope="col">1000</td>
                             <td scope="col">72</td>
                             <td scope="col">2</td>
                         </tr>
-                        <tr class="border-top-2 border-dark">
+                        <tr class="border-bottom border-dark">
                             <td scope="col">NEMO L.Cap</td>
                             <td scope="col">1000</td>
                             <td scope="col">24</td>
@@ -207,251 +236,377 @@
             </div>
         </div>
     </div>
-
-    {{-- Contenido Series KOR --}}
+    {{-- Contenido Series Notos --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
-            <h4 id="KOR" class="h4">Bombas Sumergibles Altamira Serie KOR en acero inoxidable</h4>
+            <h4 id="notos" class="h4">BOMBAS MULTIHUSILLO NOTOS</h4>
         </div>
         <div class="row m-5 ps-5">
-
             <div class="col ms-5 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="100%"
-                        height="35%" class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
-                    <h6 class="h6">Series KOR</h6>
-                </figcaption>
-                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
-                    class="btn btn-primary ms-4">KOR 4”</a>
-                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
-                    class="btn btn-primary ms-4">KOR 6” 8” 10” </a>
-
-            </div>
-            {{-- lh-base --}}
-            <div class="col me-5 pe-5">
-                <p>
-                    La familia de <b>Bombas Sumergibles Altamira de la Serie KOR </b> son totalmente en acero
-                    inoxidable AISI 304.
-                    Y son ideales para bombear agua limpia no corrosiva y no abrasiva en pozos profundos.
-                <p> Son eficientes, robustas y de fácil mantenimiento. Pueden manejar agua con contenido de arena
-                    hasta 50 g/m3, pH entre 5.6 & 7.0 y temperatura del agua hasta 30°C.</p>
-                </p>
-                <p>Especificaciones Técnicas de Bombas Altamira KOR:</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col ms-5">
-                <h4 class="h4">Aplicaciones de la Serie KOR bombear agua de:</h4>
-                <ul>
-                    <li>Pozos profundos</li>
-                    <li>Estanques</li>
-                    <li>Norias</li>
-                    <li>Lagos</li>
-                    <li>Redes de agua potable</li>
-                    <li>Hidroneumaticos</li>
-
-                </ul>
-            </div>
-            <div class="col me-5">
-                <h4 class="h4">RANGOS DE OPERACIÓN </h4>
-                <table class="table ">
-                    <thead>
-                        <tr>
-                            <th class="border">Modelo Altamira Serie KOR</th>
-                            <th class="border">LPS</th>
-                            <th class="border">LPM</th>
-                            <th class="border">GPM</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="border">KOR07</td>
-                            <td class="border">0.7</td>
-                            <td class="border">42</td>
-                            <td class="border">11</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR1.2</td>
-                            <td class="border">1.2</td>
-                            <td class="border">72</td>
-                            <td class="border">19</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR2</td>
-                            <td class="border">2</td>
-                            <td class="border">120</td>
-                            <td class="border">31</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR3</td>
-                            <td class="border">3</td>
-                            <td class="border">180</td>
-                            <td class="border">47</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR4.5</td>
-                            <td class="border">4.5</td>
-                            <td class="border">270</td>
-                            <td class="border">71</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR6</td>
-                            <td class="border">6</td>
-                            <td class="border">360</td>
-                            <td class="border">95</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR10</td>
-                            <td class="border">10</td>
-                            <td class="border">600</td>
-                            <td class="border">158</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR15</td>
-                            <td class="border">15</td>
-                            <td class="border">900</td>
-                            <td class="border">237</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR20</td>
-                            <td class="border">20</td>
-                            <td class="border">1200</td>
-                            <td class="border">317</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR25</td>
-                            <td class="border">25</td>
-                            <td class="border">1500</td>
-                            <td class="border">396</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR32</td>
-                            <td class="border">32</td>
-                            <td class="border">1920</td>
-                            <td class="border">507</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR40</td>
-                            <td class="border">40</td>
-                            <td class="border">2400</td>
-                            <td class="border">634</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR53</td>
-                            <td class="border">53</td>
-                            <td class="border">3180</td>
-                            <td class="border">840</td>
-                        </tr>
-                        <tr>
-                            <td class="border">KOR70</td>
-                            <td class="border">70</td>
-                            <td class="border">4200</td>
-                            <td class="border">1109</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- Contenido Series Flux --}}
-    <div class=" m-2 p-2">
-        <div class="row m-1">
-            <h4 id="flux" class="h4">Bombas Centrifugas Horizontales Altamira Serie Flux</h4>
-        </div>
-        <div class="row m-5 ps-5">
-
-            <div class="col ms-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/notos.png') }}" width="70%"
                         class="figure-img img-fluid rounded" alt=""></figure>
                 <figcaption>
-                    <h6 class="h6">Series FLUX</h6>
+                    <h6 class="h6">Serie Notos</h6>
                 </figcaption>
-                <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/"
-                    class="btn btn-primary ms-4">Ver Catalogo</a>
+                {{-- direccion de catalogo --}}
+                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                    class="btn btn-primary ms-4">Notos</a>
             </div>
             <div class="col me-5 pe-5">
                 <p>
-                    Las bombas <b>bombas Serie FLUX de Altamira son una amplia gama de Motobombas
-                        Centrífugas Horizontales monoetapa </b>, el cuerpo esta fabricado en acero
-                    inoxidable 304 y son utiles para aplicaciones donde se requiere que el agua no
-                    tenga contacto con materiales sujetos a oxidación.</p>
+                    Las bombas NOTOS están diseñadas para trabajar con líquidos de baja a alta lubricación con baja a
+                    alta viscosidad, así como medios sensibles al corte o químicamente agresivos.
                 </p>
+                <b>La bomba multitornillo cumple las normas de API</b>
+                <p>La amplia gama de materiales, desde la fundición gris y el acero al cromo-níquel hasta el acero
+                    dúplex, superdúplex o Hastelloy, garantiza condiciones de bombeo óptimas en una amplia variedad de
+                    áreas de aplicación. Opcionalmente, las bombas se pueden actualizar para cumplir con los estándares
+                    del Instituto Americano del Petróleo (API). Estos requisitos especiales son principalmente
+                    relevantes en los sectores del petróleo y el gas, y la petroquímica.</p>
             </div>
+
         </div>
         <div class="row">
             <div class="col ms-5">
-                <h4 class="h4">Aplicaciones de las bombas Altamira FLUX:</h4>
+                <h4 class="h4">Aplicaciones de las Bombas NETZSCH NOTOS:</h4>
                 <ul>
-                    <li>Sistemas de agua potable</li>
-                    <li>Alimentación de calderas</li>
-                    <li>Aplicaciones en el sector de la agricultura</li>
-                    <li>Aplicaciones en sistemas de agua potable</li>
-                    <li>Sistemas contra incendio</li>
-                    <li>Sistemas de condensación</li>
-                    <li>Sistemas de enfriamiento</li>
-                    <li>Sistemas de la industria de alimentos</li>
-                    <li>Sistemas de limpieza</li>
-
+                    <li>Alimentario y farmacéutico</li>
+                    <li>Química y del papel</li>
+                    <li>Gas y petróleo</li>
+                    <li>Sector minero</li>
+                    <li>Medioambiente y de la energía</li>
+                    <li>Batería</li>
                 </ul>
             </div>
             <div class="col me-5">
-                <h4 class="h4">Especificaciones Técnicas de la Serie FLUX:</h4>
-                <table class="table ">
+                <p>Las bombas de dos husillos NOTOS, tienen capacidad de autocebado, son muy útiles en diferentes áreas
+                    como el petróleo y el gas, el transporte por marítimo, la generación de energía y las fábricas de
+                    productos químicos. También se usan en lugares donde se almacenan grandes cantidades de líquidos en
+                    tanques. Estas bombas son duraderas.</p>
+                <h4 class="h4">Especificaciones Técnicas de NETZSCH NOTOS</h4>
+                <table class="table table-striped">
                     <thead>
-                        <tr>
-                            <th class="border">Serie</th>
-                            <th class="border">Flujo Máximo (GPM)</th>
-                            <th class="border">Carga Máxima (m)</th>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Serie</th>
+                            <th scope="col" class="border-bottom border-dark">Gasto Máximo (m3/h)</th>
+                            <th scope="col" class="border-bottom border-dark">Presión Máxima (Bar)</th>
+                            <th scope="col" class="border-bottom border-dark">Tamaños Disponibles</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="border">FLUX4</td>
-                            <td class="border">100</td>
-                            <td class="border">35</td>
+                            <td scope="col">NOTOS 2NS</td>
+                            <td scope="col">650</td>
+                            <td scope="col">16</td>
+                            <td scope="col">13</td>
                         </tr>
                         <tr>
-                            <td class="border">FLUX5</td>
-                            <td class="border">100</td>
-                            <td class="border">65</td>
+                            <td scope="col">NOTOS 3NS</td>
+                            <td scope="col">400</td>
+                            <td scope="col">120</td>
+                            <td scope="col">28</td>
                         </tr>
                         <tr>
-                            <td class="border">FLUX7</td>
-                            <td class="border">175</td>
-                            <td class="border">70</td>
+                            <td scope="col">NOTOS 4NS</td>
+                            <td scope="col">2700</td>
+                            <td scope="col">40</td>
+                            <td scope="col">18</td>
                         </tr>
                         <tr>
-                            <td class="border">FLUX12</td>
-                            <td class="border">300</td>
-                            <td class="border">75</td>
+                            <td scope="col">NOTOS 2NSH FSIP</td>
+                            <td scope="col">200</td>
+                            <td scope="col">16</td>
+                            <td scope="col">5</td>
                         </tr>
-                        <tr>
-                            <td class="border">FLUX24</td>
-                            <td class="border">570</td>
-                            <td class="border">30</td>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">NOTOS 2NSH</td>
+                            <td scope="col">200</td>
+                            <td scope="col">16</td>
+                            <td scope="col">5</td>
                         </tr>
-                        <tr>
-                            <td class="border">FLUX28</td>
-                            <td class="border">570</td>
-                            <td class="border">75</td>
-                        </tr>
-                        <tr>
-                            <td class="border">FLUX38</td>
-                            <td class="border">870</td>
-                            <td class="border">40</td>
-                        </tr>
-                        <tr>
-                            <td class="border">FLUX44</td>
-                            <td class="border">870</td>
-                            <td class="border">65</td>
-                        </tr>
-
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
 
+    {{-- Contenido Series Tornado --}}
+    <div class=" m-2 p-2">
+        <div class="row m-1">
+            <h4 id="tornado" class="h4">BOMBAS LOBULARES TORNADO</h4>
+        </div>
+        <div class="row m-5 ps-5">
+            <div class="col ms-5 ps-5">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/tornado.png') }}" width="70%"
+                        class="figure-img img-fluid rounded" alt=""></figure>
+                <figcaption>
+                    <h6 class="h6">Serie Tornado</h6>
+                </figcaption>
+                {{-- direccion de catalogo --}}
+                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                    class="btn btn-primary ms-4">Tornado</a>
+            </div>
+            <div class="col me-5 pe-5">
+                <p>
+                    Potentes bombas lobulares con la máxima seguridad operativa.
+                    Las bombas lobulares autocebantes y sin válvulas TORNADO son especialmente potentes y requieren poco
+                    espacio gracias a su diseño compacto.
+                </p>
+                <p>Las bombas lobulares le ofrecen un bombeo continuo y suave, así como una dosificación proporcional a
+                    la velocidad de casi todos los medios en una amplia variedad de aplicaciones. Son utilizadas para la
+                    dosificación, la extracción continua y suave de materiales.</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col ms-5">
+                <h4 class="h4">Aplicaciones de las Bombas NETZSCH TORNADO:</h4>
+                <ul>
+                    <li>Alimentario y farmacéutico</li>
+                    <li>Química y del papel</li>
+                    <li>Gas y petróleo</li>
+                    <li>Sector minero</li>
+                    <li>Medioambiente y de la energía</li>
+                    <li>Batería</li>
+                </ul>
+            </div>
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas de Serie TORNADO</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Serie</th>
+                            <th scope="col" class="border-bottom border-dark">Gasto Máximo (m3/h)</th>
+                            <th scope="col" class="border-bottom border-dark">Presión Máxima (Bar)</th>
+                            <th scope="col" class="border-bottom border-dark">Tamaños Disponibles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">TORNADO T.Envi</td>
+                            <td scope="col">300</td>
+                            <td scope="col">8</td>
+                            <td scope="col">12</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO T1</td>
+                            <td scope="col">905</td>
+                            <td scope="col">8</td>
+                            <td scope="col">18</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO Móvil</td>
+                            <td scope="col">905</td>
+                            <td scope="col">8</td>
+                            <td scope="col">6</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO T.Proc</td>
+                            <td scope="col">300</td>
+                            <td scope="col">8</td>
+                            <td scope="col">20</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO T.Sano</td>
+                            <td scope="col">142</td>
+                            <td scope="col">8</td>
+                            <td scope="col">6</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">TORNADO T.Sano Liso</td>
+                            <td scope="col">70</td>
+                            <td scope="col">12</td>
+                            <td scope="col">6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    {{-- Contenido Series Peripro --}}
+    <div class=" m-2 p-2">
+        <div class="row m-1">
+            <h4 id="peripro" class="h4">BOMBAS PERISTÁLTICAS PERIPRO</h4>
+        </div>
+        <div class="row m-5 ps-5">
+            <div class="col ms-5 ps-5">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/peripro.png') }}" width="70%"
+                        class="figure-img img-fluid rounded" alt=""></figure>
+                <figcaption>
+                    <h6 class="h6">Serie Peripro</h6>
+                </figcaption>
+                {{-- direccion de catalogo --}}
+                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                    class="btn btn-primary ms-4">Peripro</a>
+            </div>
+            <div class="col me-5 pe-5">
+                <p>
+                    Las bombas peristálticas NETZSCH son particularmente resistentes y fáciles de mantener. Resistentes,
+                    fiables y potentes: las bombas peristálticas PERIPRO son especialmente adecuadas para medios
+                    agresivos y abrasivos con un contenido de sólidos de hasta el 70 % en una gran variedad de
+                    aplicaciones ya sea en la industria, en el sector químico o en el alimentario. Las bombas
+                    peristálticas ofrecen una potencia de succión extremadamente alta con un mantenimiento mínimo.
+                </p>
+                <p>Ventajas de las bombas peristálticas PERIPRO:</p>
+                <li>Certificación de la FDA</li>
+                <li>Conexiones sanitarias según DIN 11851 o Tri-Clamp</li>
+                <li>Capacidad de succión extremadamente alta</li>
+                <li>Posibilidad de bombeo suave y reversible</li>
+                <li>Larga vida útil de la manguera gracias al gran tamaño de los rodillos</li>
+                <li>Sin sellos mecánicos ni válvulas (pocas piezas de desgaste)</li>
+                <li>Resistencia de la manguera a las altas temperaturas</li>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col ms-5">
+                <h4 class="h4">Aplicaciones de las Bombas NETZSCH PERIPRO:</h4>
+                <ul>
+                    <li>Alimentario y farmacéutico</li>
+                    <li>Química y del papel</li>
+                    <li>Gas y petróleo</li>
+                    <li>Sector minero</li>
+                    <li>Medioambiente y de la energía</li>
+                    <li>Batería</li>
+                </ul>
+            </div>
+            {{-- <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas de Serie TORNADO</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Serie</th>
+                            <th scope="col" class="border-bottom border-dark">Gasto Máximo (m3/h)</th>
+                            <th scope="col" class="border-bottom border-dark">Presión Máxima (Bar)</th>
+                            <th scope="col" class="border-bottom border-dark">Tamaños Disponibles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">TORNADO T.Envi</td>
+                            <td scope="col">300</td>
+                            <td scope="col">8</td>
+                            <td scope="col">12</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO T1</td>
+                            <td scope="col">905</td>
+                            <td scope="col">8</td>
+                            <td scope="col">18</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO Móvil</td>
+                            <td scope="col">905</td>
+                            <td scope="col">8</td>
+                            <td scope="col">6</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO T.Proc</td>
+                            <td scope="col">300</td>
+                            <td scope="col">8</td>
+                            <td scope="col">20</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">TORNADO T.Sano</td>
+                            <td scope="col">142</td>
+                            <td scope="col">8</td>
+                            <td scope="col">6</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">TORNADO T.Sano Liso</td>
+                            <td scope="col">70</td>
+                            <td scope="col">12</td>
+                            <td scope="col">6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> --}}
+        </div>
+    </div>
+
+    {{-- Contenido Series Trituradora --}}
+    <div class=" m-2 p-2">
+        <div class="row m-1">
+            <h4 id="trituradora" class="h4">SISTEMAS DE TRITURACIÓN</h4>
+        </div>
+        <div class="row m-5 ps-5">
+            <div class="col ms-5 ps-5">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/trituradora.png') }}"
+                        width="70%" class="figure-img img-fluid rounded" alt=""></figure>
+                <figcaption>
+                    <h6 class="h6">Serie Trituradora</h6>
+                </figcaption>
+                {{-- direccion de catalogo --}}
+                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                    class="btn btn-primary ms-4">Trituradora</a>
+            </div>
+            <div class="col me-5 pe-5">
+                <p>
+                    Robustos, versátiles y potentes: le ofrecemos sistemas de trituración de alto rendimiento para
+                    proteger sus equipos y las unidades de bombeo que contienen. Estos sistemas aseguran que las
+                    impurezas se trituran de forma que se puedan bombear. De esta manera, puede contrarrestar de manera
+                    preventiva el riesgo de atascos u obstrucciones en sus sistemas de bombeo.
+                </p>
+                <p>Los sistemas de trituración se pueden utilizar siempre que se trate de triturar de forma fiable
+                    residuos como textiles, plástico o similares en líquidos para evitar de forma segura daños a las
+                    bombas u otros sistemas situados más adelante.
+                </p>
+                <p>Estos equipos trituran residuos gruesos y sólidos en medios líquidos. Es ideal para una amplia gama
+                    de aplicaciones, desde el tratamiento de aguas residuales hasta los residuos de alimentos y frutas.
+                </p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col ms-5">
+                <h4 class="h4">Aplicaciones de Sistemas de Trituración:</h4>
+                <ul>
+                    <li>Medio Ambiente y Energía</li>
+                    <li>Química, Pulpa y Papel</li>
+                    <li>Minería</li>
+                </ul>
+            </div>
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas de Sistemas de Trituración</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Serie</th>
+                            <th scope="col" class="border-bottom border-dark">Gasto Máximo (m3/h)</th>
+                            <th scope="col" class="border-bottom border-dark">Presión Máxima (Bar)</th>
+                            <th scope="col" class="border-bottom border-dark">Tamaños Disponibles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">M-Ovas</td>
+                            <td scope="col">300</td>
+                            <td scope="col">1</td>
+                            <td scope="col">2</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">N.Mac Channel</td>
+                            <td scope="col">400</td>
+                            <td scope="col">6</td>
+                            <td scope="col">4</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">N.Mac Inline</td>
+                            <td scope="col">350</td>
+                            <td scope="col">6</td>
+                            <td scope="col">3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    {{-- Fin de container --}}
 </div>
