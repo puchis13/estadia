@@ -28,10 +28,9 @@
               <li><a class="dropdown-item" href="{{ route('mann') }}">Mann pumps</a></li>
               <li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>
               <li><a class="dropdown-item" href="{{ route('pentar') }}">Pentar</a></li>
-              <li><a class="dropdown-item" href="{{ route('scott') }}">Scott pump</a></li>
               <li><a class="dropdown-item" href="{{ route('tsurumi') }}">Tsurumi Pump</a></li>
-              <li><a class="dropdown-item" href="{{ route('wdm') }}">Wilo</a></li>
-              <li><a class="dropdown-item" href="{{ route('wilo') }}">Wdm</a></li>
+              <li><a class="dropdown-item" href="{{ route('wilo-scot') }}">Wilo/Scot</a></li>
+              <li><a class="dropdown-item" href="{{ route('wdm') }}">Wdm</a></li>
               <li><a class="dropdown-item" href="{{ route('yamada') }}">Yamada</a></li>
               <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li>
           </ul>

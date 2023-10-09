@@ -37,6 +37,29 @@
                           </figure>
                       </div>
 
+                      {{-- Imagen de Serie 4030 --}}
+                      <div class="col">
+                          <figure class="figure">
+                              <a href="#4030"><img src="{{ asset('imagenes/bombas/armstrong/4030.png') }}"
+                                      width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                              <figcaption class="figure-caption ">
+                                  <h6 class="h6">Serie 4030</h6>
+                              </figcaption>
+                          </figure>
+                      </div>
+
+                      {{-- Imagen de Series 4270 --}}
+                      <div class="col">
+                          <figure class="figure">
+                              <a href="#4270"><img src="{{ asset('imagenes/bombas/armstrong/4270.png') }}"
+                                      width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                              <figcaption class="figure-caption ">
+                                  <h6 class="h6">Series 4270</h6>
+                              </figcaption>
+                          </figure>
+                      </div>
+
+
                       {{-- Cierre de Fila --}}
                   </div>
 
@@ -433,136 +456,639 @@
                                   <td scope="col">1 F/115 volts</td>
                               </tr>
                               <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1”</td>
-                                <td scope="col">1/3</td>
-                                <td scope="col">1 F/115 volts</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1” ¼”</td>
-                                <td scope="col">1/4</td>
-                                <td scope="col">1F/115 volts</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1” ¼”</td>
-                                <td scope="col">1/3</td>
-                                <td scope="col">1F/ 116 volts</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1” ¼”</td>
-                                <td scope="col">½</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1.5”</td>
-                                <td scope="col">1/4</td>
-                                <td scope="col">1F/115 volts</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1.5”</td>
-                                <td scope="col">1/3</td>
-                                <td scope="col">1F/115 volts</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1.5”</td>
-                                <td scope="col">½</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1050</td>
-                                <td scope="col">1.5”</td>
-                                <td scope="col">¾</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">1.5”</td>
-                                <td scope="col">½</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                                                          <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1”</td>
+                                  <td scope="col">1/3</td>
+                                  <td scope="col">1 F/115 volts</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1” ¼”</td>
+                                  <td scope="col">1/4</td>
+                                  <td scope="col">1F/115 volts</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1” ¼”</td>
+                                  <td scope="col">1/3</td>
+                                  <td scope="col">1F/ 116 volts</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1” ¼”</td>
+                                  <td scope="col">½</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">1/4</td>
+                                  <td scope="col">1F/115 volts</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">1/3</td>
+                                  <td scope="col">1F/115 volts</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">½</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1050</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">¾</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">1.5”</td>
+                                  <td scope="col">½</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
                                   <td scope="col">1060</td>
                                   <td scope="col">1.5”</td>
                                   <td scope="col">¾</td>
                                   <td scope="col">1F/115-230 ó 3 F/220-440</td>
                               </tr>
-                                                            <tr>
+                              <tr>
                                   <td scope="col">1060</td>
                                   <td scope="col">1.5”</td>
                                   <td scope="col">1</td>
                                   <td scope="col">1F/115-230 ó 3 F/220-440</td>
                               </tr>
-                                                            <tr>
+                              <tr>
                                   <td scope="col">1060</td>
                                   <td scope="col">1.5”</td>
                                   <td scope="col">1.25</td>
                                   <td scope="col">1F/115-230 ó 3 F/220-440</td>
                               </tr>
-                                                            <tr>
+                              <tr>
                                   <td scope="col">1060</td>
                                   <td scope="col">2”</td>
                                   <td scope="col">½</td>
                                   <td scope="col">1F/115-230 ó 3 F/220-440</td>
                               </tr>
                               <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">2”</td>
-                                <td scope="col">3/4</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">2”</td>
-                                <td scope="col">1</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">2”</td>
-                                <td scope="col">1.5</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">2”</td>
-                                <td scope="col">2</td>
-                                <td scope="col">3F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">3”</td>
-                                <td scope="col">1</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">3”</td>
-                                <td scope="col">1 1/2</td>
-                                <td scope="col">1F/115-230 ó 3 F/220-440</td>
-                            </tr>
-                            <tr>
-                                <td scope="col">1060</td>
-                                <td scope="col">3”</td>
-                                <td scope="col">2</td>
-                                <td scope="col">3F/220-440</td>
-                            </tr>
-                            <tr class="border-bottom border-dark">
-                                <td scope="col">1060</td>
-                                <td scope="col">3”</td>
-                                <td scope="col">3</td>
-                                <td scope="col">3/220-440</td>
-                            </tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">2”</td>
+                                  <td scope="col">3/4</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">2”</td>
+                                  <td scope="col">1</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">2”</td>
+                                  <td scope="col">1.5</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">2”</td>
+                                  <td scope="col">2</td>
+                                  <td scope="col">3F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">3”</td>
+                                  <td scope="col">1</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">3”</td>
+                                  <td scope="col">1 1/2</td>
+                                  <td scope="col">1F/115-230 ó 3 F/220-440</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">1060</td>
+                                  <td scope="col">3”</td>
+                                  <td scope="col">2</td>
+                                  <td scope="col">3F/220-440</td>
+                              </tr>
+                              <tr class="border-bottom border-dark">
+                                  <td scope="col">1060</td>
+                                  <td scope="col">3”</td>
+                                  <td scope="col">3</td>
+                                  <td scope="col">3/220-440</td>
+                              </tr>
                           </tbody>
                       </table>
                   </div>
               </div>
           </div>
+
+          {{-- Contenido Series 4030 --}}
+          <div class=" m-2 p-2">
+              <div class="row m-1">
+                  <h4 id="4030" class="h4">Bomba centrífuga horizontal de final de linea montada en base
+                      serie 4030</h4>
+              </div>
+              <div class="row m-5 ps-5">
+                  <div class="col ms-5 ps-5">
+                      <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4030.png') }}"
+                              width="100%" height="35%" class="figure-img img-fluid rounded" alt="">
+                      </figure>
+                      <figcaption>
+                          <h6 class="h6">Serie 4030</h6>
+                      </figcaption>
+                      {{-- direccion de catalogo --}}
+                      <a href="https://drive.google.com/file/d/1HhVgXEROvVb8V5qK7T0RU5_JwCwg_Dt_/view?usp=drive_link"
+                          class="btn btn-primary ms-4">Ficha Tecnica</a>
+                  </div>
+                  <div class="col me-5 pe-5">
+                      <p>
+                          Esta bomba centrifuga horizontal es sumamente robusta y esta diseñadapara darle mantenimiento
+                          de por vida.
+                          Es una bomba de final de linea o en inglés end suction, su carcasa es autoventilada para
+                          evitar que el aire se quede atrapado. Los materiales de la carcasa o del impulsor son hierro
+                          fundido, hierro dúctil ó bronce, lo que las hace muy duraderas.
+                          Los tamaños van desde 1” hasta 8” con caudales de Flujo de hasta 5000 gpm (315 L/s); hasta 600
+                          pies (180 m) de altura a una temperatura máxima de hasta 121º C.
+                      </p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col ms-5">
+                      <h4 class="h4">Aplicaciones</h4>
+                      <ul>
+                          <li>HVAC</li>
+                          <li>Bombeo de procesos</li>
+                          <li>Agua tradada</li>
+                      </ul>
+                  </div>
+                  <div class="col me-5">
+                      <table class="table table-striped">
+                          <thead>
+                              <tr class="border-top border-danger">
+                                  <th scope="col" class="border-bottom border-dark">Serie</th>
+                                  <th scope="col" class="border-bottom border-dark">Tamaños</th>
+                                  <th scope="col" class="border-bottom border-dark">Ficha técnica</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">1.5 X 1 X 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-50_4030_1-5x1x6.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">1.5 X 1 X 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-55_4030_1-5x1x8.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">10 X 8 X 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-77_4030_10x8x13.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">10 X 8 X 15</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-79_4030_10x8x15.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">2 X 1 X 10 </td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-60_4030_2x1x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 1.5 X 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-61_4030_3x1-5x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 1.5 X 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-72_4030_3x1-5x13.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 1.5 X 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-51_4030_3x1-5x6.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 1.5 X 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-56_4030_3x1-5x8.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 2 X 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-62_4030_3x2x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 2 X 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-73_4030_3x2x13.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 2 X 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-52_4030_3x2x6.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 2.5 X 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-621_4030_3x2-5x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 2.5 X 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-53_4030_3x2-5x6.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">3 X 2.5 X 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-57_4030_3x2-5x8.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">4 X 3 X 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-63_4030_4x3x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">4 X 3 X 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-68_4030_4x3x11-5.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">4 X 3 X 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-74_4030_4x3x13.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">4 X 3 X 13L</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-741_4030_4x3x13l.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">4 X 3 X 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-54_4030_4x3x6.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">4 X 3 X 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-58_4030_4x3x8.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">5 X 4 X 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-64_4030_5x4x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">5 X 4 X 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-69_4030_5x4x11-5.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">5 X 4 X 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-581_4030_5x4x8.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 4 X 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-75_4030_6x4x13.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 4 X 13H</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-752_4030_6x4x13h.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 4 X 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-59_4030_6x4x8.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 5 X 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-66_4030_6x5x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 5 X 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-70_4030_6x5x11-5.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 5 X 13</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-755_4030_6x5x13.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 5 X 13H</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-756_4030_6x5x13h.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">6 X 6 X 6</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-542_4030_6x6x6.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">8 X 6 X 10</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-67_4030_8x6x10.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">8 X 6 X 11.5</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-71_4030_8x6x11-5.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                              <td scope="col">SERIE 4030</td>
+                              <td scope="col">8 X 6 X 13</td>
+                              <td scope="col"><a
+                                      href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-76_4030_8x6x13.pdf?la=en&display=1"
+                                      class="btn btn-primary ms-4">Ver</a>
+                              </td>
+                              </tr>
+                              <td scope="col">SERIE 4030</td>
+                              <td scope="col">8 X 6 X 15</td>
+                              <td scope="col"><a
+                                      href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-78_4030_8x6x15.pdf?la=en&display=1"
+                                      class="btn btn-primary ms-4">Ver</a>
+                              </td>
+                              </tr>
+                              <tr class="border-bottom border-dark">
+                                  <td scope="col">SERIE 4030</td>
+                                  <td scope="col">8 X 8 X 8</td>
+                                  <td scope="col"><a
+                                          href="https://armstrongfluidtechnology.com/~/media/documents/specifications/submittal-data/4030-base-mounted-pumps/4030-60hz/40-595_4030_8x8x8.pdf?la=en&display=1"
+                                          class="btn btn-primary ms-4">Ver</a>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+
+          {{-- Contenido Series 4270 --}}
+          <div class=" m-2 p-2">
+              <div class="row m-1">
+                  <h4 id="4270" class="h4">Bomba centrífuga horizontal acoplada directamente a motor serie
+                      4270</h4>
+              </div>
+              <div class="row m-5 ps-5">
+
+                  <div class="col ms-5 ps-5">
+                      <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4270.png') }}"
+                              width="100%" height="35%" class="figure-img img-fluid rounded" alt="">
+                      </figure>
+                      <figcaption>
+                          <h6 class="h6">Series 4270</h6>
+                      </figcaption>
+                      {{-- direccion de catalogo --}}
+                      <a href="https://drive.google.com/file/d/1qlbvIhZB4egWmHkNe-R-MBLGiK5zH_pb/view?usp=sharing"
+                          class="btn btn-primary ms-4">Brochure</a>
+                      <a href="https://drive.google.com/file/d/1vK0KtdX53Yl-oG6jI063E0fgargfVMgz/view?usp=sharing"
+                          class="btn btn-primary ms-4">Ficha técnica</a>
+
+                  </div>
+                  <div class="col me-5 pe-5">
+                      <p>
+                          La serie 4270 de Armstrong son diseñadas para una larga vida y trabajo continuo. El material
+                          de fabricación de la carcasa es hierro fundido y el impulsor puede ordenarse en bronce o en
+                          resina de polieterimida ULTEM el sello es tipo 21. El rango de trabajo va desde 3600 GPM (227
+                          L/s) a 40 metros. Las condiciones máximas de operación son de 135º C a 150 psi. Estas bombas
+                          vienen en motores con armazón de aluminio en 1800 ó a 3600 rpm.
+                      </p>
+                      <p>Capacidades de 1/3 de hp -5hp
+                          Medidas: Disponibles en diámetros de 1 ¼”x 1” 1 1/2”x 1/1/4” y 2” x 1/1/2”
+                      </p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col ms-5">
+                      <h4 class="h4">Aplicaciones</h4>
+                      <ul>
+                          <li>Torres de enfriamientos</li>
+                          <li>HVAC</li>
+                          <li>Proposito generales</li>
+                      </ul>
+                  </div>
+                  <div class="col me-5">
+
+                      <table class="table table-striped ">
+                          <thead>
+                              <tr class="border-top border-danger">
+                                  <th scope="col" class="border-bottom border-dark">MODELO</th>
+                                  <th scope="col" class="border-bottom border-dark">SUCCIÓN y DESCARGA</th>
+                                  <th scope="col" class="border-bottom border-dark">HP</th>
+                                  <th scope="col" class="border-bottom border-dark">RPM</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td scope="col">4270</td>
+                                  <td scope="col">1.5”X 1.25” ó de 2” x 1.5”</td>
+                                  <td scope="col">1/3</td>
+                                  <td scope="col">1800</td>
+                              </tr>
+                              <tr class="border-bottom border-dark">
+                                  <td scope="col">4270</td>
+                                  <td scope="col">1.5”x 1.25” ó de 2” x 1.5”</td>
+                                  <td scope="col">½</td>
+                                  <td scope="col">1800</td>
+                              </tr>
+                          </tbody>
+                      </table>
+
+                      <h4 class="h4">Series 42ST</h4>
+                      <table class="table table-striped ">
+                          <thead>
+                              <tr class="border-top border-danger">
+                                  <th scope="col" class="border-bottom border-dark">Modelo</th>
+                                  <th scope="col" class="border-bottom border-dark">Succión</th>
+                                  <th scope="col" class="border-bottom border-dark">Descarga</th>
+                                  <th scope="col" class="border-bottom border-dark">Tamaño de impulsor</th>
+                                  <th scope="col" class="border-bottom border-dark">HP</th>
+                                  <th scope="col" class="border-bottom border-dark">RPM</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td scope="col">702**</td>
+                                  <td scope="col">1.25 (31)</td>
+                                  <td scope="col">1 (25)</td>
+                                  <td scope="col">3.5 (88)</td>
+                                  <td scope="col">¾</td>
+                                  <td scope="col">3600</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">704**</td>
+                                  <td scope="col">1.25 (31)</td>
+                                  <td scope="col">1 (25)</td>
+                                  <td scope="col">4(109)</td>
+                                  <td scope="col">1</td>
+                                  <td scope="col">3600</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">705**</td>
+                                  <td scope="col">1.25 (31)</td>
+                                  <td scope="col">1 (25)</td>
+                                  <td scope="col">4.5 (121)</td>
+                                  <td scope="col">1½</td>
+                                  <td scope="col">3600</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">706**</td>
+                                  <td scope="col">1.5 (38)</td>
+                                  <td scope="col">1.25 (31)</td>
+                                  <td scope="col">4.5 (121)</td>
+                                  <td scope="col">2</td>
+                                  <td scope="col">3600</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">707**</td>
+                                  <td scope="col">2 (50)</td>
+                                  <td scope="col">1.5 (38)</td>
+                                  <td scope="col">4 (100)</td>
+                                  <td scope="col">1½</td>
+                                  <td scope="col">3600</td>
+                              </tr>
+                              <tr>
+                                  <td scope="col">709T</td>
+                                  <td scope="col">2 (50)</td>
+                                  <td scope="col">1.5 (38)</td>
+                                  <td scope="col">4.375 (109)</td>
+                                  <td scope="col">2</td>
+                                  <td scope="col">3600</td>
+                              </tr>
+                              <tr class="border-bottom border-dark">
+                                  <td scope="col">710T</td>
+                                  <td scope="col">2 (50)</td>
+                                  <td scope="col">1.5 (38)</td>
+                                  <td scope="col">5 (125)</td>
+                                  <td scope="col">3</td>
+                                  <td scope="col">3600</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                      <p>**Añade el sufijo S para ordenar bombas de 60hz 1 fase 115 volts
+                          Añade el sufijo T para ordenar bombas de 60hz 3 fases 220/450 volts
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
 
 
           {{-- Fin de container --}}

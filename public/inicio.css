@@ -146,14 +146,6 @@
     font-weight: 800;
 }
 
-.header-scott {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 150px 70px 70px;
-    margin: auto;
-    font-size: 2.5rem;
-    font-weight: 800;
-}
 
 .header-tsurumi {
     background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
@@ -163,17 +155,15 @@
     font-size: 2.5rem;
     font-weight: 800;
 }
-
-.header-wdm {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+.header-wilo-scot {
+    background: url(../imagenes/bombas/wilo-scot/portada.png) center center no-repeat;
     background-size: cover;
-    padding: 150px 70px 70px;
+    padding: 250px 70px 70px;
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;
 }
-
-.header-wilo {
+.header-wdm {
     background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
     padding: 150px 70px 70px;

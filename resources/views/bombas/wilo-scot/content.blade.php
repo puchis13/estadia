@@ -3,25 +3,33 @@
         <div>
             {{-- Logo --}}
             <div class="text-center">
-
+                {{-- 
                 <figure class="figure">
-                    <img src="{{ asset('imagenes/bombas/mann/logo.png') }}" width="100%"
+                    <img src="{{ asset('imagenes/bombas/wilo-scot/logo-wilo.png') }}" width="100%"
                         class="figure-img img-fluid rounded" alt="...">
+                </figure>
+                <figure class="figure">
+                    <img src="{{ asset('imagenes/bombas/wilo-scot/logo-scot.png') }}" width="50%"
+                        class="figure-img img-fluid rounded" alt="...">
+                </figure> --}}
+                <figure class="figure m-2">
+                    <img src="{{ asset('imagenes/bombas/wilo-scot/wilo.png') }}" width="50%"
+                        class="figure-img img-fluid " alt="...">
                 </figure>
             </div>
 
             {{-- Imagenes al seleccionar --}}
-            <div>
+            <div class="m-2">
                 {{-- Esto es la Fila --}}
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
 
                     {{-- Imagen de Series 911S --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911s"><img src="{{ asset('imagenes/bombas/mann/911s.png') }}" width="100%"
-                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#911s"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo1.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Serie 911S</h6>
+                                <h6 class="h6">Ejemplo 1</h6>
                             </figcaption>
                         </figure>
                     </div>
@@ -29,10 +37,10 @@
                     {{-- Imagen de Series 911M --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911m"><img src="{{ asset('imagenes/bombas/mann/911m.png') }}" width="100%"
-                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#911m"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo2.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Series 911M</h6>
+                                <h6 class="h6">Ejemplo 2</h6>
                             </figcaption>
                         </figure>
                     </div>
@@ -40,10 +48,10 @@
                     {{-- Imagen de Series 911L --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911l"><img src="{{ asset('imagenes/bombas/mann/911l.png') }}" width="100%"
-                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#911l"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo3.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Series 911L</h6>
+                                <h6 class="h6">Ejemplo 3</h6>
                             </figcaption>
                         </figure>
                     </div>
@@ -51,14 +59,24 @@
                     {{-- Imagen de Series 911LX --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911lx"><img src="{{ asset('imagenes/bombas/mann/911lx.png') }}" width="100%"
-                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#911lx"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo4.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Series 911LX</h6>
+                                <h6 class="h6">Ejemplo 4</h6>
                             </figcaption>
                         </figure>
                     </div>
 
+                    {{-- Imagen de Series 911LX --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#911lx"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo5.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Ejemplo 5</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
                     {{-- Cierre de Fila --}}
                 </div>
 
