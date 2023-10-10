@@ -22,16 +22,16 @@
               <li><a class="dropdown-item" href="{{ route('aurora') }}">Aurora picsa</a></li>
               <li><a class="dropdown-item" href="{{ route('barmesa') }}">Barmesa</a></li>
               <li><a class="dropdown-item" href="{{ route('franklin') }}">Franklin Electric</a></li>
+              <li><a class="dropdown-item" href="{{ route('flygt') }}">Flygt</a></li>
               <li><a class="dropdown-item" href="{{ route('grundfos') }}">Grundfos</a></li>
               <li><a class="dropdown-item" href="{{ route('impel') }}">Impel</a></li>
               <li><a class="dropdown-item" href="{{ route('jandy') }}">Jandy</a></li>
               <li><a class="dropdown-item" href="{{ route('mann') }}">Mann pumps</a></li>
               <li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>
-              <li><a class="dropdown-item" href="{{ route('pentar') }}">Pentar</a></li>
+              <li><a class="dropdown-item" href="{{ route('pentair') }}">Pentair</a></li>
               <li><a class="dropdown-item" href="{{ route('tsurumi') }}">Tsurumi Pump</a></li>
               <li><a class="dropdown-item" href="{{ route('wilo-scot') }}">Wilo/Scot</a></li>
               <li><a class="dropdown-item" href="{{ route('wdm') }}">Wdm</a></li>
-              <li><a class="dropdown-item" href="{{ route('yamada') }}">Yamada</a></li>
               <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li>
           </ul>
           <!-- end menu desplegable -->

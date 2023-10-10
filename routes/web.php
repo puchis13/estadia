@@ -35,16 +35,16 @@ Route::view('/bombas/armstrong', 'bombas/armstrong.index')->name('armstrong');
 Route::view('/bombas/aurora', 'bombas/aurora.index')->name('aurora');
 Route::view('/bombas/barmesa', 'bombas/barmesa.index')->name('barmesa');
 Route::view('/bombas/franklin', 'bombas/franklin.index')->name('franklin');
+Route::view('/bombas/flygt', 'bombas/flygt.index')->name('flygt');
 Route::view('/bombas/grundfos', 'bombas/grundfos.index')->name('grundfos');
 Route::view('/bombas/impel', 'bombas/impel.index')->name('impel');
 Route::view('/bombas/jandy', 'bombas/jandy.index')->name('jandy');
 Route::view('/bombas/mann', 'bombas/mann.index')->name('mann');
 Route::view('/bombas/netzsch', 'bombas/netzsch.index')->name('netzsch');
-Route::view('/bombas/pentar', 'bombas/pentar.index')->name('pentar');
+Route::view('/bombas/pentair', 'bombas/pentair.index')->name('pentair');
 Route::view('/bombas/tsurumi', 'bombas/tsurumi.index')->name('tsurumi');
 Route::view('/bombas/wdm', 'bombas/wdm.index')->name('wdm');
 Route::view('/bombas/wilo-scot', 'bombas/wilo-scot.index')->name('wilo-scot');
-Route::view('/bombas/yamada', 'bombas/yamada.index')->name('yamada');
 Route::view('/bombas/zoeller', 'bombas/zoeller.index')->name('zoeller');
 
 

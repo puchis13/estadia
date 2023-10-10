@@ -5,7 +5,8 @@
             <div class="text-center">
                 
                 <figure class="figure">
-                    <img src="{{ asset('imagenes/bombas/wilo-scot/logo-scot.png') }}" width="15%"
+                    <img src="{{ asset('imagenes/bombas/franklin/logo.png') }}" width="100%"
+                    style="background: lightskyblue"
                         class="figure-img img-fluid rounded" alt="...">
                 </figure>
 
