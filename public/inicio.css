@@ -92,7 +92,8 @@
     font-weight: 800;
 }
 .header-flygt {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/flygt/portada.png) no-repeat;
+    background-position:center;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -100,7 +101,8 @@
     font-weight: 800;
 }
 .header-grundfos {
-    background:  url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background:  url(../imagenes/bombas/grundfos/portada.png) no-repeat;
+    background-position: center 50%;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -109,7 +111,8 @@
 }
 
 .header-impel {
-    background:  url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background:  url(../imagenes/bombas/impel/portada.png) no-repeat;
+    background-position:center 50%;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -118,7 +121,8 @@
 }
 
 .header-jandy {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/jandy/portada.png) no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -145,7 +149,8 @@
 }
 
 .header-pentair {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/pentair/portada.png) no-repeat;
+    background-position: center 50%;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -155,7 +160,8 @@
 
 
 .header-tsurumi {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/tsurumi/portada.png) no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -171,7 +177,8 @@
     font-weight: 800;
 }
 .header-wdm {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/wdm/portada.png) no-repeat;
+    background-position: top;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -179,9 +186,9 @@
     font-weight: 800;
 }
 
-
 .header-zoeller {
-    background: url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background: url(../imagenes/bombas/zoeller/portada.png) no-repeat;
+    background-position: center center;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
