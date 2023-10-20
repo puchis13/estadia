@@ -5,7 +5,7 @@
             <div class="text-center">
 
                 <figure class="figure">
-                    <img src="{{ asset('imagenes/bombas/altamira/logo.png') }}" width=50% height=10%
+                    <img src="{{ asset('imagenes/bombas/altamira/logo.png') }}" width=40%
                         class="figure-img img-fluid rounded" alt="...">
                 </figure>
             </div>
@@ -83,7 +83,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                        class="btn btn-primary ms-4">TX, TXE</a>
+                        class="btn btn-primary ms-4">Ficha Ténica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -123,7 +123,7 @@
                     </ul>
                 </div>
                 <div class="col me-5">
-                    <h4 class="h4">RENDIMIENTO HIDRÁULICO </h4>
+                    <h4 class="h4">Rendimiento Hidráulico</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
@@ -215,7 +215,7 @@
         {{-- Contenido Series KOR --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="KOR" class="h4">Bombas Sumergibles Altamira Serie KOR en acero inoxidable</h4>
+                <h4 id="KOR" class="h4">Bombas Sumergibles Altamira Serie KOR en Acero Inoxidable</h4>
             </div>
             <div class="row m-5 ps-5">
 
@@ -227,9 +227,9 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
-                        class="btn btn-primary ms-4">KOR 4”</a>
+                        class="btn btn-primary ms-4">Ficha KOR 4”</a>
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
-                        class="btn btn-primary ms-4">KOR 6” 8” 10” </a>
+                        class="btn btn-primary ms-4">Ficha KOR 6” 8” 10” </a>
 
                 </div>
                 <div class="col me-5 pe-5">
@@ -240,12 +240,11 @@
                     <p> Son eficientes, robustas y de fácil mantenimiento. Pueden manejar agua con contenido de arena
                         hasta 50 g/m3, pH entre 5.6 & 7.0 y temperatura del agua hasta 30°C.</p>
                     </p>
-                    <p>Especificaciones Técnicas de Bombas Altamira KOR:</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col ms-5">
-                    <h4 class="h4">Aplicaciones de la Serie KOR bombear agua de:</h4>
+                    <h4 class="h4">Aplicaciones de la serie KOR bombear agua de:</h4>
                     <ul>
                         <li>Pozos profundos</li>
                         <li>Estanques</li>
@@ -257,7 +256,7 @@
                     </ul>
                 </div>
                 <div class="col me-5">
-                    <h4 class="h4">RANGOS DE OPERACIÓN </h4>
+                    <h4 class="h4">Rangos de Operación</h4>
                     <table class="table table-striped ">
                         <thead>
                             <tr class="border-top border-danger">
@@ -373,7 +372,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/"
-                        class="btn btn-primary ms-4">Ver Catalogo</a>
+                        class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -386,7 +385,7 @@
             </div>
             <div class="row">
                 <div class="col ms-5">
-                    <h4 class="h4">Aplicaciones de las bombas Altamira FLUX:</h4>
+                    <h4 class="h4">Aplicaciones de las bombas Altamira FLUX</h4>
                     <ul>
                         <li>Sistemas de agua potable</li>
                         <li>Alimentación de calderas</li>
@@ -463,7 +462,7 @@
         {{-- Esto es del contenido de Serie EKRC --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="ekrc" class="h4">Bombas de calor para piscina Hidrocontrol serie EKRC</h4>
+                <h4 id="ekrc" class="h4">Bombas de calor para piscina hidrocontrol serie EKRC</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -475,7 +474,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1WHK3xLg5aLM3CPTybyUbBwYOfrw8-R8a/view"
-                        class="btn btn-primary ms-4">EKRC</a>
+                        class="btn btn-primary ms-4">Ficha EKRC</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -494,21 +493,21 @@
                     </ul>
                 </div>
                 <div class="col me-5">
-                    {{-- <h4 class="h4">RENDIMIENTO</h4> --}}
+                    <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
-                                <th scope="col" class="border-bottom border-dark">CÓDIGO</th>
+                                <th scope="col" class="border-bottom border-dark">Código</th>
                                 <th scope="col" class="border-bottom border-dark">BTU</th>
                                 <th scope="col" class="border-bottom border-dark">∆ COEF. DESEM.</th>
-                                <th scope="col" class="border-bottom border-dark">FASES x VOLTS</th>
-                                <th scope="col" class="border-bottom border-dark">COMPRESOR RLA/LRA</th>
-                                <th scope="col" class="border-bottom border-dark">FLUJO DE CIRCULACIÓN DE AGUA
+                                <th scope="col" class="border-bottom border-dark">Fases x Volts</th>
+                                <th scope="col" class="border-bottom border-dark">Compresor RLA/LRA</th>
+                                <th scope="col" class="border-bottom border-dark">Flujo de Circulacion de Agua
                                 </th>
-                                <th scope="col" class="border-bottom border-dark">DECIBELES</th>
-                                <th scope="col" class="border-bottom border-dark">SUCCIÓN x DESCARGA (Pulgadas)
+                                <th scope="col" class="border-bottom border-dark">Decibeles</th>
+                                <th scope="col" class="border-bottom border-dark">Succión x Descarga (Pulgadas)
                                 </th>
-                                <th scope="col" class="border-bottom border-dark">PESO (kg)</th>
+                                <th scope="col" class="border-bottom border-dark">Peso (kg)</th>
 
                             </tr>
                         </thead>
@@ -577,7 +576,7 @@
         {{-- Esto es del contenido de Serie Eco-Kal --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 class="h4">Bomba para piscina Hidrocontrol serie Eco-Kal</h4>
+                <h4 class="h4">Bomba para piscina hidrocontrol serie Eco-Kal</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -589,11 +588,11 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1NChOmaDmm6ltMKufbeEweQYwXoXAdZ6u/view"
-                        class="btn btn-primary ms-4">Eco-Kal</a>
+                        class="btn btn-primary ms-4">Ficha Eco-Kal</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        • La bomba de calor Eco-Kal es muy silenciosa gracias al ventilador de baja velocidad y al
+                        La bomba de calor Eco-Kal es muy silenciosa gracias al ventilador de baja velocidad y al
                         excelente diseño del compresor (56 decibeles), Intercambiador de titanio, protecciones contra:
                         Alta y baja presión del refrigerante, ahorra energia, automatización basica a traves de un
                         interruptor inalámbrico
@@ -608,21 +607,21 @@
                     </ul>
                 </div>
                 <div class="col me-5">
-                    {{-- <h4 class="h4">RENDIMIENTO</h4> --}}
+                    <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped text-center">
                         <thead>
                             <tr class="border-top border-danger">
-                                <th scope="col" class="border-bottom border-dark">CÓDIGO</th>
-                                <th scope="col" class="border-bottom border-dark">DESCRIPCIÓN</th>
+                                <th scope="col" class="border-bottom border-dark">Código</th>
+                                <th scope="col" class="border-bottom border-dark">Descripción</th>
                                 <th scope="col" class="border-bottom border-dark">BTU</th>
                                 <th scope="col" class="border-bottom border-dark">∆ COEF. DESEM.</th>
                                 <th scope="col" class="border-bottom border-dark">MCA</th>
                                 <th scope="col" class="border-bottom border-dark">MOP</th>
-                                <th scope="col" class="border-bottom border-dark">FASES x VOLTS</th>
-                                <th scope="col" class="border-bottom border-dark">SUCCIÓN x DESCARGA (Pulgadas)
+                                <th scope="col" class="border-bottom border-dark">Fases x Volts</th>
+                                <th scope="col" class="border-bottom border-dark">Succión x Descarga (Pulgadas)
                                 </th>
-                                <th scope="col" class="border-bottom border-dark">CALOR / FRIO</th>
-                                <th scope="col" class="border-bottom border-dark">PESO (kg)</th>
+                                <th scope="col" class="border-bottom border-dark">Calor / Frio</th>
+                                <th scope="col" class="border-bottom border-dark">Peso (kg)</th>
 
                             </tr>
                         </thead>

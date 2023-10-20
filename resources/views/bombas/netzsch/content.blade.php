@@ -86,7 +86,7 @@
     {{-- Contenido Series Nemo --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
-            <h4 id="nemo" class="h4">BOMBAS DE TORNILLO HELICOIDAL NEMO</h4>
+            <h4 id="nemo" class="h4">Bombas de Tornillo Helicoidal Nemo</h4>
         </div>
         <div class="row m-5 ps-5">
             <div class="col ms-5 ps-5">
@@ -97,7 +97,7 @@
                 </figcaption>
                 {{-- direccion de catalogo --}}
                 <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                    class="btn btn-primary ms-4">Nemo</a>
+                    class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
                 <p>
@@ -118,7 +118,7 @@
         </div>
         <div class="row">
             <div class="col ms-5">
-                <h4 class="h4">Aplicaciones de las Bombas NETZSCH NEMO:</h4>
+                <h4 class="h4">Aplicaciones de las Bombas NETZSCH Nemo:</h4>
                 <ul>
                     <li>Química, Pulpa y Papel</li>
                     <li>Alimentación y Farmacéutica</li>
@@ -130,7 +130,7 @@
                 </ul>
             </div>
             <div class="col me-5">
-                <h4 class="h4">Especificaciones Técnicas de NETZSCH NEMO</h4>
+                <h4 class="h4">Especificaciones Técnicas de NETZSCH Nemo</h4>
                 <table class="table table-striped">
                     <thead>
                         <tr class="border-top border-danger">
@@ -236,10 +236,11 @@
             </div>
         </div>
     </div>
+
     {{-- Contenido Series Notos --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
-            <h4 id="notos" class="h4">BOMBAS MULTIHUSILLO NOTOS</h4>
+            <h4 id="notos" class="h4">Bombas Multihusillo Notos</h4>
         </div>
         <div class="row m-5 ps-5">
             <div class="col ms-5 ps-5">
@@ -250,7 +251,7 @@
                 </figcaption>
                 {{-- direccion de catalogo --}}
                 <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                    class="btn btn-primary ms-4">Notos</a>
+                    class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
                 <p>
@@ -258,17 +259,19 @@
                     alta viscosidad, así como medios sensibles al corte o químicamente agresivos.
                 </p>
                 <b>La bomba multitornillo cumple las normas de API</b>
-                <p>La amplia gama de materiales, desde la fundición gris y el acero al cromo-níquel hasta el acero
+                <p>
+                    La amplia gama de materiales, desde la fundición gris y el acero al cromo-níquel hasta el acero
                     dúplex, superdúplex o Hastelloy, garantiza condiciones de bombeo óptimas en una amplia variedad de
                     áreas de aplicación. Opcionalmente, las bombas se pueden actualizar para cumplir con los estándares
                     del Instituto Americano del Petróleo (API). Estos requisitos especiales son principalmente
-                    relevantes en los sectores del petróleo y el gas, y la petroquímica.</p>
+                    relevantes en los sectores del petróleo y el gas, y la petroquímica.
+                </p>
             </div>
 
         </div>
         <div class="row">
             <div class="col ms-5">
-                <h4 class="h4">Aplicaciones de las Bombas NETZSCH NOTOS:</h4>
+                <h4 class="h4">Aplicaciones de las Bombas NETZSCH Notos:</h4>
                 <ul>
                     <li>Alimentario y farmacéutico</li>
                     <li>Química y del papel</li>
@@ -279,11 +282,14 @@
                 </ul>
             </div>
             <div class="col me-5">
-                <p>Las bombas de dos husillos NOTOS, tienen capacidad de autocebado, son muy útiles en diferentes áreas
+                <p>
+                    Las bombas de dos husillos NOTOS, tienen capacidad de autocebado, son muy útiles en diferentes áreas
                     como el petróleo y el gas, el transporte por marítimo, la generación de energía y las fábricas de
                     productos químicos. También se usan en lugares donde se almacenan grandes cantidades de líquidos en
-                    tanques. Estas bombas son duraderas.</p>
-                <h4 class="h4">Especificaciones Técnicas de NETZSCH NOTOS</h4>
+                    tanques. Estas bombas son duraderas.
+                </p>
+
+                <h4 class="h4">Especificaciones Técnicas de NETZSCH Notos</h4>
                 <table class="table table-striped">
                     <thead>
                         <tr class="border-top border-danger">
@@ -333,7 +339,7 @@
     {{-- Contenido Series Tornado --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
-            <h4 id="tornado" class="h4">BOMBAS LOBULARES TORNADO</h4>
+            <h4 id="tornado" class="h4">Bombas Lobulares Tornado</h4>
         </div>
         <div class="row m-5 ps-5">
             <div class="col ms-5 ps-5">
@@ -344,7 +350,7 @@
                 </figcaption>
                 {{-- direccion de catalogo --}}
                 <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                    class="btn btn-primary ms-4">Tornado</a>
+                    class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
                 <p>
@@ -360,7 +366,7 @@
         </div>
         <div class="row">
             <div class="col ms-5">
-                <h4 class="h4">Aplicaciones de las Bombas NETZSCH TORNADO:</h4>
+                <h4 class="h4">Aplicaciones de las Bombas NETZSCH Tornado:</h4>
                 <ul>
                     <li>Alimentario y farmacéutico</li>
                     <li>Química y del papel</li>
@@ -371,7 +377,7 @@
                 </ul>
             </div>
             <div class="col me-5">
-                <h4 class="h4">Especificaciones Técnicas de Serie TORNADO</h4>
+                <h4 class="h4">Especificaciones Técnicas de Serie Tornado</h4>
                 <table class="table table-striped">
                     <thead>
                         <tr class="border-top border-danger">
@@ -427,7 +433,7 @@
     {{-- Contenido Series Peripro --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
-            <h4 id="peripro" class="h4">BOMBAS PERISTÁLTICAS PERIPRO</h4>
+            <h4 id="peripro" class="h4">Bombas Peristálticas Peripro</h4>
         </div>
         <div class="row m-5 ps-5">
             <div class="col ms-5 ps-5">
@@ -438,7 +444,7 @@
                 </figcaption>
                 {{-- direccion de catalogo --}}
                 <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                    class="btn btn-primary ms-4">Peripro</a>
+                    class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
                 <p>
@@ -448,7 +454,7 @@
                     aplicaciones ya sea en la industria, en el sector químico o en el alimentario. Las bombas
                     peristálticas ofrecen una potencia de succión extremadamente alta con un mantenimiento mínimo.
                 </p>
-                <p>Ventajas de las bombas peristálticas PERIPRO:</p>
+                <p>Ventajas de las bombas peristálticas Peripro:</p>
                 <li>Certificación de la FDA</li>
                 <li>Conexiones sanitarias según DIN 11851 o Tri-Clamp</li>
                 <li>Capacidad de succión extremadamente alta</li>
@@ -462,7 +468,7 @@
         </div>
         <div class="row">
             <div class="col ms-5">
-                <h4 class="h4">Aplicaciones de las Bombas NETZSCH PERIPRO:</h4>
+                <h4 class="h4">Aplicaciones de las Bombas NETZSCH Peripro:</h4>
                 <ul>
                     <li>Alimentario y farmacéutico</li>
                     <li>Química y del papel</li>
@@ -472,64 +478,13 @@
                     <li>Batería</li>
                 </ul>
             </div>
-            {{-- <div class="col me-5">
-                <h4 class="h4">Especificaciones Técnicas de Serie TORNADO</h4>
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="border-top border-danger">
-                            <th scope="col" class="border-bottom border-dark">Serie</th>
-                            <th scope="col" class="border-bottom border-dark">Gasto Máximo (m3/h)</th>
-                            <th scope="col" class="border-bottom border-dark">Presión Máxima (Bar)</th>
-                            <th scope="col" class="border-bottom border-dark">Tamaños Disponibles</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td scope="col">TORNADO T.Envi</td>
-                            <td scope="col">300</td>
-                            <td scope="col">8</td>
-                            <td scope="col">12</td>
-                        </tr>
-                        <tr>
-                            <td scope="col">TORNADO T1</td>
-                            <td scope="col">905</td>
-                            <td scope="col">8</td>
-                            <td scope="col">18</td>
-                        </tr>
-                        <tr>
-                            <td scope="col">TORNADO Móvil</td>
-                            <td scope="col">905</td>
-                            <td scope="col">8</td>
-                            <td scope="col">6</td>
-                        </tr>
-                        <tr>
-                            <td scope="col">TORNADO T.Proc</td>
-                            <td scope="col">300</td>
-                            <td scope="col">8</td>
-                            <td scope="col">20</td>
-                        </tr>
-                        <tr>
-                            <td scope="col">TORNADO T.Sano</td>
-                            <td scope="col">142</td>
-                            <td scope="col">8</td>
-                            <td scope="col">6</td>
-                        </tr>
-                        <tr class="border-bottom border-dark">
-                            <td scope="col">TORNADO T.Sano Liso</td>
-                            <td scope="col">70</td>
-                            <td scope="col">12</td>
-                            <td scope="col">6</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div> --}}
         </div>
     </div>
 
     {{-- Contenido Series Trituradora --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
-            <h4 id="trituradora" class="h4">SISTEMAS DE TRITURACIÓN</h4>
+            <h4 id="trituradora" class="h4">Sistemas de Trituración</h4>
         </div>
         <div class="row m-5 ps-5">
             <div class="col ms-5 ps-5">
@@ -540,7 +495,7 @@
                 </figcaption>
                 {{-- direccion de catalogo --}}
                 <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                    class="btn btn-primary ms-4">Trituradora</a>
+                    class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
                 <p>

@@ -83,7 +83,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha técnica</a>
+                        class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -119,7 +119,7 @@
                     </ul>
                 </div>
                 <div class="col me-5">
-                    <h4 class="h4">Especificaciones tecnicas de la serie 911s- 3500 RPM </h4>
+                    <h4 class="h4">Especificaciones Técnicas de la Serie 911s- 3500 RPM </h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
@@ -239,7 +239,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha técnica</a>
+                        class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -547,7 +547,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha técnica</a>
+                        class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -869,7 +869,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha técnica</a>
+                        class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
