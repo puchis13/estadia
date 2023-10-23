@@ -482,15 +482,14 @@
                         un display de LCD y un robusto intercambiador de calor construido en titanio, refrigerante
                         ecologico, función Spa (hasta 40ºC) y temporalizador programable (excepto modelo 24).
                     </p>
-                </div>
-            </div>
-            <div class="col ms-5">
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Piscinas residenciales y comerciales</li>
                         <li>Tinas de hidromasaje (Spa) </li>
                     </ul>
                 </div>
+            </div>
+          
             <div class="row">
                 
                 <div class="col me-5">
@@ -598,15 +597,14 @@
                         Alta y baja presión del refrigerante, ahorra energia, automatización basica a traves de un
                         interruptor inalámbrico
                     </p>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Piscinas residenciales y comerciales</li>
+                        </ul>
                 </div>
             </div>
             <div class="row">
-                <div class="col ms-5">
-                    <h4 class="h4">Aplicaciones</h4>
-                    <ul>
-                        <li>Piscinas residenciales y comerciales</li>
-                    </ul>
-                </div>
+
                 <div class="col me-5">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped text-center">
