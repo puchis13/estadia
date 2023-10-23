@@ -38,8 +38,6 @@
                         </figure>
                     </div>
 
-
-
                     {{-- Imagen de Series Enca --}}
                     <div class="col">
                         <figure class="figure">
@@ -50,8 +48,6 @@
                             </figcaption>
                         </figure>
                     </div>
-
-
 
                     {{-- Cierre de Fila --}}
                 </div>
@@ -537,7 +533,6 @@
             </div>
         </div>
 
-
         {{-- Contenido Series Enca --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
@@ -553,7 +548,7 @@
                     {{-- direccion de catalogo --}}
                     <a
                         href="https://franklinagua.com/media/62938/M1479sp-Cat%C3%A1logo-Motores-Sumergibles.pdf"class="btn btn-primary ms-4">Ficha
-                        tecnica</a>
+                        Técnica</a>
 
                 </div>
                 <div class="col me-5 pe-5">

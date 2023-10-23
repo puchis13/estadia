@@ -600,8 +600,7 @@
           {{-- Contenido Series 4030 --}}
           <div class=" m-2 p-2">
               <div class="row m-1">
-                  <h4 id="4030" class="h4">Bomba Centrífuga Horizontal de Final de Linea Montada en Base
-                      Serie 4030</h4>
+                  <h4 id="4030" class="h4">Bomba Centrífuga tipo End Suction Montada en Base Serie 4030</h4>
               </div>
               <div class="row m-5 ps-5">
                   <div class="col ms-5 ps-5">
@@ -1098,8 +1097,7 @@
           {{-- Contenido Series Firepak Horizontal Split --}}
           <div class=" m-2 p-2">
               <div class="row m-1">
-                  <h4 id="FirePak" class="h4">Sistemas Contra Incendios Armados Armstrong Caja Partida
-                      Horizontal (Firepak Horizontal Split) </h4>
+                  <h4 id="FirePak" class="h4">Sistemas Contra Incendios Armados Armstrong</h4>
               </div>
               <div class="row m-5 ps-5">
 
@@ -1116,6 +1114,8 @@
 
                   </div>
                   <div class="col me-5 pe-5">
+                    <b>Caja Partida
+                        Horizontal (Firepak Horizontal Split)</b>
                       <p>
                           Los sistemas contraincendios de Armstrong son sistemas que cumplen las recomendaciones de la
                           NFPA (National Fire Production Association) apartado 20 NFPA 20 y con los requerimientos de UL

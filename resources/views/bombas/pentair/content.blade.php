@@ -63,7 +63,7 @@
         {{-- Contenido Series Ultra --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="ultra" class="h4">Ultratemp bomba de calor de alto rendimiento</h4>
+                <h4 id="ultra" class="h4">Ultratemp Bomba de Calor</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -74,7 +74,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/1H4zl-rZY46h4laEby2yW5biamGEljam6/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha técnica</a>
+                        class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -360,7 +360,7 @@
         {{-- Contenido Series IntelliFlo --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="IntelliFlo" class="h4">Intelliflo VSF de Pentair Bomba de Velocidad y flujo variable </h4>
+                <h4 id="IntelliFlo" class="h4">Intelliflo VSF de Pentair Bomba de Velocidad y Flujo Variable </h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -372,7 +372,7 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://drive.google.com/file/d/17b2j9OmcT11VuDqyjDiHVRyS9Dd2Q2Ny/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha técnica</a>
+                        class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
@@ -382,7 +382,7 @@
                         El resultado de esta innovacion es el ahorro de energía que se traduce en dinero ahorrado.
                         Además , las caracteristicas de contruccion de su motor la hacen sorprendetemente silenciosa.
                     </p>
-                    <h4 class="h4">Configurela Y Despreocupese </h4>
+                    <h4 class="h4">Configurela y Despreocupese </h4>
                     <p>Solo configure el flujo deseado y la Bomba IntelliFlo VSF se ajustará según sea necesario para
                         mantenerlo. Así de simple. Sin hacer suposiciones. Relájese y disfrute su piscina, mientras la
                         Bomba IntelliFlo VSF suministra un flujo uniforme para un máximo desempeño </p>
@@ -434,7 +434,7 @@
         {{-- Contenido Series IntelliFlo --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="vtsh" class="h4">Bombas Procesadoras de Sólidos con Turbina Vertical Fairbanks Nijhuis serie VTSH ó Tipo Propela de (Flujo axial ó Flujo mixto) </h4>
+                <h4 id="vtsh" class="h4">Bombas Procesadoras de Sólidos con Turbina Vertical Fairbanks Nijhuis  </h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -448,8 +448,9 @@
                     <a href="https://drive.google.com/file/d/1rNoQY6p-g44ECeMna9xWs0c-DKAjLQVC/view?usp=sharing"
                         class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
+                
                 <div class="col me-5 pe-5">
-                    
+                    <p>Serie VTSH ó Tipo Propela de (Flujo axial ó Flujo mixto)</p>
                     <p>
                         Las Bombas procesadoras de sólidos con turbina vertical (VTSH) de Fairbanks Nijhuis son de
                         trabajo continuo los tamaños van desde 10” hasta 48” de descarga. Estas bombas llevan motores de

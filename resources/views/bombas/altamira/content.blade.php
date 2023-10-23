@@ -215,7 +215,7 @@
         {{-- Contenido Series KOR --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="KOR" class="h4">Bombas Sumergibles Altamira Serie KOR en Acero Inoxidable</h4>
+                <h4 id="KOR" class="h4">Bombas Sumergibles Altamira Serie KOR en Inox</h4>
             </div>
             <div class="row m-5 ps-5">
 
@@ -462,7 +462,7 @@
         {{-- Esto es del contenido de Serie EKRC --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="ekrc" class="h4">Bombas de calor para piscina hidrocontrol serie EKRC</h4>
+                <h4 id="ekrc" class="h4">Bombas de calor para piscina Hidrocontrol Serie EKRC</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -484,14 +484,15 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="col ms-5">
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Piscinas residenciales y comerciales</li>
                         <li>Tinas de hidromasaje (Spa) </li>
                     </ul>
                 </div>
+            <div class="row">
+                
                 <div class="col me-5">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
