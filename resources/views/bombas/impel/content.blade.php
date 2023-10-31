@@ -3,7 +3,7 @@
         <div>
             {{-- Logo --}}
             <div class="text-center">
-                
+
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/impel/logo.png') }}" width="60%"
                         class="figure-img img-fluid rounded" alt="...">
@@ -16,60 +16,94 @@
                 {{-- Esto es la Fila --}}
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
 
-                    {{-- Imagen de Series 911S --}}
+                    {{-- Imagen de Series L --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911s"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo1.png') }}"
-                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#L"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Ejemplo 1</h6>
+                                <h6 class="h6">Serie L</h6>
                             </figcaption>
                         </figure>
                     </div>
 
-                    {{-- Imagen de Series 911M --}}
+                    {{-- Imagen de Series AI --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911m"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo2.png') }}"
-                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#AI"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Ejemplo 2</h6>
+                                <h6 class="h6">Serise AI</h6>
                             </figcaption>
                         </figure>
                     </div>
 
-                    {{-- Imagen de Series 911L --}}
+                    {{-- Imagen de Series C --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911l"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo3.png') }}"
-                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#C"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Ejemplo 3</h6>
+                                <h6 class="h6">Serie C</h6>
                             </figcaption>
                         </figure>
                     </div>
 
-                    {{-- Imagen de Series 911LX --}}
+                    {{-- Imagen de Series E --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911lx"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo4.png') }}"
-                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#E"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Ejemplo 4</h6>
+                                <h6 class="h6">Serie E</h6>
                             </figcaption>
                         </figure>
                     </div>
 
-                    {{-- Imagen de Series 911LX --}}
+                    {{-- Imagen de Series H --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#911lx"><img src="{{ asset('imagenes/bombas/wilo-scot/ejemplo5.png') }}"
-                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#H"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Ejemplo 5</h6>
+                                <h6 class="h6">Serie H</h6>
                             </figcaption>
                         </figure>
                     </div>
+
+                    {{-- Imagen de Series G --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#G"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie G</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    {{-- Imagen de Series AC --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#AC"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie AC</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    {{-- Imagen de Series Sumergibles --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#sumergibles"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie Sumergibles</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
                     {{-- Cierre de Fila --}}
                 </div>
 
@@ -80,16 +114,1089 @@
 
         {{-- Inicio de Contenidos --}}
 
-        {{-- Contenido Series 911S --}}
-    
+        {{-- Contenido Series L --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="L" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series L</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">RPM</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">LU-076-024-176-D</td>
+                            <td scope="col">2.5</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LU-076-034-160-W</td>
+                            <td scope="col">3</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LU-076-054-190-W</td>
+                            <td scope="col">5</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LU-076-074-205-W</td>
+                            <td scope="col">7.5</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LU-100-036-220-W</td>
+                            <td scope="col">3</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LU-100-104-220-W</td>
+                            <td scope="col">10</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LU-100-154-250-W</td>
+                            <td scope="col">15</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LU-100-204-270-W</td>
+                            <td scope="col">20</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-104-195-W</td>
+                            <td scope="col">10</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-154-215-W</td>
+                            <td scope="col">15</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-204-235-W</td>
+                            <td scope="col">20</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-074-178-WC</td>
+                            <td scope="col">7.5</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-104-190-WC</td>
+                            <td scope="col">10</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-154-216-WC</td>
+                            <td scope="col">15</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-204-241-WC</td>
+                            <td scope="col">20</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-254-248-WC</td>
+                            <td scope="col">25</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-254-271-WAP</td>
+                            <td scope="col">25</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-304-300-WAP</td>
+                            <td scope="col">30</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-404-335-WAP</td>
+                            <td scope="col">40</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-504-355-WAP</td>
+                            <td scope="col">50</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-100-604-366-WAP</td>
+                            <td scope="col">60</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-104-191-W</td>
+                            <td scope="col">10</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-154-210-W</td>
+                            <td scope="col">15</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-204-228-W</td>
+                            <td scope="col">20</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-304-245-W</td>
+                            <td scope="col">30</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-404-250-WG</td>
+                            <td scope="col">40</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-504-268-WG</td>
+                            <td scope="col">50</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-604-285-WG</td>
+                            <td scope="col">60</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-200-304-247-W</td>
+                            <td scope="col">30</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">200 mm (8")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-200-404-269-W</td>
+                            <td scope="col">40</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">200 mm (8")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-200-504-283-W</td>
+                            <td scope="col">50</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">200 mm (8")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-200-604-294-W</td>
+                            <td scope="col">60</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">200 mm (8")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-200-754-307-WG</td>
+                            <td scope="col">75</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">440</td>
+                            <td scope="col">200 mm (8")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-200-1004-327-WG</td>
+                            <td scope="col">100</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">440</td>
+                            <td scope="col">200 mm (8")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-200-1254-340-WG</td>
+                            <td scope="col">125</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">440</td>
+                            <td scope="col">200 mm (8")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-156-255-WG</td>
+                            <td scope="col">15</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-151-206-279-WG</td>
+                            <td scope="col">20</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-300-506-302-WF</td>
+                            <td scope="col">50</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">300 mm (12")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-300-606-310-WF</td>
+                            <td scope="col">60</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">300 mm (12")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-300-756-330-WF</td>
+                            <td scope="col">75</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">300 mm (12")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-300-1006-345-WF</td>
+                            <td scope="col">100</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">440</td>
+                            <td scope="col">300 mm (12")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-300-756-400-D</td>
+                            <td scope="col">75</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">440</td>
+                            <td scope="col">300 mm (12")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">LD-300-1006-430-W</td>
+                            <td scope="col">100</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">440</td>
+                            <td scope="col">300 mm (12")</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">LT-300-2506-470-D</td>
+                            <td scope="col">250</td>
+                            <td scope="col">1160</td>
+                            <td scope="col">440</td>
+                            <td scope="col">300 mm (12")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
+        {{-- Contenido Series AI --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="AI" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series AI</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">RPM</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">AI-M2-51-M</td>
+                            <td scope="col">0.5</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">110</td>
+                            <td scope="col">56 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AI-M2-51-MA</td>
+                            <td scope="col">0.5</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">110</td>
+                            <td scope="col">56 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AI-12-51-M</td>
+                            <td scope="col">1</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">110</td>
+                            <td scope="col">56 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AI-12-51-MA</td>
+                            <td scope="col">1</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">110</td>
+                            <td scope="col">56 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AI-22-76</td>
+                            <td scope="col">2</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">AI-32-76</td>
+                            <td scope="col">3</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
+        {{-- Contenido Series C --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="C" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series C</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">RPM</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">CI-14-76</td>
+                            <td scope="col">3</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">CI-24-76</td>
+                            <td scope="col">4.5</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">CV-M2-51-M</td>
+                            <td scope="col">0.5</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">110</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">CV-M2-51-MA</td>
+                            <td scope="col">0.5</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">110</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">CV-14-51-M</td>
+                            <td scope="col">1</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">110</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">CV-14-51-MA</td>
+                            <td scope="col">1</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">110</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">CV-14-51-T</td>
+                            <td scope="col">1</td>
+                            <td scope="col">1750</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
+        {{-- Contenido Series E --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="E" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series E</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">Fases</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">E-12-51-M</td>
+                            <td scope="col">1</td>
+                            <td scope="col">1</td>
+                            <td scope="col">110</td>
+                            <td scope="col">56 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">E-12-51-MA</td>
+                            <td scope="col">1</td>
+                            <td scope="col">1</td>
+                            <td scope="col">110</td>
+                            <td scope="col">56 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">EV-22-76-T</td>
+                            <td scope="col">2</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">EV-22-76-M</td>
+                            <td scope="col">2</td>
+                            <td scope="col">1</td>
+                            <td scope="col">220</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">EV-32-76-T</td>
+                            <td scope="col">3</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">EV-32-76-M</td>
+                            <td scope="col">3</td>
+                            <td scope="col">1</td>
+                            <td scope="col">220</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">EV-52-76</td>
+                            <td scope="col">5</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm (3")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-        
+        {{-- Contenido Series H --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="H" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series H</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">RPM</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro columna</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">H-20-125</td>
+                            <td scope="col">125</td>
+                            <td scope="col">880</td>
+                            <td scope="col">440</td>
+                            <td scope="col">36"</td>
+                            <td scope="col">20"</td>
+                        </tr>
+
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">H-20-150</td>
+                            <td scope="col">150</td>
+                            <td scope="col">880</td>
+                            <td scope="col">440</td>
+                            <td scope="col">36"</td>
+                            <td scope="col">20"</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        {{-- Contenido Series G --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="G" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series G</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col me-5">
+                <h4 class="h4">Unidad basica o "portatil</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">Fases</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">GM-22-32-T</td>
+                            <td scope="col">2.5</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">32 mm (1 1/4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">GM-52-51</td>
+                            <td scope="col">5</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">GM-72-51</td>
+                            <td scope="col">7.5</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">GM-102-51</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4 class="h4">Unidad fija con codo de descarga y adaptador</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">Fases</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">GM-22-32-T</td>
+                            <td scope="col">2.5</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">32 mm (1 1/4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">GM-52-51 F</td>
+                            <td scope="col">5</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">GM-72-51 F</td>
+                            <td scope="col">7.5</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">GM-102-51 F</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">51 mm (2")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        {{-- Contenido Series AC --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="AC" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series AC</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">RPM</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro desc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">AC-22-80</td>
+                            <td scope="col">2</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">76 mm(3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-32-80</td>
+                            <td scope="col">3</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">77 mm(3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-52-80</td>
+                            <td scope="col">5</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">78 mm(3")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-102-72 E</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-102-72 S</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-102-100 E</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-102-100 S</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-102-101 E</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-102-101 S</td>
+                            <td scope="col">10</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-152-101 E</td>
+                            <td scope="col">15</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-152-101 S</td>
+                            <td scope="col">15</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">100 mm (4")</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AC-152-150 E</td>
+                            <td scope="col">15</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">AC-152-150 S</td>
+                            <td scope="col">15</td>
+                            <td scope="col">3450</td>
+                            <td scope="col">220 o 440</td>
+                            <td scope="col">151 mm (6")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        {{-- Contenido Series Sumergibles --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="sumergibles" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series Sumergibles</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="" class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">HP</th>
+                            <th scope="col" class="border-bottom border-dark">Voltaje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">AMS-10-0.5</td>
+                            <td scope="col">0.5</td>
+                            <td scope="col">127</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AMS-20-1.0</td>
+                            <td scope="col">1</td>
+                            <td scope="col">220 o 440</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AMS-30-2.0</td>
+                            <td scope="col">2</td>
+                            <td scope="col">220 o 440</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AMS-40-7.5</td>
+                            <td scope="col">7.5</td>
+                            <td scope="col">220 o 440</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AMS-50-15.0</td>
+                            <td scope="col">15</td>
+                            <td scope="col">220 o 440</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">AMS-60-30.0</td>
+                            <td scope="col">30</td>
+                            <td scope="col">220 o 440</td>
+                        </tr>
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">AMS-70-60.0</td>
+                            <td scope="col">60</td>
+                            <td scope="col">220 o 440</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         {{-- Fin de container --}}
     </div>

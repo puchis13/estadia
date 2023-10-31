@@ -1,4 +1,4 @@
-/* Header Inicio */
+/* Header Inicio
 .header-inicio, .header-contraincendios, .header-motores , .header-hidroneumaticos{
     background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
     background-size: cover;
@@ -6,8 +6,27 @@
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;
+} */
+
+/* Headers de motores */
+.header-motores{
+    background:  url(../imagenes/motores/fondo.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 250px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
+/* Header contraincendios */
+.header-contraincendios{
+    background:  url(../imagenes/contraincendios/ABB/water.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 100px 70px 70px;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
 /* Herader de Blog */
 .header-blog {
     background: #3789C8 url(../imagenes/blog/portada.jpg) center center no-repeat;
@@ -66,7 +85,8 @@
 }
 
 .header-aurora {
-    background:  url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+    background:  url(../imagenes/bombas/aurora/portada.png) no-repeat;
+    background-position: center 50%;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -207,4 +227,19 @@ div, nav{
 }
 .nav-link{
     color: black;
+}
+
+/* Carrusel de imagenes  */
+
+.carrusel{
+    min-width: 70%;  
+    max-width: 50%;
+    margin: 0 auto; 
+    max-height: 400px;
+}
+
+.carrusel img{
+    height: 100%;
+    width: auto; 
+    width: 100%;
 }

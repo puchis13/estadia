@@ -119,6 +119,7 @@
                       </ul>
                   </div>
                   <div class="col me-5">
+                    <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped">
                           <thead>
                               <tr class="border-top border-danger">
@@ -449,6 +450,7 @@
                       </ul>
                   </div>
                   <div class="col me-5">
+                    <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped ">
                           <thead>
                               <tr class="border-top border-danger">
@@ -636,6 +638,7 @@
                       </ul>
                   </div>
                   <div class="col me-5">
+                    <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped">
                           <thead>
                               <tr class="border-top border-danger">

@@ -38,13 +38,24 @@
                         </figure>
                     </div>
 
-                    {{-- Imagen de Series IntelliFlo --}}
+                    {{-- Imagen de Series VTSH --}}
                     <div class="col">
                         <figure class="figure">
                             <a href="#vtsh"><img src="{{ asset('imagenes/bombas/pentair/vtsh.png') }}" width="60%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Bombas VTSH</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    {{-- Imagen de Series Well Mate --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#wm"><img src="{{ asset('imagenes/bombas/pentair/wm.png') }}" width="20%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Well Mate</h6>
                             </figcaption>
                         </figure>
                     </div>
@@ -356,7 +367,6 @@
             </div>
         </div>
 
-
         {{-- Contenido Series IntelliFlo --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
@@ -397,6 +407,7 @@
                     </ul>
                 </div>
                 <div class="col me-5">
+                    <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
@@ -408,7 +419,7 @@
                                 <th scope="col" class="border-bottom border-dark">Tamaño</th>
                                 <th scope="col" class="border-bottom border-dark">Voltaje</th>
                                 <th scope="col" class="border-bottom border-dark">Frecuencia</th>
-                                <th scope="col" class="border-bottom border-dark">Factor de servicio</th>
+                                <th scope="col" class="border-bottom border-dark text-center">Factor de servicio</th>
 
                             </tr>
                         </thead>
@@ -431,10 +442,11 @@
             </div>
         </div>
 
-        {{-- Contenido Series IntelliFlo --}}
+        {{-- Contenido Series VTSH --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="vtsh" class="h4">Bombas Procesadoras de Sólidos con Turbina Vertical Fairbanks Nijhuis  </h4>
+                <h4 id="vtsh" class="h4">Bombas Procesadoras de Sólidos con Turbina Vertical Fairbanks
+                    Nijhuis </h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -448,30 +460,31 @@
                     <a href="https://drive.google.com/file/d/1rNoQY6p-g44ECeMna9xWs0c-DKAjLQVC/view?usp=sharing"
                         class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
-                
+
                 <div class="col me-5 pe-5">
-                    <p>Serie VTSH ó Tipo Propela de (Flujo axial ó Flujo mixto)</p>
+                    <b>Serie VTSH ó Tipo Propela de (Flujo axial ó Flujo mixto)</b>
                     <p>
                         Las Bombas procesadoras de sólidos con turbina vertical (VTSH) de Fairbanks Nijhuis son de
                         trabajo continuo los tamaños van desde 10” hasta 48” de descarga. Estas bombas llevan motores de
                         superficie flecha hueca, por lo tanto se elimina la necesidad de un accionamiento de motor
                         sumergible.
                     </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Estaciones de bombeo de aguas residuales</li>
+                            <li>Plantas de tratamiento de agua </li>
+                            <li>Procesamiento de sedimentos fibrosos y lodo</li>
+                            <li>Procesamiento de pulpa</li>
+                            <li>Procesamiento de sólidos industriales en genera</li>
+                            <li>Control del agua de inundaciones y tormentas</li>
+                            <li>Recolección y tratamiento de aguas residuale</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col ms-5">
-                    <h4 class="h4">Aplicaciones</h4>
-                    <ul>
-                        <li>Estaciones de bombeo de aguas residuales</li>
-                        <li>Plantas de tratamiento de agua </li>
-                        <li>Procesamiento de sedimentos fibrosos y lodo</li>
-                        <li>Procesamiento de pulpa</li>
-                        <li>Procesamiento de sólidos industriales en genera</li>
-                        <li>Control del agua de inundaciones y tormentas</li>
-                        <li>Recolección y tratamiento de aguas residuale</li>
-                    </ul>
-                </div>
+               
                 <div class="col me-5">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
@@ -482,38 +495,42 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr >
+                            <tr>
                                 <td scope="col">Tamaños de descarga – Pulgadas Tamaños de Descarga – mm</td>
                                 <td scope="col">Hasta 48”
                                     Hasta 1220 mm
-                                    </td>
+                                </td>
 
                             </tr>
                             <tr>
                                 <td scope="col">Capacidad – GPM de Capacidad – m3/h</td>
                                 <td scope="col">5,000-80,000 GPM
                                     1,135-18,160 m3/h
-                                    </td>
+                                </td>
 
-                            </tr><tr>
-                                <td scope="col">Gamas de altura – Pies de Altura – metros</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">Altura – Pies de Altura – metros</td>
                                 <td scope="col">10’ a 110’
                                     3.05 a 33.5 m
-                                    </td>
+                                </td>
 
-                            </tr><tr>
-                                <td scope="col">Diámetros nominales del cuenco – Pulgadas Diámetros nominales del cuenco – mm</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">Diámetros nominales del cuenco – Pulgadas Diámetros nominales del
+                                    cuenco – mm</td>
                                 <td scope="col">10", 14", 16", 20", 24", 30", 36", 42", 48"
                                     254mm, 356mm, 406mm, 508mm, 610mm, 762mm, 914mm, 1070mm, 1220mm
-                                    </td>
+                                </td>
 
                             </tr>
                             <tr class="border-bottom border-dark">
-                                <td scope="col">Capacidad de pasaje de sólidos - Pulgadas Capacidad de pasaje de sólidos- mm
-                                    </td>
+                                <td scope="col">Capacidad de pasaje de sólidos - Pulgadas Capacidad de pasaje de
+                                    sólidos- mm
+                                </td>
                                 <td scope="col">3" a 8"
                                     76 a 203 mm
-                                    </td>
+                                </td>
 
                             </tr>
                         </tbody>
@@ -521,6 +538,120 @@
                 </div>
             </div>
         </div>
+
+        {{-- Contenido Series Well Mate --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="wm" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                    de corrosión</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/pentair/wm.png') }}" width="30%"
+                            class="figure-img img-fluid rounded" alt="">
+                    </figure>
+                    <figcaption>
+                        <h6 class="h6">Series Well Mate</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a href="https://drive.google.com/file/d/1rNoQY6p-g44ECeMna9xWs0c-DKAjLQVC/view?usp=sharing"
+                    class="btn btn-primary ms-4">Ficha Técnica</a>
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
+                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
+                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
+                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
+                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                    </p>
+                    <div>
+                        <h4 class="h4">Aplicaciones</h4>
+                        <ul>
+                            <li>Comerciales</li>
+                            <li>Industriales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col me-5">
+                <h4 class="h4">Especificaciones Técnicas</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="border-top border-danger">
+                            <th scope="col" class="border-bottom border-dark">Modelo</th>
+                            <th scope="col" class="border-bottom border-dark">Capacidad</th>
+                            <th scope="col" class="border-bottom border-dark">Presión Máx.</th>
+                            <th scope="col" class="border-bottom border-dark">Diametro</th>
+                            <th scope="col" class="border-bottom border-dark">Altura</th>
+                            <th scope="col" class="border-bottom border-dark">Conexiones</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="col">WM-4WM0060 QC</td>
+                            <td scope="col">14.5 Gal/55lts</td>
+                            <td scope="col">125psi</td>
+                            <td scope="col">41cm</td>
+                            <td scope="col">66cm</td>
+                            <td scope="col">1” macho NPT </td>
+                        </tr>
+                        <tr>
+                            <td scope="col">WM-6 WM0075 QC</td>
+                            <td scope="col">19.6 Gal /75lts</td>
+                            <td scope="col">125psi</td>
+                            <td scope="col">41cm</td>
+                            <td scope="col">81cm </td>
+                            <td scope="col">1” macho NPT</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">WM-9 WM0120 QC</td>
+                            <td scope="col">29.5 Gal/112lts</td>
+                            <td scope="col">125psi</td>
+                            <td scope="col">41cm</td>
+                            <td scope="col">112cm</td>
+                            <td scope="col">1” macho NPT</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">WM-12 WM0150 QC</td>
+                            <td scope="col">40.3 Gal/</td>
+                            <td scope="col">125psi</td>
+                            <td scope="col">41cm</td>
+                            <td scope="col">145cm</td>
+                            <td scope="col">1” macho NPT</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">WM-14WB WM0180 QC</td>
+                            <td scope="col">47.1 Gal /178lts</td>
+                            <td scope="col">125psi</td>
+                            <td scope="col">53cm</td>
+                            <td scope="col">105cm</td>
+                            <td scope="col">1 ¼” macho NPT</td>
+                        </tr>
+                        <tr>
+                            <td scope="col">WM-25WB WM0330 QC</td>
+                            <td scope="col">86.7 Gal/328lts</td>
+                            <td scope="col">125psi</td>
+                            <td scope="col">101.5cm</td>
+                            <td scope="col">140cm</td>
+                            <td scope="col">1 ¼” macho NPT</td>
+                        </tr>
+                        
+                        <tr class="border-bottom border-dark">
+                            <td scope="col">WM-35WB WM0450 QC</td>
+                            <td scope="col">119.7 Gal/ 453lts</td>
+                            <td scope="col">125psi</td>
+                            <td scope="col">289cm</td>
+                            <td scope="col">189cm</td>
+                            <td scope="col">1 ¼” macho NPT</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
 
         {{-- Fin de container --}}
     </div>
