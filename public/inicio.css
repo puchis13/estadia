@@ -1,16 +1,16 @@
-/* Header Inicio
-.header-inicio, .header-contraincendios, .header-motores , .header-hidroneumaticos{
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+/* Headers de inicio */
+.header-inicio{
+    background:  url(/imagenes/inicio/Portadabomoc.mp4) center center no-repeat;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
     font-size: 2.5rem;
     font-weight: 800;
-} */
+}
 
 /* Headers de motores */
 .header-motores{
-    background:  url(../imagenes/motores/fondo.jpg) center center no-repeat;
+    background:  url(/imagenes/motores/fondo.jpg) center center no-repeat;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
@@ -20,7 +20,7 @@
 
 /* Header contraincendios */
 .header-contraincendios{
-    background:  url(../imagenes/contraincendios/ABB/water.jpg) center center no-repeat;
+    background:  url(/imagenes/contraincendios/ABB/water.jpg) center center no-repeat;
     background-size: cover;
     padding: 100px 70px 70px;
     margin: auto;
@@ -111,6 +111,7 @@
     font-size: 2.5rem;
     font-weight: 800;
 }
+
 .header-flygt {
     background: url(../imagenes/bombas/flygt/portada.png) no-repeat;
     background-position:center;
@@ -120,6 +121,7 @@
     font-size: 2.5rem;
     font-weight: 800;
 }
+
 .header-grundfos {
     background:  url(../imagenes/bombas/grundfos/portada.png) no-repeat;
     background-position: center 50%;
@@ -178,7 +180,6 @@
     font-weight: 800;
 }
 
-
 .header-tsurumi {
     background: url(../imagenes/bombas/tsurumi/portada.png) no-repeat;
     background-position: center;
@@ -188,6 +189,7 @@
     font-size: 2.5rem;
     font-weight: 800;
 }
+
 .header-wilo-scot {
     background: url(../imagenes/bombas/wilo-scot/portada.png) center center no-repeat;
     background-size: cover;
@@ -196,6 +198,7 @@
     font-size: 2.5rem;
     font-weight: 800;
 }
+
 .header-wdm {
     background: url(../imagenes/bombas/wdm/portada.png) no-repeat;
     background-position: top;
@@ -225,6 +228,7 @@
 div, nav{
     font-family: Helvetica;
 }
+
 .nav-link{
     color: black;
 }
