@@ -43,8 +43,8 @@
           </a>
           <!-- start menu desplegable -->
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="{{ route('contraincendios') }}">Contraincendios</a></li>
-              <li><a class="dropdown-item" href="{{ route('hidroneumaticos') }}">Hidroneumaticos</a></li>
+              <li><a class="dropdown-item" href="{{ route('contraincendios') }}">Variadores</a></li>
+              <li><a class="dropdown-item" href="{{ route('hidroneumaticos') }}">Tableros</a></li>
               <li><a class="dropdown-item" href="{{ route('motores') }}">Motores</a></li>
           </ul>
           <!-- end menu desplegable -->
