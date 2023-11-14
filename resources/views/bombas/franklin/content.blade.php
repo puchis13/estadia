@@ -49,6 +49,17 @@
                         </figure>
                     </div>
 
+                    {{-- Imagen de Series VFD --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#VFD"><img src="{{ asset('imagenes/bombas/franklin/VFD.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Series VFD</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
                     {{-- Cierre de Fila --}}
                 </div>
 
@@ -92,7 +103,7 @@
                         <li>Comercial</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico de 5", 6", 8", 9"</h4>
                     <table class="table table-striped">
                         <thead>
@@ -170,11 +181,11 @@
                         <li>Pequeñas municipalidades o juntas de agua</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico</h4>
                     <table class="table table-striped">
                         <thead>
-                            
+
                             <tr class="border-top border-danger">
                                 <th scope="col" class="border-bottom border-dark">GPM</th>
                                 <th scope="col" class="border-bottom border-dark">HP</th>
@@ -184,9 +195,9 @@
                                 <th scope="col" class="border-bottom border-dark">Valvula Check incluida</th>
                                 <th scope="col" class="border-bottom border-dark">Modelo Básico</th>
                                 <th scope="col" class="border-bottom border-dark">Número PEI<sub>cl</sub></th>
-                                <tr scope="col">
-                                    <th colspan="8" class="text-center" >High Capacity 4” - Solo Bomba</th>
-                                </tr>
+                            <tr scope="col">
+                                <th colspan="8" class="text-center">High Capacity 4” - Solo Bomba</th>
+                            </tr>
                             </tr>
                         </thead>
                         <tbody>
@@ -428,7 +439,7 @@
                     <table class="table table-striped">
 
 
-              
+
                         <thead>
                             <tr class="border-top border-danger text-center">
                                 <th scope="col" class="border-bottom border-dark">GPM</th>
@@ -441,9 +452,9 @@
                                 <th scope="col" class="border-bottom border-dark">Modelo Básico</th>
                                 <th scope="col" class="border-bottom border-dark">Número PEI<sub>cl</sub></th>
 
-                                <tr scope="col">
+                            <tr scope="col">
                                 <th colspan="9" class="text-center">High Capacity 4” - PMA 2 Hilos</th>
-                                 </tr>
+                            </tr>
 
                             </tr>
                         </thead>
@@ -578,7 +589,7 @@
                         <li>Aceite y Gasolina</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de los Motores Sumergibles</h4>
                     <table class="table table-striped">
                         <thead>
@@ -632,6 +643,137 @@
             </div>
         </div>
 
+        {{-- Contenido Series VFD --}}
+        <div class=" m-2 p-2">
+            <div class="row m-1">
+                <h4 id="VFD" class="h4">Variador de Frecuencia Sub Drive Connect Plus</h4>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col ms-5 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/VFD.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption>
+                        <h6 class="h6">Serie VFD</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <a
+                        href="https://franklinagua.com/media/62938/M1479sp-Cat%C3%A1logo-Motores-Sumergibles.pdf"class="btn btn-primary ms-4">Ficha
+                        Técnica</a>
+
+                </div>
+                <div class="col me-5 pe-5">
+                    <p>
+                        El variador de frecuencia (VFD) SubDrive Connect Plus™ de Franklin Electric está diseñado
+                        para proporcionar soluciones de presión constante simples y poderosas para sistemas de
+                        bombeo de agua en una variedad de aplicaciones sumergibles que utilicen motores
+                        trifásicos de hasta 30 HP.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col ms-5">
+                    <h4 class="h4">Aplicaciones</h4>
+                    <ul>
+                        <li>Irrigación</li>
+                        <li>Agricultura y ganadería</li>
+                        <li>Pozo profundo</li>
+                        <li>Sistemas de aumento de presión</li>
+                        <li>Industrial</li>
+                        <li>Municipalidades</li>
+                    </ul>
+                </div>
+                <div class="col me-5" style="overflow-x:auto;">
+                    <h4 class="h4">Especificaciones Técnicas de los Motores Sumergibles</h4>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="border-top border-danger">
+                            <tr scope="col">
+                                <th colspan="8" class="text-center">Variador de Frecuencia - SubDrive Connect Plus
+                                </th>
+                            </tr>
+                            <th scope="col" class="border-bottom border-dark">Voltaje Nominal</th>
+                            <tr scope="col">
+                                <th colspan="2" class="text-center">Entrada Monofásica</th>
+                            </tr>
+                            <th scope="col" class="border-bottom border-dark">Salida Nominal (HP)</th>
+                            <th scope="col" class="border-bottom border-dark">Salida Nominal (Amps)</th>
+                            <th scope="col" class="border-bottom border-dark">Entrada Trifásica</th>
+                            <th scope="col" class="border-bottom border-dark">Salida Nominal (HP)</th>
+                            <th scope="col" class="border-bottom border-dark">Salida Nominal (Amps)</th>
+                            <th scope="col" class="border-bottom border-dark">No. de Parte</th>
+                            <th scope="col" class="border-bottom border-dark">Aplicaciones Sumergibles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="col">230</td>
+                                <td scope="col">3</td>
+                                <td scope="col">11</td>
+                                <td scope="col">7.5</td>
+                                <td scope="col">27</td>
+                                <td scope="col">SDCP-SUB0723</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">230</td>
+                                <td scope="col">5</td>
+                                <td scope="col">18</td>
+                                <td scope="col">10</td>
+                                <td scope="col">37</td>
+                                <td scope="col">SDCP-SUB1023</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">230</td>
+                                <td scope="col">7.5</td>
+                                <td scope="col">27</td>
+                                <td scope="col">15</td>
+                                <td scope="col">48</td>
+                                <td scope="col">SDCP-SUB1523</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">460</td>
+                                <td scope="col">-</td>
+                                <td scope="col">-</td>
+                                <td scope="col">10</td>
+                                <td scope="col">18</td>
+                                <td scope="col">SDCP-SUB1043</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">460</td>
+                                <td scope="col">-</td>
+                                <td scope="col">-</td>
+                                <td scope="col">15</td>
+                                <td scope="col">26</td>
+                                <td scope="col">SDCP-SUB1543</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">460</td>
+                                <td scope="col">-</td>
+                                <td scope="col">-</td>
+                                <td scope="col">20</td>
+                                <td scope="col">31</td>
+                                <td scope="col">SDCP-SUB2043</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">460</td>
+                                <td scope="col">-</td>
+                                <td scope="col">-</td>
+                                <td scope="col">25</td>
+                                <td scope="col">39.5</td>
+                                <td scope="col">SDCP-SUB2543</td>
+                            </tr>
+                            <tr class="border-bottom border-dark">
+                                <td scope="col">460</td>
+                                <td scope="col">-</td>
+                                <td scope="col">-</td>
+                                <td scope="col">30</td>
+                                <td scope="col">47.5</td>
+                                <td scope="col">SDCP-SUB3043</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
 
 
 

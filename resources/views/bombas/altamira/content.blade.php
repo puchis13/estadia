@@ -71,11 +71,11 @@
 
         {{-- Contenido Series TX --}}
         <div class="row">
-            <div class="row">
+            <div class="row-md-6 row-md-12">
                 <h4 id="tx" class="h4">Bombas Multietapas Verticales Altamira Series TX, TXE y TXN</h4>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-md-6 col-12">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption>
@@ -85,7 +85,7 @@
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
                         class="btn btn-primary">Ficha Ténica</a>
                 </div>
-                <div class="col">
+                <div class="col-md-6 col-12">
                     <p>
                         Las <b>Bombas Multietapas Altamira TX, TXE & TXN</b> son ideales para aplicaciones industriales
                         de

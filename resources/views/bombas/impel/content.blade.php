@@ -141,7 +141,7 @@
         {{-- Contenido Series AI --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="AI" class="h4">SERIE A</h4>
+                <h4 id="AI" class="h4">Bomba sumergible de Achique</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -230,7 +230,7 @@
         {{-- Contenido Series E --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="E" class="h4">Serie E</h4>
+                <h4 id="E" class="h4">Bomba sumergible de aguas residuales</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -326,7 +326,7 @@
         {{-- Contenido Series C --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="C" class="h4">SERIE C</h4>
+                <h4 id="C" class="h4">Bomba sumergible de aguas residuales</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -423,7 +423,7 @@
         {{-- Contenido Series L --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="L" class="h4">Serie L</h4>
+                <h4 id="L" class="h4">Bomba sumergible de aguas residuales</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -778,7 +778,7 @@
         {{-- Contenido Series G --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="G" class="h4">Serie G</h4>
+                <h4 id="G" class="h4">Bomba Trituradoras</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -895,7 +895,7 @@
         {{-- Contenido Series H --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="H" class="h4">Serie H</h4>
+                <h4 id="H" class="h4">Bombas de flujo Axial</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -960,8 +960,7 @@
         {{-- Contenido Series AC --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="AC" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+                <h4 id="AC" class="h4">Bomba sumergible para aguas lodosas</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -974,11 +973,8 @@
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Esta bomba es de achique, son bombas portátiles utilizadas en construcción y minería ideales
+                        en el manejo de agua limpia y/o con abrasivos en potencias de 0.5 a 15 Hp.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -1110,7 +1106,7 @@
                             width="100%" class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
-                        <h6 class="h6">Aereador sumergible serie AMS</h6>
+                        <h6 class="h6">Serie AMS</h6>
                     </figcaption>
                 </div>
                 <div class="col me-5 pe-5">
