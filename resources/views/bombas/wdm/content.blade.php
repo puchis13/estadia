@@ -20,7 +20,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#HE,QE,KE"><img src="{{ asset('imagenes/bombas/wdm/HE,QE,KE.png') }}"
-                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                                    width="80%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series HE, QE, KE</h6>
                             </figcaption>
@@ -30,7 +30,7 @@
                     {{-- Imagen de Series AG --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#AG"><img src="{{ asset('imagenes/bombas/wdm/AG.png') }}" width="100%"
+                            <a href="#AG"><img src="{{ asset('imagenes/bombas/wdm/AG.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series AG</h6>
@@ -41,7 +41,7 @@
                     {{-- Imagen de Series VSE --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#VSE"><img src="{{ asset('imagenes/bombas/wdm/VSE.png') }}" width="100%"
+                            <a href="#VSE"><img src="{{ asset('imagenes/bombas/wdm/VSE.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series VSE</h6>
@@ -49,21 +49,10 @@
                         </figure>
                     </div>
 
-                    {{-- Imagen de Series SE --}}
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#SE"><img src="{{ asset('imagenes/bombas/wdm/SE.png') }}" width="100%"
-                                    class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h6 class="h6">Series HE, QE, KE</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-
                     {{-- Imagen de Series NE --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#NE"><img src="{{ asset('imagenes/bombas/wdm/NE.png') }}" width="100%"
+                            <a href="#NE"><img src="{{ asset('imagenes/bombas/wdm/NE.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series NE</h6>
@@ -74,7 +63,7 @@
                     {{-- Imagen de Series HIDRO --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#HIDRO"><img src="{{ asset('imagenes/bombas/wdm/HIDRO.png') }}" width="100%"
+                            <a href="#HIDRO"><img src="{{ asset('imagenes/bombas/wdm/HIDRO.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series HIDRO</h6>
@@ -85,7 +74,7 @@
                     {{-- Imagen de Series SCI --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#SCI"><img src="{{ asset('imagenes/bombas/wdm/SCI.png') }}" width="100%"
+                            <a href="#SCI"><img src="{{ asset('imagenes/bombas/wdm/SCI.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series SCI</h6>
@@ -116,80 +105,24 @@
                         <h6 class="h6">Series HE, QE, KE</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1Hx733WWnx5j4HtX17yLhlCRDQkLV78p5/view?usp=drive_link"
+                    <a href="https://drive.google.com/file/d/1ZnMnEW6-ilZK8x90UVPPQFbP92ncj-Yb/view?usp=sharing"
                         class="btn btn-primary ms-4">Ficha Técnica</a>
 
 
-                        <div>
-                        <h4 class="h4">Aplicaciones</h4>
-                        <ul>
-                            <li>Distribución de agua en unidades residenciales.</li>
-                            <li>Equipos de trabajo pesado y continuo.</li>
-                            <li>Extracción de agua de pozos llanos y profundos.</li>
-                            <li>Industria Minera.</li>
-                            <li>Industria Petroquímica.</li>
-                            <li>Industria Química.</li>
-                            <li>Lavado a presión de maquinaria.</li>
-                            <li>Lavado de establos.</li>
-                            <li>Llenado de tanques elevados.</li>
-                            <li>Llenado tanque bajo-tanque alto.</li>
-                            <li>Recirculación de agua en torres de enfriamiento.</li>
-                            <li>Riego por aspersión.</li>
-                            <li>Sistemas contraincendio.</li>
-                            <li>Sistemas de presión.</li>
-                        </ul>
+                    <div>
+
                     </div>
                 </div>
                 <div class="col me-5 pe-5">
-                    <b>Poder y Versatilidad en Tres Series Destacadas</b>
                     <p>
-                        Cuando se trata de satisfacer las demandas de aplicaciones que requieren alta presión, las
-                        Bombas Eléctricas de Alta Presión de la marca WDM se destacan como sinónimo de rendimiento
-                        excepcional y versatilidad. Con las series HE, QE y KE, estas bombas ofrecen soluciones de alta
-                        presión para una amplia gama de necesidades.
+                        Las bombas de alta presión de WDM serie HE, QE, KE es amplia ya que van de tamaños de succión y
+                        descarga de 1 1/2” hasta los 6”. Altura Máx hasta los 175mca, Gasto de hasta 1750GPM.
                     </p>
-                    <b>Serie HE: Poder en su Máxima Expresión</b>
                     <p>
-                        La Serie HE representa la potencia pura en el mundo de las bombas de alta presión eléctricas.
-                        Diseñadas para enfrentar las aplicaciones más desafiantes que demandan presiones extremas, estas
-                        bombas ofrecen un rendimiento excepcional y un control preciso de la presión.
+                        Construcción tipo monobloque en hierro de alta resistencia por lo que están fabricadas para una
+                        larga vida útil. Estas bombas también pueden estar acopladas a motores eléctricos monofásicos y
+                        trifásicos ó incluso a motores a diesel ó gasolina en potencias desde 2hp hasta 75hp.
                     </p>
-                    <b>Serie QE: Equilibrio entre Rendimiento y Eficiencia</b>
-                    <p>
-                        La Serie QE combina un rendimiento robusto con eficiencia energética. Estas bombas eléctricas de
-                        alta presión son ideales para aplicaciones en las que la potencia y la eficiencia son igualmente
-                        importantes. Desde la limpieza de superficies a alta presión hasta la manipulación de líquidos
-                        en sistemas de alta presión, la Serie QE ofrece un equilibrio perfecto.
-                    </p>
-                    <b>Serie KE: Compactas y Poderosas</b>
-                    <p>
-                        La Serie KE es la elección ideal cuando el espacio es un factor crítico. Estas bombas eléctricas
-                        de alta presión se destacan por su diseño compacto, que no compromete la potencia. Perfectas
-                        para aplicaciones en las que el espacio es limitado pero la presión alta es esencial.
-                    </p>
-                    <b>Construcción de Calidad para Durabilidad</b>
-                    <p>
-                        Todas las series de bombas eléctricas de alta presión de la marca WDM se construyen con
-                        materiales de alta calidad que garantizan su durabilidad y resistencia a la corrosión. Esto es
-                        esencial en aplicaciones donde la fiabilidad y la vida útil son esenciales.
-                    </p>
-                    <b>Amplia Gama de Aplicaciones</b>
-                    <p>
-                        Estas bombas se adaptan a una amplia gama de aplicaciones, desde limpieza industrial y sistemas
-                        de rociadores de alta presión hasta sistemas de inyección de químicos y mucho más. Su
-                        versatilidad las convierte en una opción valiosa en diversas industrias.
-                    </p>
-                    <b>Eficiencia Energética y Rendimiento Confiable</b>
-                    <p>
-                        Las bombas eléctricas de alta presión de la marca WDM se destacan por su eficiencia energética y
-                        su confiabilidad a largo plazo. Esto no solo reduce los costos operativos, sino que también
-                        proporciona la tranquilidad de una operación confiable.
-                    </p>
-                </div>
-                
-            </div>
-            <div class="row">
-                {{-- <div class="col ms-5">
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Distribución de agua en unidades residenciales.</li>
@@ -207,8 +140,14 @@
                         <li>Sistemas contraincendio.</li>
                         <li>Sistemas de presión.</li>
                     </ul>
-                </div> --}}
-                <div class="col me-5">
+                </div>
+
+            </div>
+            <div class="row">
+
+
+
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas Serie QE</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1272,7 +1211,7 @@
         {{-- Contenido Series AG --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="AG" class="h4">BOMBAS AUTOCEBANTES GASOLINA AG</h4>
+                <h4 id="AG" class="h4">Bombas Autocebantes a Gasolina AG</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -1286,35 +1225,11 @@
                         class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
-                    <b>Tu Solución Confiable para Transferencia de Líquidos</b>
                     <p>
-                        Cuando se trata de la transferencia de líquidos, en particular la gasolina, necesitas una
-                        solución de confianza que sea capaz de autocebarse y brindar un rendimiento óptimo. Las Bombas
-                        Autocebantes de Gasolina de la marca WDM AG son la elección perfecta para satisfacer tus
-                        necesidades de bombeo de líquidos, especialmente en aplicaciones que involucran gasolina u otros
-                        combustibles líquidos.
-                    </p>
-                    <b>Autocebado para Simplicidad de Uso</b>
-                    <p>
-                        Lo que hace que estas bombas destaquen es su capacidad de autocebado. Esto significa que pueden
-                        aspirar el líquido por sí mismas, eliminando la necesidad de una cebadora manual.
-                    </p>
-                    <b>Construcción Robusta para Durabilidad</b>
-                    <p>
-                        Construidas con materiales de alta calidad, estas bombas son resistentes a la corrosión y están
-                        diseñadas para una larga vida útil. Esto es fundamental cuando se trabaja con líquidos
-                        potencialmente corrosivos como la gasolina.
-                    </p>
-                    <b>Portátiles y Prácticas</b>
-                    <p>
-                        Estas bombas son portátiles y fáciles de mover, lo que las hace ideales para aplicaciones en
-                        diferentes ubicaciones.
-                    </p>
-                    <b>Eficiencia Energética y Rendimiento Confiable</b>
-                    <p>
-                        La eficiencia energética es una prioridad, y estas bombas de la marca WDM AG cumplen con esta
-                        expectativa. Operan de manera eficiente, lo que reduce los costos operativos y ofrece un
-                        rendimiento confiable en cada uso.
+                        Bombas a gasolina hechas para durar en hierro fundido. La Serie AG de WDM opera a presiones de
+                        hasta 49mca (metros columna de agua) y flujos de hasta 465 GPM.. Al ser autocebante no necesita
+                        de accesorios extra como pichanchas y lo que la hace fácil de operar. Existen modelos desde 6.5
+                        hp hasta 18hp.
                     </p>
                 </div>
 
@@ -1333,8 +1248,8 @@
                 </ul>
             </div>
             <div class="row">
-               
-                <div class="col me-5">
+
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Bombas Autocebantes con motor HI-FORCE a gasolina</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1573,7 +1488,7 @@
         {{-- Contenido Series VSE --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="VSE" class="h4">Bombas Eléctricas Multietapas VSE</h4>
+                <h4 id="VSE" class="h4">Bombas Eléctricas Multietapas VSE y VHSE</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -1587,43 +1502,24 @@
                         class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
-                    <p>
-                        Cuando se requiere transferir líquidos a alta presión de manera eficiente y confiable, las
-                        Bombas
-                        Eléctricas Multietapas de la marca WDM en la serie VSE son la elección ideal. Estas bombas son
-                        conocidas por su rendimiento potente y su capacidad de proporcionar una presión constante en una
-                        variedad de aplicaciones.
-                    </p>
                     <b>Rendimiento Multietapas Versátil</b>
                     <p>
-                        La Serie VSE es una solución versátil para aplicaciones que demandan una presión constante y un
-                        flujo controlado. Estas bombas eléctricas multietapas se destacan en situaciones donde se
-                        necesita
-                        una presión continua y confiable. Desde sistemas de aumento de presión en edificios comerciales
-                        hasta aplicaciones industriales, la Serie VSE ofrece potencia y versatilidad en un solo paquete.
+                        La Serie VSE y VHSE es una solución versátil para aplicaciones que demandan una presión
+                        constante y un flujo controlado. Estas bombas eléctricas multietapas se destacan en situaciones
+                        donde se necesita una presión continua y confiable. La capacidad de estas bombas es de hasta una
+                        carga de 240mca y de un gasto de hasta 436 GPM en descarga de hasta 4”. Temperatura de operación
+                        de hasta 70 grados. Y presión max de hasta 341 psi. Materiales de construcción el cuerpo de
+                        hierro fundido y los impulsores en acero inoxidable.  Motores eléctricos trifásicos con
+                        potencias desde 1.0 hp hasta 40 hp.
                     </p>
-                    <b>Diseño Multietapas para Eficiencia y Potencia</b>
+                    <b>Bombas Sumergibles para Aguas Residuales NE</b>
                     <p>
-                        El diseño multietapas de estas bombas permite un aumento de presión progresivo a medida que el
-                        líquido fluye a través de las etapas. Esto asegura un rendimiento eficiente y potente, incluso
-                        en
-                        aplicaciones de alta presión.
-                    </p>
-                    <b>Construcción Duradera para una Vida Útil Prolongada</b>
-                    <p>
-                        Están construidas con materiales de alta calidad que resisten la corrosión y están diseñadas
-                        para
-                        tener una larga vida útil. Esto es esencial en aplicaciones donde la confiabilidad y la
-                        durabilidad
-                        son críticas.
-                    </p>
-                    <b>Eficiencia Energética y Rendimiento Confiable</b>
-                    <p>
-                        La eficiencia energética es una prioridad, y estas bombas la cumplen a cabalidad. Operan de
-                        manera
-                        eficiente, lo que no solo reduce los costos operativos, sino que también garantiza un
-                        rendimiento
-                        confiable en cada uso.
+                        Estas bombas están disponibles en una variedad de tamaños y capacidades para adaptarse a las
+                        necesidades específicas de tu aplicación. Ya sea que necesites manejar aguas residuales en una
+                        planta industrial o en un sistema municipal, hay una bomba de la Serie NE que se adapta
+                        perfectamente. Altura máxima de hasta 50 mca, flujo máximo de hasta 2,275 gpm,  Impulsor cerrado
+                        o semiabierto en hierro fundido y el cuerpo de la bomba en hierro fundido por lo cual la hace
+                        muy duradera.
                     </p>
                     <div class="col ms-5">
                         <h4 class="h4">Aplicaciones</h4>
@@ -1636,11 +1532,11 @@
                         </ul>
                     </div>
                 </div>
-               
+
             </div>
             <div class="row">
-                
-                <div class="col me-5">
+
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Bombas Multietapas en acero inoxidable con motor eléctrico</h4>
                     <table class="table table-striped">
                         <thead>
@@ -2108,116 +2004,10 @@
             </div>
         </div>
 
-        {{-- Contenido Series SE --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="SE" class="h4">Bombas Plásticas Para Piscinas SE</h4>
-            </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/wdm/SE.png') }}" width="70%"
-                            class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie SE</h6>
-                    </figcaption>
-                    {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1FoB_d-sQ6tjFavZ0kZRe-Xig4OHbuwty/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
-                </div>
-                <div class="col me-5 pe-5">
-                    <p>
-                        Cuando se trata de mantener una piscina en óptimas condiciones y asegurar la diversión de tu
-                        familia y amigos, las Bombas para Piscinas de Plástico de la marca WDM son la elección perfecta.
-                        Estas bombas, diseñadas específicamente para aplicaciones en piscinas, combinan durabilidad,
-                        eficiencia y rendimiento para garantizar que tu piscina esté siempre lista para su uso.
-                    </p>
-                    <b>Construcción Duradera de Plástico para Resistencia y Ligereza</b>
-                    <p>
-                        Las Bombas para Piscinas de Plástico de WDM están fabricadas con materiales de alta calidad que
-                        son resistentes a la corrosión y a los productos químicos utilizados en el agua de la piscina.
-                        Esto asegura una vida útil prolongada y un rendimiento confiable en un entorno de piscina.
-                    </p>
-                    <b>Mantenimiento y Circulación de Agua Eficiente</b>
-                    <p>
-                        Estas bombas están diseñadas para facilitar el mantenimiento y la circulación eficiente del agua
-                        en tu piscina. La circulación constante es esencial para mantener el agua limpia y libre de
-                        contaminantes.
-                    </p>
-                    <b>Eficiencia Energética y Funcionamiento Silencioso</b>
-                    <p>
-                        Estas bombas están diseñadas para funcionar de manera eficiente, lo que no solo reduce los
-                        costos operativos, sino que también contribuye a un funcionamiento silencioso para que puedas
-                        disfrutar de tu piscina en paz y tranquilidad.
-                    </p>
-                    <b>Fácil Instalación y Mantenimiento</b>
-                    <p>
-                        La instalación y el mantenimiento de estas bombas son sencillos, lo que significa menos tiempo
-                        dedicado a tareas de mantenimiento.
-                    </p>
-                    <div class="col ms-5">
-                        <h4 class="h4">Aplicaciones</h4>
-                        <ul>
-                            <li>Bomba para piscinas con pre-filtro incorporado de grandes dimensiones que junto a las
-                                excelentes prestaciones hidráulicas que ofrece, genera una altísima capacidad de filtración.
-                            </li>
-                            <li>Filtro con tapa transparente en policarbonato.</li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-            
-            <div class="row">
-               
-                <div class="col me-5">
-                    <h4 class="h4">Bombas plásticas con motor eléctrico</h4>
-                    <table class="table table-striped">
-                        <thead>
-                            <tr class="border-top border-danger">
-                                <th scope="col" class="border-bottom border-dark">Modelo</th>
-                                <th scope="col" class="border-bottom border-dark">Ref.</th>
-                                <th scope="col" class="border-bottom border-dark">Succión</th>
-                                <th scope="col" class="border-bottom border-dark">Descarga</th>
-                                <th scope="col" class="border-bottom border-dark">Potencia (hp)</th>
-                                <th scope="col" class="border-bottom border-dark">Fases</th>
-                                <th scope="col" class="border-bottom border-dark">Voltaje (V)</th>
-                                <th scope="col" class="border-bottom border-dark">H máx (mca)*</th>
-                                <th scope="col" class="border-bottom border-dark">Q max (gpm)**</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td scope="col">SE 2.25 10-1-220</td>
-                                <td scope="col">E0943</td>
-                                <td scope="col">1 1/2″ NPT</td>
-                                <td scope="col">1 1/2″ NPT</td>
-                                <td scope="col">1</td>
-                                <td scope="col">1</td>
-                                <td scope="col">220</td>
-                                <td scope="col">12.5</td>
-                                <td scope="col">105</td>
-                            </tr>
-                            <tr class="border-bottom border-dark">
-                                <td scope="col">SE 2.25 15-1-220</td>
-                                <td scope="col">E0942</td>
-                                <td scope="col">1 1/2” NPT</td>
-                                <td scope="col">1 1/2” NPT</td>
-                                <td scope="col">1.5</td>
-                                <td scope="col">1</td>
-                                <td scope="col">220</td>
-                                <td scope="col">17.5</td>
-                                <td scope="col">105</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-
         {{-- Contenido Series NE --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="NE" class="h4">Bombas Aguas Residuales NE</h4>
+                <h4 id="NE" class="h4">Bombas Sumergibles para Aguas Residuales NE</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -2227,33 +2017,17 @@
                         <h6 class="h6">Serie NE</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1WATCb6LNh-z-Odp3MwHISHhxtq-Zxp7w/view?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1d88Vbwq9o-4qUCE2qdNBSGlvZ3k_uCNI/view?usp=sharing"
                         class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        El manejo de aguas residuales es una tarea crítica en entornos comerciales, industriales y
-                        municipales. Las Bombas de Aguas Residuales Serie NE de WDM se destacan por su capacidad para
-                        mover eficazmente aguas residuales, lodos y otros desechos líquidos, manteniendo un
-                        funcionamiento sin problemas.
-                    </p>
-                    <b>Durabilidad en Ambientes Desafiantes</b>
-                    <p>
-                        Estas bombas están diseñadas para funcionar de manera confiable en ambientes desafiantes donde
-                        las condiciones pueden ser corrosivas o abrasivas. La construcción resistente y la elección de
-                        materiales de alta calidad garantizan una larga vida útil y un rendimiento constante.
-                    </p>
-                    <b>Variedad de Tamaños y Capacidades</b>
-                    <p>
                         Estas bombas están disponibles en una variedad de tamaños y capacidades para adaptarse a las
                         necesidades específicas de tu aplicación. Ya sea que necesites manejar aguas residuales en una
                         planta industrial o en un sistema municipal, hay una bomba de la Serie NE que se adapta
-                        perfectamente.
-                    </p>
-                    <b>Mantenimiento Simplificado</b>
-                    <p>
-                        El mantenimiento de estas bombas ha sido diseñado para ser sencillo y práctico. Esto significa
-                        menos tiempo de inactividad y costos reducidos en tareas de servicio y reparación.
+                        perfectamente. Altura máxima de hasta 50 mca, flujo máximo de hasta 2,275 gpm,  Impulsor cerrado
+                        o semiabierto en hierro fundido y el cuerpo de la bomba en hierro fundido por lo cual la hace
+                        muy duradera.
                     </p>
                     <div class="col ms-5">
                         <h4 class="h4">Aplicaciones</h4>
@@ -2273,8 +2047,8 @@
 
             </div>
             <div class="row">
-             
-                <div class="col me-5">
+
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Bombas Aguas residuales con motor eléctrico a 3.600 rpm</h4>
                     <table class="table table-striped">
                         <thead>

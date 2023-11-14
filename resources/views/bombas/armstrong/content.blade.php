@@ -118,7 +118,7 @@
                           <li>Bombeo industrial ligero</li>
                       </ul>
                   </div>
-                  <div class="col me-5">
+                  <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped">
                           <thead>
@@ -449,7 +449,7 @@
                           <li>Servicio industrial en general</li>
                       </ul>
                   </div>
-                  <div class="col me-5">
+                  <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped ">
                           <thead>
@@ -637,7 +637,7 @@
                           <li>Agua tradada</li>
                       </ul>
                   </div>
-                  <div class="col me-5">
+                  <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped">
                           <thead>
@@ -992,7 +992,7 @@
                           <li>Proposito generales</li>
                       </ul>
                   </div>
-                  <div class="col me-5">
+                  <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped ">
                           <thead>
@@ -1142,7 +1142,7 @@
                 <div class="text-center m-2">
                     <h3 class="h3">Capacidades desde 500- 3000 GPM </h3>
                 </div>
-                  <div class="col ms-5">
+                  <div class="col ms-5" >
                       <h4 class="h4">Rango de aplicaciones del FirePak VIL</h4>
                       <ul>
                           <li>Conexión: Hasta 8”</li>

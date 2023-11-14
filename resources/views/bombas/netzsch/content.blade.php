@@ -129,7 +129,7 @@
                     <li>Tratamiento de aguas residuales y lodos</li>
                 </ul>
             </div>
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas de NETZSCH Nemo</h4>
                 <table class="table table-striped">
                     <thead>
@@ -281,7 +281,7 @@
                     <li>Batería</li>
                 </ul>
             </div>
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <p>
                     Las bombas de dos husillos NOTOS, tienen capacidad de autocebado, son muy útiles en diferentes áreas
                     como el petróleo y el gas, el transporte por marítimo, la generación de energía y las fábricas de
@@ -376,7 +376,7 @@
                     <li>Batería</li>
                 </ul>
             </div>
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas de Serie Tornado</h4>
                 <table class="table table-striped">
                     <thead>
@@ -523,7 +523,7 @@
                     <li>Minería</li>
                 </ul>
             </div>
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas de Sistemas de Trituración</h4>
                 <table class="table table-striped">
                     <thead>

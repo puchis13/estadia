@@ -118,7 +118,7 @@
                         <li>Industria en general</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911s- 3500 RPM </h4>
                     <table class="table table-striped">
                         <thead>
@@ -266,7 +266,7 @@
 
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911M y 911L – 3500 RPM</h4>
                     <table class="table table-striped ">
                         <thead>
@@ -584,7 +584,7 @@
                         <li>Industria farmacéutica</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911M y 911L – 3500 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -898,7 +898,7 @@
                         <li>Industria farmacéutica</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911LX – 1780 RPM</h4>
                     <table class="table table-striped">
                         <thead>

@@ -20,7 +20,7 @@
                     {{-- Imagen de Series AI --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#AI"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="100%"
+                            <a href="#AI"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Serie AI</h6>
@@ -31,7 +31,7 @@
                     {{-- Imagen de Series E --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#E"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="100%"
+                            <a href="#E"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="82%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Serie E</h6>
@@ -42,7 +42,7 @@
                     {{-- Imagen de Series C --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#C"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="100%"
+                            <a href="#C"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="82%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Serie C</h6>
@@ -53,7 +53,7 @@
                     {{-- Imagen de Series L --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#L"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="100%"
+                            <a href="#L"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="85%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Serie L</h6>
@@ -64,7 +64,7 @@
                     {{-- Imagen de Series G --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#G"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="100%"
+                            <a href="#G"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="84%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Serie G</h6>
@@ -75,7 +75,7 @@
                     {{-- Imagen de Series H --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#H"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="100%"
+                            <a href="#H"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Serie H</h6>
@@ -86,7 +86,7 @@
                     {{-- Imagen de Series AC --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#AC"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="100%"
+                            <a href="#AC"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Serie AC</h6>
@@ -98,7 +98,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#sumergibles"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}"
-                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                                    width="80%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Aereadores sumergibles</h6>
                             </figcaption>
@@ -109,7 +109,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#mecanicos"><img src="{{ asset('imagenes/bombas/impel/mecanicos.png') }}"
-                                    width="92%" class="figure-img img-fluid rounded" alt=""></a>
+                                    width="75%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Aereadores Mecanicos Flotantes</h6>
                             </figcaption>
@@ -119,7 +119,7 @@
                     {{-- Imagen de Aereadores de Baja Velocidad --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#baja"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="42%"
+                            <a href="#baja"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="34%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Aereadores de Baja Velocidad</h6>
@@ -141,8 +141,7 @@
         {{-- Contenido Series AI --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="AI" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+                <h4 id="AI" class="h4">SERIE A</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -155,11 +154,8 @@
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Esta bomba es de achique, son bombas portátiles utilizadas en construcción y minería ideales
+                        en el manejo de agua limpia y/o con abrasivos en potencias de 0.5 a 15 Hp.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -171,7 +167,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -234,8 +230,7 @@
         {{-- Contenido Series E --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="E" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+                <h4 id="E" class="h4">Serie E</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -248,11 +243,9 @@
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Bombas sumergibles portátiles o para instalación fija para manejo de aguas residuales domésticas
+                        y municipales. En potencias de 1Hp hasta 3Hp y diámetros de de descarga de 2” y 3” con paso de
+                        esfera de 32mm (1 1/4”)
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -263,8 +256,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -334,8 +326,7 @@
         {{-- Contenido Series C --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="C" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+                <h4 id="C" class="h4">SERIE C</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -348,11 +339,9 @@
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Bombas portátiles y/o estacionarias para menejo de aguas residuales domésticas y municipales con
+                        alto contenido de sólidos de hasta 64mm (2 1/2”) de paso de esfera fabricadas en hierro gris de
+                        alta resistencia.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -364,7 +353,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -434,8 +423,7 @@
         {{-- Contenido Series L --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="L" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+                <h4 id="L" class="h4">Serie L</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -448,11 +436,8 @@
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Bombas con alto paso de sólidos en suspensión para manejo de aguas residuales domésticas
+                        municipales e industriales de 3 a 300HP. En versiones fija, portátil o cárcamo seco.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -464,7 +449,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -793,8 +778,7 @@
         {{-- Contenido Series G --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="G" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+                <h4 id="G" class="h4">Serie G</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -807,11 +791,8 @@
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Bombas Trituradoras para manejo de sólidos suaves domésticos en gastos moderados y altas cargas
+                        en potencias de 2 a 10 Hp
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -823,7 +804,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Unidad basica o "portatil</h4>
                 <table class="table table-striped">
                     <thead>
@@ -914,8 +895,7 @@
         {{-- Contenido Series H --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="H" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+                <h4 id="H" class="h4">Serie H</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -928,11 +908,8 @@
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Bombas de flujo axial, de baja velocidad, con alto paso de sólidos en suspensión para manejo de
+                        aguas residuales municipales con grandes caudales de 300 a 1500lps.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -944,7 +921,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -1013,7 +990,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -1122,12 +1099,10 @@
             </div>
         </div>
 
-        {{-- Contenido Aereadores Sumergibles --}}
+        {{-- Contenido Aereador sumergible serie AMS --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="sumergibles" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A
-                    prueba
-                    de corrosión</h4>
+                <h4 id="sumergibles" class="h4">Aereador sumergible serie AMS</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -1135,16 +1110,14 @@
                             width="100%" class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
-                        <h6 class="h6">Aereadores Sumergibles</h6>
+                        <h6 class="h6">Aereador sumergible serie AMS</h6>
                     </figcaption>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Aereadores eléctricos sumergibles en potencias desde 0.5 HP hasta 60 HP y capacidad de
+                        transferencia de hasta 57 KG de O2/hr. Su diseño permite una operación completamente
+                        silenciosa y eficiente.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -1156,7 +1129,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -1207,12 +1180,10 @@
             </div>
         </div>
 
-        {{-- Contenido Aereadores Mecanicos Flotantes --}}
+        {{-- Contenido Aereadores Mecánicos Flotantes --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="mecanicos" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A
-                    prueba
-                    de corrosión</h4>
+                <h4 id="mecanicos" class="h4">Aereadores Mecánicos Flotantes</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -1220,16 +1191,16 @@
                             width="100%" class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
-                        <h6 class="h6">Aereadores Mecanicos Flotantes</h6>
+                        <h6 class="h6">Aereadores Mecánicos Flotantes</h6>
                     </figcaption>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+
+                        Aereadores mecánicos flotantes de alta velocidad; diseñados para crear una interfase aire/agua
+                        continua y suficiente para la transferencia de oxígeno del aire líquido y mezclar el contenido.
+                        En potencias desde 2 HP hasta 60 HP y transferencia de oxígeno 1.27 KG de O2/hr en condiciones
+                        estándar ideales para lagunas de oxidación.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -1241,7 +1212,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -1324,12 +1295,10 @@
             </div>
         </div>
 
-        {{-- Contenido Aereadores de Baja Velocidad --}}
+        {{-- Contenido Aereadores Sumergibles ABV --}}
         <div class=" m-2 p-2">
             <div class="row m-1">
-                <h4 id="baja" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A
-                    prueba
-                    de corrosión</h4>
+                <h4 id="baja" class="h4">Aereadores Sumergibles ABV</h4>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -1337,16 +1306,14 @@
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
-                        <h6 class="h6">Aereadores de Baja Velocidad</h6>
+                        <h6 class="h6">Aereadores Sumergibles ABV</h6>
                     </figcaption>
                 </div>
                 <div class="col me-5 pe-5">
                     <p>
-                        Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
-                        pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
-                        facilidad de mantenimiento y una instalación economica. . Se instalan más rápido y a un menor
-                        costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
-                        ajuste de presión más amplio proporciona una mayor flexibilidad.
+                        Aereadores mecánicos superficiales de baja velocidad. Soportan sobrecargas momentáneas de hasta
+                        500%. Transferencia de oxígeno garantizada en condiciones estándar 1.6 KG de O2/hr.
+                        Disponibles en capacidades de hasta 100 HP.
                     </p>
                     <div>
                         <h4 class="h4">Aplicaciones</h4>
@@ -1358,7 +1325,7 @@
                 </div>
             </div>
 
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>

@@ -124,7 +124,7 @@
 
 .header-grundfos {
     background:  url(../imagenes/bombas/grundfos/portada.png) no-repeat;
-    background-position: center 50%;
+    background-position: center ;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;

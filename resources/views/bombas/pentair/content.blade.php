@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911LX – 1780 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -406,7 +406,7 @@
                         <li>Recirculacion de agua en Spas </li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -485,7 +485,7 @@
             </div>
             <div class="row">
                
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -575,7 +575,7 @@
                 </div>
             </div>
             
-            <div class="col me-5">
+            <div class="col me-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>

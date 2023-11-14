@@ -144,7 +144,7 @@
 
             </div>
             <div class="row">
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 3800 (3550 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -434,7 +434,7 @@
 
             </div>
             <div class="row">
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 340 (3500 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -669,7 +669,7 @@
 
             </div>
             <div class="row">
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 380 (3500 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -967,7 +967,7 @@
                         <li>Autolavados</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 110A (1750 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1127,7 +1127,7 @@
                         <li>Sistemas de Tratamiento de Agua</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <div class="col me-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 630 (1750 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
