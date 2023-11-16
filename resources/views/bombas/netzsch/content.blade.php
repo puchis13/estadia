@@ -96,7 +96,7 @@
                     <h6 class="h6">Serie Nemo</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                <a href="https://drive.google.com/file/d/1oFtCkl5ML-6ylDrPlwf60VvrI6Ecy4WX/view?usp=drive_link"
                     class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
@@ -250,7 +250,7 @@
                     <h6 class="h6">Serie Notos</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                <a href="https://drive.google.com/file/d/1MNrU_LYx_QLo2lTIREy3PFlaEawgRY9a/view?usp=drive_link"
                     class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
@@ -349,7 +349,7 @@
                     <h6 class="h6">Serie Tornado</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                <a href="https://drive.google.com/file/d/1Bo1tqsddE8MD6uENHJDquM3aaA05Zvn7/view?usp=drive_link"
                     class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
@@ -443,7 +443,7 @@
                     <h6 class="h6">Serie Peripro</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                <a href="https://drive.google.com/file/d/1y_UPHbWQdRjZoDPFL9u5CVN4ZbgDt3cu/view?usp=drive_link"
                     class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
@@ -493,9 +493,6 @@
                 <figcaption>
                     <h6 class="h6">Serie Trituradora</h6>
                 </figcaption>
-                {{-- direccion de catalogo --}}
-                <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                    class="btn btn-primary ms-4">Ficha Técnica</a>
             </div>
             <div class="col me-5 pe-5">
                 <p>

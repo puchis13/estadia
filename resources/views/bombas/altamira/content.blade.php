@@ -19,9 +19,9 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="47%"
-                             class="figure-img img-fluid rounded" alt=""></a>
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Series TX, TXE & TXN</h6>
+                                <h6 class="h6">Series TX</h6>
                             </figcaption>
                         </figure>
                     </div>
@@ -70,24 +70,28 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series TX --}}
-        <div class="row">
-            <div class="row-md-6 row-md-12">
-                <h4 id="tx" class="h4">Bombas Multietapas Verticales Altamira Series TX, TXE y TXN</h4>
-            </div>
+        <div>
             <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="tx" class="h4">Bombas Multietapas Verticales Altamira Series TX</h4>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Series TX, TXE & TXN</h6>
+                    <figcaption class="ms-5">
+                        <h6 class="h6">Series TX</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                        class="btn btn-primary">Ficha Ténica</a>
+                        class="btn btn-primary ms-5">Ficha Ténica</a>
                 </div>
-                <div class="col-md-6 col-12">
+
+                <div class="col-lg-7 mt-5 mb-3">
+                    {{-- Texto --}}
                     <p>
-                        Las <b>Bombas Multietapas Altamira TX, TXE & TXN</b> son ideales para aplicaciones industriales
+                        Las <b>Bombas Multietapas Altamira TX</b> son ideales para aplicaciones industriales
                         de
                         alta presión,
                         disponibles en 12 rangos de flujo y más de 165 rangos de presión. Existen 3 versiones de
@@ -102,9 +106,10 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h4 class="h4">Aplicaciones de las Series TX, TXE & TXN</h4>
+
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <h4 class="h4">Aplicaciones de las Series TX</h4>
                     <ul>
                         <li>Calderas</li>
                         <li>Hidroneumáticos sencillos</li>
@@ -122,7 +127,7 @@
                         <li>Circulación de agua en sistemas de calefacción</li>
                     </ul>
                 </div>
-                <div class="col" style="overflow-x:auto;">
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico</h4>
                     <table class="table table-striped">
                         <thead>
@@ -213,26 +218,31 @@
         </div>
 
         {{-- Contenido Series KOR --}}
-        <div class="">
+        <div>
             <div class="row">
-                <h4 id="KOR" class="h4">Bombas Sumergibles Altamira Serie KOR en Inox</h4>
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="KOR" class="h4">Bombas Sumergibles Altamira Serie KOR en Inox</h4>
+                </div>
             </div>
-            <div class="row">
-
-                <div class="col">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="100%"
-                 class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <figure class="figure ps-5"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="100%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Series KOR</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
+                    <div class="m-2 ms-5">
+                    <a  href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
                         class="btn btn-primary ms-4">Ficha KOR 4”</a>
+                    </div>
+                    <div class="m-2 ms-5">                        
                     <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
                         class="btn btn-primary ms-4">Ficha KOR 6” 8” 10” </a>
-
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         La familia de <b>Bombas Sumergibles Altamira de la Serie KOR </b> son totalmente en acero
                         inoxidable AISI 304.
@@ -242,8 +252,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones de la serie KOR bombear agua de:</h4>
                     <ul>
                         <li>Pozos profundos</li>
@@ -252,10 +263,9 @@
                         <li>Lagos</li>
                         <li>Redes de agua potable</li>
                         <li>Hidroneumaticos</li>
-
                     </ul>
                 </div>
-                <div class="col" style="overflow-x:auto;">
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Rangos de Operación</h4>
                     <table class="table table-striped ">
                         <thead>
@@ -466,8 +476,8 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}"
-                            width="60%" class="figure-img img-fluid rounded" alt="">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="60%"
+                            class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
                         <h6 class="h6">Serie EKRC</h6>
@@ -489,9 +499,9 @@
                     </ul>
                 </div>
             </div>
-          
+
             <div class="row">
-                
+
                 <div class="col" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
@@ -599,10 +609,10 @@
                         Alta y baja presión del refrigerante, ahorra energia, automatización basica a traves de un
                         interruptor inalámbrico
                     </p>
-                        <h4 class="h4">Aplicaciones</h4>
-                        <ul>
-                            <li>Piscinas residenciales y comerciales</li>
-                        </ul>
+                    <h4 class="h4">Aplicaciones</h4>
+                    <ul>
+                        <li>Piscinas residenciales y comerciales</li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
@@ -620,7 +630,8 @@
                                 <th scope="col" class="border-bottom border-dark">MCA</th>
                                 <th scope="col" class="border-bottom border-dark">MOP</th>
                                 <th scope="col" class="border-bottom border-dark">Fases x Volts</th>
-                                <th scope="col" class="border-bottom border-dark">Succión x Descarga (Pulgadas)</th>
+                                <th scope="col" class="border-bottom border-dark">Succión x Descarga (Pulgadas)
+                                </th>
                                 <th scope="col" class="border-bottom border-dark">Calor / Frio</th>
                                 <th scope="col" class="border-bottom border-dark">Peso (kg)</th>
                             </tr>
