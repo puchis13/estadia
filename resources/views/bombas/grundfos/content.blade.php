@@ -61,7 +61,7 @@
                         <h6 class="h6">Serie CR</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1xEu0ejWJyx_DTIcTm8j_GBlzB2wBR7a1/view?usp=drive_link"
+                    <a href="https://drive.google.com/file/d/1iZlQD-hOpV2MM4yKcsEBZh3r0HzwS4Ce/view?usp=drive_link"
                         class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
@@ -200,7 +200,7 @@
                         <h6 class="h6">Serie SP</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1xEu0ejWJyx_DTIcTm8j_GBlzB2wBR7a1/view?usp=drive_link"
+                    <a href="https://drive.google.com/file/d/1rXe-LHRuls5u8tweVfEou97DK4y23JYA/view?usp=drive_link"
                         class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">

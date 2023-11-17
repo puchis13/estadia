@@ -80,14 +80,15 @@
                 <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption class="ms-5">
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Series TX</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                        class="btn btn-primary ms-5">Ficha Ténica</a>
+                    <div class="ms-5">
+                        <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
+                            class="btn btn-primary">Ficha Ténica</a>
+                    </div>
                 </div>
-
                 <div class="col-lg-7 mt-5 mb-3">
                     {{-- Texto --}}
                     <p>
@@ -106,9 +107,9 @@
                     </p>
                 </div>
             </div>
-
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones de las Series TX</h4>
                     <ul>
                         <li>Calderas</li>
@@ -127,6 +128,7 @@
                         <li>Circulación de agua en sistemas de calefacción</li>
                     </ul>
                 </div>
+                <!-- Tabla -->
                 <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico</h4>
                     <table class="table table-striped">
@@ -226,19 +228,19 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-lg-5 mt-3 mb-3">
-                    <figure class="figure ps-5"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="100%"
-                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figure class="figure ps-5"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}"
+                            width="100%" class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Series KOR</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <div class="m-2 ms-5">
-                    <a  href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
-                        class="btn btn-primary ms-4">Ficha KOR 4”</a>
+                        <a href="https://drive.google.com/file/d/1jicJtimdpoTUPZYqImZ9dX6GvDFy3JZf/view?usp=drive_link"
+                            class="btn btn-primary ms-4">Ficha KOR 4”</a>
                     </div>
-                    <div class="m-2 ms-5">                        
-                    <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
-                        class="btn btn-primary ms-4">Ficha KOR 6” 8” 10” </a>
+                    <div class="m-2 ms-5">
+                        <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
+                            class="btn btn-primary ms-4">Ficha KOR 6” 8” 10” </a>
                     </div>
                 </div>
                 <div class="col-lg-7 mt-5 mb-3">
@@ -265,6 +267,7 @@
                         <li>Hidroneumaticos</li>
                     </ul>
                 </div>
+                <!-- Tabla -->
                 <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Rangos de Operación</h4>
                     <table class="table table-striped ">
@@ -368,34 +371,39 @@
         </div>
 
         {{-- Contenido Series Flux --}}
-        <div class="">
+        <div>
             <div class="row">
-                <h4 id="flux" class="h4">Bombas Centrifugas Horizontales Altamira Serie Flux</h4>
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="flux" class="h4">Bombas Centrifugas Horizontales Altamira Serie Flux</h4>
+                </div>
             </div>
-            <div class="row">
-
-                <div class="col">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Series FLUX</h6>
+                    <figcaption class="ms-5 ps-5">
+                        <h6 class="h6">Series Flux</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/"
-                        class="btn btn-primary">Ficha Técnica</a>
+                    <div class="ms-5 ps-4">
+                        <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
-                        Las bombas <b>bombas Serie FLUX de Altamira son una amplia gama de Motobombas
+                        Las bombas <b>bombas Serie Flux de Altamira son una amplia gama de Motobombas
                             Centrífugas Horizontales monoetapa </b>, el cuerpo esta fabricado en acero
                         inoxidable 304 y son utiles para aplicaciones donde se requiere que el agua no
                         tenga contacto con materiales sujetos a oxidación.</p>
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h4 class="h4">Aplicaciones de las bombas Altamira FLUX</h4>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
+                    <h4 class="h4">Aplicaciones de las bombas Altamira Flux</h4>
                     <ul>
                         <li>Sistemas de agua potable</li>
                         <li>Alimentación de calderas</li>
@@ -409,8 +417,9 @@
 
                     </ul>
                 </div>
-                <div class="col" style="overflow-x:auto;">
-                    <h4 class="h4">Especificaciones Técnicas de la Serie FLUX:</h4>
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                    <h4 class="h4">Especificaciones Técnicas de la Serie Flux:</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
@@ -470,28 +479,34 @@
         {{-- Contenido Series EKRC Y Eco-Kal --}}
 
         {{-- Esto es del contenido de Serie EKRC --}}
-        <div class="">
+        <div>
             <div class="row">
-                <h4 id="ekrc" class="h4">Bombas de calor para piscina Hidrocontrol Serie EKRC</h4>
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="ekrc" class="h4">Bombas de calor para piscina Hidrocontrol Serie EKRC</h4>
+                </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5">
                         <h6 class="h6">Serie EKRC</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1WHK3xLg5aLM3CPTybyUbBwYOfrw8-R8a/view"
-                        class="btn btn-primary">Ficha EKRC</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1WHK3xLg5aLM3CPTybyUbBwYOfrw8-R8a/view"
+                            class="btn btn-primary">Ficha EKRC</a>
+                    </div>
                 </div>
-                <div class="col">
+                <!-- Texto -->
+                <div class="col-lg-7 mt-5 mb-3">
                     <p>
                         Las bombas de calor Hidrocontrol son muy competitivas en el mercado, además la serie EKRC tienen
                         un display de LCD y un robusto intercambiador de calor construido en titanio, refrigerante
                         ecologico, función Spa (hasta 40ºC) y temporalizador programable (excepto modelo 24).
                     </p>
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Piscinas residenciales y comerciales</li>
@@ -499,10 +514,9 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="row">
-
-                <div class="col" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -585,40 +599,44 @@
         </div>
 
         {{-- Esto es del contenido de Serie Eco-Kal --}}
-
-        <div class="">
+        <div>
             <div class="row">
-                <h4 class="h4">Bomba para piscina hidrocontrol serie Eco-Kal</h4>
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 class="h4">Bomba para piscina hidrocontrol serie Eco-Kal</h4>
+                </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ecokal.jpg') }}"
                             width="60%" class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-4">
                         <h6 class="h6">Serie Eco-Kal</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1NChOmaDmm6ltMKufbeEweQYwXoXAdZ6u/view"
-                        class="btn btn-primary">Ficha Eco-Kal</a>
+                    <div class="ms-4">
+                        <a href="https://drive.google.com/file/d/1NChOmaDmm6ltMKufbeEweQYwXoXAdZ6u/view"
+                            class="btn btn-primary">Ficha Eco-Kal</a>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         La bomba de calor Eco-Kal es muy silenciosa gracias al ventilador de baja velocidad y al
                         excelente diseño del compresor (56 decibeles), Intercambiador de titanio, protecciones contra:
                         Alta y baja presión del refrigerante, ahorra energia, automatización basica a traves de un
                         interruptor inalámbrico
                     </p>
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Piscinas residenciales y comerciales</li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
-
-                <div class="col" style="overflow-x:auto;">
-
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <!-- Tabla -->
+                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>

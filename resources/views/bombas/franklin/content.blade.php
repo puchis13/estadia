@@ -657,7 +657,8 @@
                     </figcaption>
                     {{-- direccion de catalogo --}}
                     <a
-                        href="https://franklinagua.com/media/62938/M1479sp-Cat%C3%A1logo-Motores-Sumergibles.pdf"class="btn btn-primary ms-4">Ficha
+                        href="https://drive.google.com/file/d/14dZsuzwbpbXN_UojdnGuQvKuC3QFxwqf/view?usp=drive_link"
+                        class="btn btn-primary ms-4">Ficha
                         Técnica</a>
 
                 </div>

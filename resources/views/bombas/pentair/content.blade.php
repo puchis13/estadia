@@ -554,7 +554,7 @@
                         <h6 class="h6">Series Well Mate</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1rNoQY6p-g44ECeMna9xWs0c-DKAjLQVC/view?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1oGm_rOyegwdO4pNUuISiNnVcb9H813eU/view?usp=drive_link"
                     class="btn btn-primary ms-4">Ficha Técnica</a>
                 </div>
                 <div class="col me-5 pe-5">
