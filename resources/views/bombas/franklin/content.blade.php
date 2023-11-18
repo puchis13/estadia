@@ -71,19 +71,22 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series STS --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="sts" class="h4">Bombas de Turbina Sumergibles</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="sts" class="h4">Bombas de Turbina Sumergibles</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/sts.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Serie STS 5" 6" 8" 9"</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         La Serie STS 5" 6" 8" 9" están hechas de tazones en fundición de hierro dúctil de primera
                         calidad con el fin de proporcionar una vida más larga y obtener una presión más alta. Impulsores
@@ -92,8 +95,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-6 mt-3 mb-3 ps-5">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Irrigación</li>
@@ -103,7 +107,8 @@
                         <li>Comercial</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-6 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico de 5", 6", 8", 9"</h4>
                     <table class="table table-striped">
                         <thead>
@@ -149,19 +154,22 @@
         </div>
 
         {{-- Contenido Series Tri-Seal High Capacity --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="tri" class="h4">Serie Tri-Seal High Capacity 4" y 6"</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="tri" class="h4">Serie Tri-Seal High Capacity 4" y 6"</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/tri.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie Tri-Seal High Capacity 4" y 6"</h6>
+                            <figcaption class="ms-5 ps-3">
+                                <h6 class="h6">Serie Tri-Seal High Capacity 4" y 6"</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Las bombas de alta capacidad cuentan con diámetros de 4 pulgadas y son accionadas por motores
                         sumergibles Franklin de 4” resistentes a la corrosión.
@@ -170,8 +178,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Cisterna</li>
@@ -181,7 +190,8 @@
                         <li>Pequeñas municipalidades o juntas de agua</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico</h4>
                     <table class="table table-striped">
                         <thead>
@@ -437,9 +447,6 @@
                     <span>NOTA: El diámetro máximo incluyendo el cable es de 3.90” en todos los modelos.</span>
                     <br><br>
                     <table class="table table-striped">
-
-
-
                         <thead>
                             <tr class="border-top border-danger text-center">
                                 <th scope="col" class="border-bottom border-dark">GPM</th>
@@ -545,24 +552,28 @@
         </div>
 
         {{-- Contenido Series Enca --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="enca" class="h4">Motores Sumergibles Rebobinables y Encapsulados Franklin</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="enca" class="h4">Motores Sumergibles Rebobinables y Encapsulados Franklin</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/enca.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Motores Sumergibles Rebobinables y Encapsulados Franklin</h6>
+                            <figcaption class="ms-4">
+                                <h6 class="h6">Motores Sumergibles Rebobinables y Encapsulados Franklin</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a
-                        href="https://franklinagua.com/media/62938/M1479sp-Cat%C3%A1logo-Motores-Sumergibles.pdf"class="btn btn-primary ms-4">Ficha
-                        Técnica</a>
-
+                    <div class="ms-5 ps-5"> 
+                        <a
+                            href="https://franklinagua.com/media/62938/M1479sp-Cat%C3%A1logo-Motores-Sumergibles.pdf"class="btn btn-primary ms-4">Ficha
+                            Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Descubre la excelencia en motores sumergibles con Franklin Electric, el líder mundial en su
                         fabricación. Nuestra gama de Motores Sumergibles es esencial en los sistemas de bombeo de
@@ -576,8 +587,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Agricultura</li>
@@ -589,7 +601,8 @@
                         <li>Aceite y Gasolina</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de los Motores Sumergibles</h4>
                     <table class="table table-striped">
                         <thead>
@@ -644,25 +657,28 @@
         </div>
 
         {{-- Contenido Series VFD --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="VFD" class="h4">Variador de Frecuencia Sub Drive Connect Plus</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="VFD" class="h4">Variador de Frecuencia Sub Drive Connect Plus</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/VFD.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie VFD</h6>
+                            <figcaption class="ms-4 ps-5">
+                                <h6 class="h6">Serie VFD</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a
-                        href="https://drive.google.com/file/d/14dZsuzwbpbXN_UojdnGuQvKuC3QFxwqf/view?usp=drive_link"
+                    <div class="ms-4"> 
+                        <a href="https://drive.google.com/file/d/14dZsuzwbpbXN_UojdnGuQvKuC3QFxwqf/view?usp=drive_link"
                         class="btn btn-primary ms-4">Ficha
                         Técnica</a>
-
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         El variador de frecuencia (VFD) SubDrive Connect Plus™ de Franklin Electric está diseñado
                         para proporcionar soluciones de presión constante simples y poderosas para sistemas de
@@ -671,8 +687,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Irrigación</li>
@@ -683,7 +700,8 @@
                         <li>Municipalidades</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de los Motores Sumergibles</h4>
                     <table class="table table-striped">
                         <thead>

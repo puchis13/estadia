@@ -93,27 +93,27 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series HE,QE,KE --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="HE,QE,KE" class="h4">Bombas Alta Presión Eléctricas HE, QE, KE</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="HE,QE,KE" class="h4">Bombas Alta Presión Eléctricas HE, QE, KE</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/wdm/HE,QE,KE.png') }}" width="70%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Series HE, QE, KE</h6>
+                            <figcaption class="ms-5 ps-4">
+                                <h6 class="h6">Series HE, QE, KE</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1ZnMnEW6-ilZK8x90UVPPQFbP92ncj-Yb/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
-
-
-                    <div>
-
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1ZnMnEW6-ilZK8x90UVPPQFbP92ncj-Yb/view?usp=sharing"
+                            class="btn btn-primary">Ficha Técnica</a>
                     </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Las bombas de alta presión de WDM serie HE, QE, KE es amplia ya que van de tamaños de succión y
                         descarga de 1 1/2” hasta los 6”. Altura Máx hasta los 175mca, Gasto de hasta 1750GPM.
@@ -123,6 +123,7 @@
                         larga vida útil. Estas bombas también pueden estar acopladas a motores eléctricos monofásicos y
                         trifásicos ó incluso a motores a diesel ó gasolina en potencias desde 2hp hasta 75hp.
                     </p>
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Distribución de agua en unidades residenciales.</li>
@@ -141,13 +142,10 @@
                         <li>Sistemas de presión.</li>
                     </ul>
                 </div>
-
             </div>
-            <div class="row">
-
-
-
-                <div class="col me-5" style="overflow-x:auto;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <!-- Tabla -->
+                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas Serie QE</h4>
                     <table class="table table-striped">
                         <thead>
@@ -839,7 +837,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Especificaciones Técnicas Serie HE</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1099,8 +1096,6 @@
                             </tr>
                         </tbody>
                     </table>
-
-
                     <h4 class="h4">Especificaciones Técnicas Serie KE</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1209,32 +1204,34 @@
         </div>
 
         {{-- Contenido Series AG --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="AG" class="h4">Bombas Autocebantes a Gasolina AG</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="AG" class="h4">Bombas Autocebantes a Gasolina AG</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/wdm/AG.png') }}" width="70%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie AG</h6>
+                            <figcaption class="ms-5 ps-4">
+                                <h6 class="h6">Serie AG</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1xEu0ejWJyx_DTIcTm8j_GBlzB2wBR7a1/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1xEu0ejWJyx_DTIcTm8j_GBlzB2wBR7a1/view?usp=drive_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Bombas a gasolina hechas para durar en hierro fundido. La Serie AG de WDM opera a presiones de
                         hasta 49mca (metros columna de agua) y flujos de hasta 465 GPM.. Al ser autocebante no necesita
                         de accesorios extra como pichanchas y lo que la hace fácil de operar. Existen modelos desde 6.5
                         hp hasta 18hp.
                     </p>
-                </div>
-
-            </div>
-            <div class="col ms-5">
+                     <!-- Aplicaciones -->
                 <h4 class="h4">Aplicaciones</h4>
                 <ul>
                     <li>Bombeo de agua con sólidos en suspensión.</li>
@@ -1246,11 +1243,12 @@
                     <li>Riego por inundación.</li>
                     <li>Transporte de líquidos en carro tanques.</li>
                 </ul>
+                </div>
             </div>
-            <div class="row">
-
-                <div class="col me-5" style="overflow-x:auto;">
-                    <h4 class="h4">Bombas Autocebantes con motor HI-FORCE a gasolina</h4>
+                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                    <!-- Tabla -->
+                    <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                        <h4 class="h4">Bombas Autocebantes con motor HI-FORCE a gasolina</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
@@ -1320,7 +1318,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Bombas Autocebantes con motor KOHLER a gasolina</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1373,8 +1370,6 @@
                             </tr>
                         </tbody>
                     </table>
-
-
                     <h4 class="h4">Bombas Autocebantes con motor BRIGGS & STRATTON a gasolina</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1486,22 +1481,27 @@
         </div>
 
         {{-- Contenido Series VSE --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="VSE" class="h4">Bombas Eléctricas Multietapas VSE y VHSE</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="VSE" class="h4">Bombas Eléctricas Multietapas VSE y VHSE</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/wdm/VSE.png') }}" width="70%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie VSE</h6>
+                            <figcaption class="ms-5 ps-4">
+                                <h6 class="h6">Serie VSE</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1s7t2s6GahTWIY5RNip278cfbrFv5plVD/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1s7t2s6GahTWIY5RNip278cfbrFv5plVD/view?usp=drive_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <b>Rendimiento Multietapas Versátil</b>
                     <p>
                         La Serie VSE y VHSE es una solución versátil para aplicaciones que demandan una presión
@@ -1521,22 +1521,20 @@
                         o semiabierto en hierro fundido y el cuerpo de la bomba en hierro fundido por lo cual la hace
                         muy duradera.
                     </p>
-                    <div class="col ms-5">
-                        <h4 class="h4">Aplicaciones</h4>
-                        <ul>
-                            <li>Lavaderos de automóviles.</li>
-                            <li>Lavado a presión de maquinaria.</li>
-                            <li>Lavado de galpones.</li>
-                            <li>Sistemas contraincendio.</li>
-                            <li>Sistemas de presión.</li>
-                        </ul>
-                    </div>
+                    <!-- Aplicaciones -->
+                    <h4 class="h4">Aplicaciones</h4>
+                    <ul>
+                        <li>Lavaderos de automóviles.</li>
+                        <li>Lavado a presión de maquinaria.</li>
+                        <li>Lavado de galpones.</li>
+                        <li>Sistemas contraincendio.</li>
+                        <li>Sistemas de presión.</li>
+                    </ul>
                 </div>
-
             </div>
-            <div class="row">
-
-                <div class="col me-5" style="overflow-x:auto;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <!-- Tabla -->
+                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Bombas Multietapas en acero inoxidable con motor eléctrico</h4>
                     <table class="table table-striped">
                         <thead>
@@ -2005,22 +2003,27 @@
         </div>
 
         {{-- Contenido Series NE --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="NE" class="h4">Bombas Sumergibles para Aguas Residuales NE</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="NE" class="h4">Bombas Sumergibles para Aguas Residuales NE</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/wdm/NE.png') }}" width="70%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie NE</h6>
+                            <figcaption class="ms-5 ps-4">
+                                <h6 class="h6">Serie NE</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1d88Vbwq9o-4qUCE2qdNBSGlvZ3k_uCNI/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1d88Vbwq9o-4qUCE2qdNBSGlvZ3k_uCNI/view?usp=sharing"
+                        class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Estas bombas están disponibles en una variedad de tamaños y capacidades para adaptarse a las
                         necesidades específicas de tu aplicación. Ya sea que necesites manejar aguas residuales en una
@@ -2029,7 +2032,7 @@
                         o semiabierto en hierro fundido y el cuerpo de la bomba en hierro fundido por lo cual la hace
                         muy duradera.
                     </p>
-                    <div class="col ms-5">
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Bombeo de agua con sólidos en suspensión.</li>
@@ -2042,13 +2045,11 @@
                             <li>Pozos sépticos.</li>
                             <li>Riego de estiércol.</li>
                         </ul>
-                    </div>
                 </div>
-
             </div>
-            <div class="row">
-
-                <div class="col me-5" style="overflow-x:auto;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <!-- Tabla -->
+                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Bombas Aguas residuales con motor eléctrico a 3.600 rpm</h4>
                     <table class="table table-striped">
                         <thead>
@@ -2156,7 +2157,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Bombas Aguas residuales con motor eléctrico a 1.800 rpm</h4>
                     <table class="table table-striped">
                         <thead>
@@ -2479,22 +2479,27 @@
         </div>
 
         {{-- Contenido Series HIDRO --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="HIDRO" class="h4">Hidroneumáticos de Velocidad Variable y Presión Constante</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="HIDRO" class="h4">Hidroneumáticos de Velocidad Variable y Presión Constante</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/wdm/HIDRO.png') }}" width="70%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie HIDRO</h6>
+                            <figcaption class="ms-5 ps-4">
+                                <h6 class="h6">Serie HIDRO</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1GQBL1B4tMLTn8jscc8ipdcPNesLSc_F0/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1GQBL1B4tMLTn8jscc8ipdcPNesLSc_F0/view?usp=sharing"
+                        class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Los Hidroneumáticos de Velocidad Variable y Presión Constante de la marca WDM son la respuesta a
                         la demanda de soluciones de suministro de agua más inteligentes y eficientes. Estos sistemas
@@ -2528,13 +2533,12 @@
                         inactividad y costos reducidos en tareas de servicio y reparación. La construcción robusta y
                         duradera garantiza una larga vida útil y un rendimiento confiable.
                     </p>
-
                 </div>
-
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-12 mt-5 mb-5 pb-5">
                     <h4 class="h4">Aplicaciones</h4>
+                    <!-- Aplicaciones -->
                     <ul>
                         <li>Edificaciones donde se requiera un suministro confiable</li>
                         <li>Edificios habitacionales</li>
@@ -2549,9 +2553,11 @@
         </div>
 
         {{-- Contenido Series SCI --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="SCI" class="h4">Sistemas Contra Incendios</h4>
+        <div>
+            <div class="row">
+                <div>
+                    <h4 id="SCI" class="h4">Sistemas Contra Incendios</h4>
+                </div>
             </div>
             <div class="row m-5 ps-5">
                 <div class="col ms-5 ps-5">
@@ -2561,10 +2567,13 @@
                         <h6 class="h6">Serie SCI</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1kPyp-hCnARo2m5Dt0s2RoXFDYD9k9oKD/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div>
+                        <a href="https://drive.google.com/file/d/1kPyp-hCnARo2m5Dt0s2RoXFDYD9k9oKD/view?usp=sharing"
+                        class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
                 <div class="col me-5 pe-5">
+                    <!-- Texto -->
                     <p>
                         Los Sistemas Contra Incendios de la marca WDM representan un estándar de excelencia en la
                         protección y seguridad en caso de incendio. Estos sistemas han sido diseñados para ofrecer una
@@ -2588,10 +2597,10 @@
                         garantizar que estés en cumplimiento en todo momento.
                     </p>
                 </div>
-
             </div>
             <div class="row">
                 <div class="col ms-5">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Edificios habitacionales</li>

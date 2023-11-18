@@ -70,22 +70,27 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series 911S --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="911s" class="h4">Bomba Centrífugas de Proceso ANSI de la Serie 911S</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="911s" class="h4">Bomba Centrífugas de Proceso ANSI de la Serie 911S</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/mann/911s.png') }}" width="100%"
-                            height="35%" class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Series 911S</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=drive_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         La serie 911S es la línea más pequeña de las bombas ANSI de Mann. Los tamaños son desde 1” x
                         1.5” hasta 1.5” x 3.
@@ -104,8 +109,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Automotriz</li>
@@ -118,7 +124,8 @@
                         <li>Industria en general</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911s- 3500 RPM </h4>
                     <table class="table table-striped">
                         <thead>
@@ -225,23 +232,27 @@
         </div>
 
         {{-- Contenido Series 911M --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="911m" class="h4">Bombas Centrífugas de Proceso ANSI de la Serie 911M</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="911m" class="h4">Bombas Centrífugas de Proceso ANSI de la Serie 911M</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/mann/911m.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Series 911M</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         La serie 911M es una bomba mediana que cuenta 15 modelos disponibles. Tamaños desde 1” x 2”
                         hasta 4” x 6” Cargas de hasta 700 pies, capacidad de hasta 1400 GPM. Presiones de hasta 285
@@ -253,8 +264,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Industria automotriz</li>
@@ -266,7 +278,8 @@
 
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911M y 911L – 3500 RPM</h4>
                     <table class="table table-striped ">
                         <thead>
@@ -354,7 +367,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911M y 911L – 1750 RPM</h4>
                     <table class="table table-striped ">
                         <thead>
@@ -534,22 +546,27 @@
         </div>
 
         {{-- Contenido Series 911L --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="911l" class="h4">Bombas Centrífugas de Proceso ANSI de la Serie 911L</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="911l" class="h4">Bombas Centrífugas de Proceso ANSI de la Serie 911L</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/mann/911l.png') }}" width="100%"
-                            height="35%" class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Series 911L</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         La serie 911l es una bomba grande, esta cuenta con 11 modelos disponibles. Tamaños desde 1” x 2”
                         hasta 4” x 6” Cargas de hasta 700 pies, capacidad de hasta 1400 GPM. Presiones de hasta 285
@@ -565,15 +582,15 @@
                         Impulsor totalmente abierto y altamente eficiente ya que elimina recirculaciones sus venas
                         posteriores reducen las perdidas hidráulicas y la presión en la cámara de sello.
                     </p>
-
                     <p>
                         Las bombas básicas se suministran sin recorte de impulsor. El recorte solo aplica a las bombas
                         completas (bomba, base, cople, sello y motor).
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Industria automotriz</li>
@@ -584,7 +601,8 @@
                         <li>Industria farmacéutica</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911M y 911L – 3500 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -673,7 +691,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911M y 911L – 1750 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -797,7 +814,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911M y 911L – 1150 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -856,22 +872,27 @@
         </div>
 
         {{-- Contenido Series 911LX --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="911lx" class="h4">Bombas Centrífugas de Proceso ANSI Modelo 911LX</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="911lx" class="h4">Bombas Centrífugas de Proceso ANSI Modelo 911LX</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/mann/911lx.png') }}" width="100%"
-                            height="35%" class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Series 911LX</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1wnf8CYC6SA0atuzutmoOCTrW5GqWG8no/view?usp=sharing"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Esta bomba de Mann Pumps es la más robusta de los 4 modelo. Las dimensiones van desde 6” 8” y de
                         8” x 10. Cargas de hasta 67 metros Temperaturas de hasta 177°C. Motores de 880, 1180 y 1780 RPM.
@@ -886,8 +907,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones del Modelo 911LX:</h4>
                     <ul>
                         <li>Industria automotriz</li>
@@ -898,7 +920,8 @@
                         <li>Industria farmacéutica</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911LX – 1780 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -944,7 +967,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911LX – 1180 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -997,7 +1019,6 @@
                             </tr>
                         </tbody>
                     </table>
-
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911LX – 880 RPM</h4>
                     <table class="table table-striped">
                         <thead>

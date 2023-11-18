@@ -72,22 +72,27 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series Ultra --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="ultra" class="h4">Ultratemp Bomba de Calor</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="ultra" class="h4">Ultratemp Bomba de Calor</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/pentair/ultra.png') }}" width="100%"
-                            height="35%" class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Ultratemp</h6>
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                            <figcaption class="ms-5 ps-4">
+                                <h6 class="h6">Ultratemp</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1H4zl-rZY46h4laEby2yW5biamGEljam6/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1H4zl-rZY46h4laEby2yW5biamGEljam6/view?usp=sharing"
+                        class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Opcion de gran ahorro de energía para el calentamiento de las piscinas y spas. Su diseño brinda
                         una mejor circulacion de aire, eficiencia, salida de calor y bajo nivel de ruido al operar.
@@ -96,8 +101,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col me-5" style="overflow-x:auto;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <!-- Tabla -->
+                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 911LX – 1780 RPM</h4>
                     <table class="table table-striped">
                         <thead>
@@ -368,23 +374,28 @@
         </div>
 
         {{-- Contenido Series IntelliFlo --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="IntelliFlo" class="h4">Intelliflo VSF de Pentair Bomba de Velocidad y Flujo Variable </h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="IntelliFlo" class="h4">Intelliflo VSF de Pentair Bomba de Velocidad y Flujo Variable </h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/pentair/IntelliFlo.png') }}"
-                            width="100%" height="35%" class="figure-img img-fluid rounded" alt="">
+                            width="100%" class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">IntelliFlo</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/17b2j9OmcT11VuDqyjDiHVRyS9Dd2Q2Ny/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/17b2j9OmcT11VuDqyjDiHVRyS9Dd2Q2Ny/view?usp=sharing"
+                        class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         La primera bomba de velocidad y flujo variable capaz de variar la velocidad con controles
                         digitales y un sofware propio que permite la programación personalizada de las velocidades de la
@@ -398,15 +409,17 @@
                         Bomba IntelliFlo VSF suministra un flujo uniforme para un máximo desempeño </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Recirculación de agua en piscinas</li>
                         <li>Recirculacion de agua en Spas </li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -443,25 +456,30 @@
         </div>
 
         {{-- Contenido Series VTSH --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="vtsh" class="h4">Bombas Procesadoras de Sólidos con Turbina Vertical Fairbanks
-                    Nijhuis </h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="vtsh" class="h4">Bombas Procesadoras de Sólidos con Turbina Vertical Fairbanks
+                        Nijhuis </h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/pentair/vtsh.png') }}" width="90%"
-                            height="35%" class="figure-img img-fluid rounded" alt="">
+                         class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Bombas VTSH</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1rNoQY6p-g44ECeMna9xWs0c-DKAjLQVC/view?usp=sharing"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1rNoQY6p-g44ECeMna9xWs0c-DKAjLQVC/view?usp=sharing"
+                        class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
 
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <b>Serie VTSH ó Tipo Propela de (Flujo axial ó Flujo mixto)</b>
                     <p>
                         Las Bombas procesadoras de sólidos con turbina vertical (VTSH) de Fairbanks Nijhuis son de
@@ -469,7 +487,7 @@
                         superficie flecha hueca, por lo tanto se elimina la necesidad de un accionamiento de motor
                         sumergible.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Estaciones de bombeo de aguas residuales</li>
@@ -480,17 +498,16 @@
                             <li>Control del agua de inundaciones y tormentas</li>
                             <li>Recolección y tratamiento de aguas residuale</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-            <div class="row">
-               
-                <div class="col me-5" style="overflow-x:auto;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <!-- Tabla -->
+                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
-                                <th colspan="2" class="border-bottom border-dark">Bombas VTSH</th>
+                                <th colspan="2" class="border-bottom border-dark text-center">Bombas VTSH</th>
 
                             </tr>
                         </thead>
@@ -540,24 +557,29 @@
         </div>
 
         {{-- Contenido Series Well Mate --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="wm" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
-                    de corrosión</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="wm" class="h4">Tanque de presurizado Fibra de Vidrio Well Mate WM- Series A prueba
+                        de corrosión</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/pentair/wm.png') }}" width="30%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Series Well Mate</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1oGm_rOyegwdO4pNUuISiNnVcb9H813eU/view?usp=drive_link"
-                    class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1oGm_rOyegwdO4pNUuISiNnVcb9H813eU/view?usp=drive_link"
+                    class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Nuestra serie WM ofrece características y beneficios que los tanques de acero simplemente no
                         pueden igualar. Desde su construcción compuesta resistente a la corrosión, su menor peso,
@@ -565,17 +587,17 @@
                         costo, generalmente requiriendo solo a una persona y pocas horas de trabajo. Un diferencial de
                         ajuste de presión más amplio proporciona una mayor flexibilidad.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-            
-            <div class="col me-5" style="overflow-x:auto;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -650,6 +672,7 @@
                     </tbody>
                 </table>
             </div>
+        </div>
         </div>
 
 

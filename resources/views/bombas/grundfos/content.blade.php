@@ -49,22 +49,27 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series CR --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="CR" class="h4">Bombas multietapas verticales Grundfos CR</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="CR" class="h4">Bombas multietapas verticales Grundfos CR</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/grundfos/CR.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Serie CR</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1iZlQD-hOpV2MM4yKcsEBZh3r0HzwS4Ce/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                        <div class="ms-5 ps-4">
+                        <a href="https://drive.google.com/file/d/1iZlQD-hOpV2MM4yKcsEBZh3r0HzwS4Ce/view?usp=drive_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Bombas centrifugas multietapas verticales en linea energeticamente eficientes. Disponibles en
                         miles de configuraciones y en cuatro tipos de materiales de contruccion.
@@ -73,13 +78,11 @@
                         Acero Inoxidable AISI 304, Acero Inoxidable AISI 304 con base y parte superior en hierro
                         fundido, Acero inoxidable AISI 316 & Titanio.
                     </p>
-
                 </div>
-
             </div>
-
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Alimentacion de calderas.</li>
@@ -90,7 +93,8 @@
                         <li>Suministro de productos quimicos. </li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -188,35 +192,38 @@
         </div>
 
         {{-- Contenido Series SP --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="SP" class="h4">Bombas para pozo profundo SP Grundfos </h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="SP" class="h4">Bombas para pozo profundo SP Grundfos </h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/grundfos/SP.png') }}" width="100%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption>
-                        <h6 class="h6">Serie SP</h6>
+                            <figcaption class="ms-5 ps-5">
+                                <h6 class="h6">Serie SP</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1rXe-LHRuls5u8tweVfEou97DK4y23JYA/view?usp=drive_link"
+                    <div class="ms-5 ps-2">
+                        <a href="https://drive.google.com/file/d/1rXe-LHRuls5u8tweVfEou97DK4y23JYA/view?usp=drive_link"
                         class="btn btn-primary ms-4">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Reconocidas por su alta eficiencia y confiabilidad. Construidas totalmente en acero inoxidable Y
                         diseñadas para bombear agua subterránea . Las bombas son adecuadas para pozos de tamaños que van
                         desde 4" a 6" y de 8" a 10". Los tamaños de motor para las bombas están disponibles en 1/2hp a
                         335hp
                     </p>
-
                 </div>
-
             </div>
-
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Extracción de aguas subterráneas para abastecimiento de redes.</li>
@@ -224,7 +231,8 @@
                         <li>Aumento de presión.</li>
                     </ul>
                 </div>
-                <div class="col me-5">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>

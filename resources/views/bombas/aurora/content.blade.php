@@ -82,24 +82,30 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series 3800 --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="3800" class="h4">Bombas Centrífugas de succión Axial Aurora Serie 3800
-                    De Succión final de una sola etapa</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="3800" class="h4">Bombas Centrífugas de succión Axial Aurora Serie 3800
+                        De Succión final de una sola etapa</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/3800.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Serie 3800</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/19x7OKgT1imvG-n9rJTQ75oodJ0c6xziE/view?usp=share_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/19x7OKgT1imvG-n9rJTQ75oodJ0c6xziE/view?usp=share_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
+
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <b>Amplio Rango de Aplicación</b>
                     <p>
                         <li>Gasto: De hasta 4,200 GPM ( 264.9 LPS)</li>
@@ -121,8 +127,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-6 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Servicio de Torres de enfriamiento</li>
@@ -134,17 +141,20 @@
                     </ul>
                 </div>
 
-                <div class="col ms-5 p-5">
+                <div class="col-lg-6 mb-5">
 
-                    <iframe width="670" height="377" src="https://www.youtube.com/embed/R863qzWo3RQ"
-                        title="Pentair Aurora Pump 3800 series" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                    <!-- Video -->
+                    <div class="mb-5">
+                        <iframe width="100%" height="200%" src="https://www.youtube.com/embed/R863qzWo3RQ"
+                            title="Pentair Aurora Pump 3800 series" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
-
             </div>
-            <div class="row">
-                <div class="col me-5" style="overflow-x:auto;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2 mt-5 pt-5">
+                <!-- Tabla -->
+                <div class="col-lg-6 mt-5 mb-3" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 3800 (3550 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -228,7 +238,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col me-5">
+                <div class="col-lg-6 mt-5 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 3800 (1750 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -382,24 +392,30 @@
         </div>
 
         {{-- Contenido Series 340 --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="340" class="h4">Bombas Centrífugas Horizontal de Acoplamiento Directo Aurora Serie
-                    340 (Succión Final una etapa)</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="340" class="h4">Bombas Centrífugas Horizontal de Acoplamiento Directo Aurora
+                        Serie
+                        340 (Succión Final una etapa)</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/340.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Serie 340</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1rYdy_LH6OFsDi-reklgwSKKCsBQheUcF/view?usp=share_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/1rYdy_LH6OFsDi-reklgwSKKCsBQheUcF/view?usp=share_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <b>Diseño Robusto para Demandas Rigurosas</b>
                     <p>
                         Estas bombas de la Serie 340 de Aurora son conocidas por su capacidad para enfrentar las
@@ -417,8 +433,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Circuitos de agua fría</li>
@@ -428,13 +445,10 @@
                         <li>Sistemas contraincendio. </li>
                     </ul>
                 </div>
-
-                <div class="col ms-5 p-5">
-                </div>
-
             </div>
             <div class="row">
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-6 mt-3" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 340 (3500 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -503,7 +517,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col me-5">
+                <div class="col-lg-6 mt-3 mb-5 pb-5">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 340 (1750 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -611,23 +625,28 @@
         </div>
 
         {{-- Contenido Series 380 --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="380" class="h4">Bombas Verticales en Línea Aurora Serie 380</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="380" class="h4">Bombas Verticales en Línea Aurora Serie 380</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/380.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Serie 380</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/11TKZbbAoiTuPSzZCv_aJnCsV5iwZmgFB/view?usp=share_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5 ps-4">
+                        <a href="https://drive.google.com/file/d/11TKZbbAoiTuPSzZCv_aJnCsV5iwZmgFB/view?usp=share_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <b>Eficiencia y Ahorro de Espacio</b>
                     <p>
                         Las bombas centrífugas verticales de la Serie 380 de Aurora son la solución ideal cuando se
@@ -647,8 +666,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-12 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Purificación de agua</li>
@@ -663,13 +683,10 @@
 
                     </ul>
                 </div>
-
-                <div class="col ms-5 p-5">
-                </div>
-
             </div>
             <div class="row">
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-6 mt-3" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 380 (3500 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -748,7 +765,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col me-5">
+                <div class="col-lg-6 mt-3 mb-5 pb-5">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 380 (1750 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -906,23 +923,28 @@
         </div>
 
         {{-- Contenido Series 110A --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="110A" class="h4">Bombas de Turbina Regenerativa Aurora Serie 110A-120B</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="110A" class="h4">Bombas de Turbina Regenerativa Aurora Serie 110A-120B</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/110A.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-4">
                         <h6 class="h6">Serie 110A</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/16PkriARLm-Uxpt8pE-Q1sSi9jH9W4VKy/view?usp=share_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5">
+                        <a href="https://drive.google.com/file/d/16PkriARLm-Uxpt8pE-Q1sSi9jH9W4VKy/view?usp=share_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <b>Rendimiento Confiable en Condiciones Exigentes</b>
                     <p>
                         Una de las características más destacadas de la Serie 110A es su capacidad para operar de manera
@@ -947,8 +969,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Alimentadora para Caldera</li>
@@ -967,7 +990,8 @@
                         <li>Autolavados</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 110A (1750 RPM):</h4>
                     <table class="table table-striped">
                         <thead>
@@ -1060,23 +1084,28 @@
         </div>
 
         {{-- Contenido Series 630 --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="630" class="h4">Bombas Centrífugas Verticales para Cárcamo Húmedo Serie 630</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="630" class="h4">Bombas Centrífugas Verticales para Cárcamo Húmedo Serie 630</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/630.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Serie 630</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <a href="https://drive.google.com/file/d/1K3nKdPBU-rbnHe5vLgiCKf7XUxdbLEAe/view?usp=share_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                    <div class="ms-5 ps-4">
+                        <a href="https://drive.google.com/file/d/1K3nKdPBU-rbnHe5vLgiCKf7XUxdbLEAe/view?usp=share_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <b>Rendimiento Confiable en Cárcamos Húmedos</b>
                     <p>
                         Cuando se trata de transferir líquidos con sólidos de hasta 3 pulgadas desde depósitos
@@ -1112,8 +1141,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col ms-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
                         <li>Aguas Residuales</li>
@@ -1127,7 +1157,8 @@
                         <li>Sistemas de Tratamiento de Agua</li>
                     </ul>
                 </div>
-                <div class="col me-5" style="overflow-x:auto;">
+                <!-- Tabla -->
+                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie 630 (1750 RPM):</h4>
                     <table class="table table-striped">
                         <thead>

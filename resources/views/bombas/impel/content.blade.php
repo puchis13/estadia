@@ -139,35 +139,37 @@
         {{-- Inicio de Contenidos --}}
 
         {{-- Contenido Series AI --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="AI" class="h4">Bomba sumergible de Achique</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="AI" class="h4">Bomba sumergible de Achique</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Series AI</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Esta bomba es de achique, son bombas portátiles utilizadas en construcción y minería ideales
                         en el manejo de agua limpia y/o con abrasivos en potencias de 0.5 a 15 Hp.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -228,35 +230,38 @@
         </div>
 
         {{-- Contenido Series E --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="E" class="h4">Bomba sumergible de aguas residuales</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="E" class="h4">Bomba sumergible de aguas residuales</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Series E</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Bombas sumergibles portátiles o para instalación fija para manejo de aguas residuales domésticas
                         y municipales. En potencias de 1Hp hasta 3Hp y diámetros de de descarga de 2” y 3” con paso de
                         esfera de 32mm (1 1/4”)
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -324,36 +329,38 @@
         </div>
 
         {{-- Contenido Series C --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="C" class="h4">Bomba sumergible de aguas residuales</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="C" class="h4">Bomba sumergible de aguas residuales</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Series C</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Bombas portátiles y/o estacionarias para menejo de aguas residuales domésticas y municipales con
                         alto contenido de sólidos de hasta 64mm (2 1/2”) de paso de esfera fabricadas en hierro gris de
                         alta resistencia.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -421,35 +428,37 @@
         </div>
 
         {{-- Contenido Series L --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="L" class="h4">Bomba sumergible de aguas residuales</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="L" class="h4">Bomba sumergible de aguas residuales</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-3">
                         <h6 class="h6">Series L</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Bombas con alto paso de sólidos en suspensión para manejo de aguas residuales domésticas
                         municipales e industriales de 3 a 300HP. En versiones fija, portátil o cárcamo seco.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -776,35 +785,37 @@
         </div>
 
         {{-- Contenido Series G --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="G" class="h4">Bomba Trituradoras</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="G" class="h4">Bomba Trituradoras</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Series G</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Bombas Trituradoras para manejo de sólidos suaves domésticos en gastos moderados y altas cargas
                         en potencias de 2 a 10 Hp
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Unidad basica o "portatil</h4>
                 <table class="table table-striped">
                     <thead>
@@ -893,35 +904,41 @@
         </div>
 
         {{-- Contenido Series H --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="H" class="h4">Bombas de flujo Axial</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="H" class="h4">Bombas de flujo Axial</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <div class="ms-2">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                </div>
+                    <div class="ms-5">
+                    <figcaption class="ms-5">
                         <h6 class="h6">Series H</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                </div>
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Bombas de flujo axial, de baja velocidad, con alto paso de sólidos en suspensión para manejo de
                         aguas residuales municipales con grandes caudales de 300 a 1500lps.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -958,35 +975,37 @@
         </div>
 
         {{-- Contenido Series AC --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="AC" class="h4">Bomba sumergible para aguas lodosas</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="AC" class="h4">Bomba sumergible para aguas lodosas</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5 ps-5">
                         <h6 class="h6">Series AC</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Esta bomba es de achique, son bombas portátiles utilizadas en construcción y minería ideales
                         en el manejo de agua limpia y/o con abrasivos en potencias de 0.5 a 15 Hp.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -1096,36 +1115,38 @@
         </div>
 
         {{-- Contenido Aereador sumergible serie AMS --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="sumergibles" class="h4">Aereador sumergible serie AMS</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="sumergibles" class="h4">Aereador sumergible serie AMS</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}"
-                            width="100%" class="figure-img img-fluid rounded" alt="">
+                            width="60%" class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
+                    <figcaption class="ms-5">
                         <h6 class="h6">Serie AMS</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Aereadores eléctricos sumergibles en potencias desde 0.5 HP hasta 60 HP y capacidad de
                         transferencia de hasta 57 KG de O2/hr. Su diseño permite una operación completamente
                         silenciosa y eficiente.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -1177,20 +1198,23 @@
         </div>
 
         {{-- Contenido Aereadores Mecánicos Flotantes --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="mecanicos" class="h4">Aereadores Mecánicos Flotantes</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="mecanicos" class="h4">Aereadores Mecánicos Flotantes</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
                     <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/mecanicos.png') }}"
-                            width="100%" class="figure-img img-fluid rounded" alt="">
+                            width="60%" class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
                         <h6 class="h6">Aereadores Mecánicos Flotantes</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
 
                         Aereadores mecánicos flotantes de alta velocidad; diseñados para crear una interfase aire/agua
@@ -1198,17 +1222,16 @@
                         En potencias desde 2 HP hasta 60 HP y transferencia de oxígeno 1.27 KG de O2/hr en condiciones
                         estándar ideales para lagunas de oxidación.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>
@@ -1292,36 +1315,40 @@
         </div>
 
         {{-- Contenido Aereadores Sumergibles ABV --}}
-        <div class=" m-2 p-2">
-            <div class="row m-1">
-                <h4 id="baja" class="h4">Aereadores Sumergibles ABV</h4>
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="baja" class="h4">Aereadores Sumergibles ABV</h4>
+                </div>
             </div>
-            <div class="row m-5 ps-5">
-                <div class="col ms-5 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="100%"
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                    <div class="ms-5">
+                    <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
+                </div>
                     <figcaption>
                         <h6 class="h6">Aereadores Sumergibles ABV</h6>
                     </figcaption>
                 </div>
-                <div class="col me-5 pe-5">
+                <div class="col-lg-7 mt-5 mb-3">
+                    <!-- Texto -->
                     <p>
                         Aereadores mecánicos superficiales de baja velocidad. Soportan sobrecargas momentáneas de hasta
                         500%. Transferencia de oxígeno garantizada en condiciones estándar 1.6 KG de O2/hr.
                         Disponibles en capacidades de hasta 100 HP.
                     </p>
-                    <div>
+                        <!-- Aplicaciones -->
                         <h4 class="h4">Aplicaciones</h4>
                         <ul>
                             <li>Comerciales</li>
                             <li>Industriales</li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas</h4>
                 <table class="table table-striped">
                     <thead>

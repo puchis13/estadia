@@ -84,22 +84,27 @@
     {{-- Inicio de Contenidos --}}
 
     {{-- Contenido Series Nemo --}}
-    <div class=" m-2 p-2">
-        <div class="row m-1">
-            <h4 id="nemo" class="h4">Bombas de Tornillo Helicoidal Nemo</h4>
+    <div>
+        <div class="row">
+            <div class="col m-2 mt-3 pb-3">
+                <h4 id="nemo" class="h4">Bombas de Tornillo Helicoidal Nemo</h4>
+            </div>
         </div>
-        <div class="row m-5 ps-5">
-            <div class="col ms-5 ps-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3 ps-5">
                 <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/nemo.png') }}" width="70%"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
-                    <h6 class="h6">Serie Nemo</h6>
+                        <figcaption class="ms-5 ps-4">
+                            <h6 class="h6">Serie Nemo</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://drive.google.com/file/d/1oFtCkl5ML-6ylDrPlwf60VvrI6Ecy4WX/view?usp=drive_link"
-                    class="btn btn-primary ms-4">Ficha Técnica</a>
+                <div class="ms-5">
+                    <a href="https://drive.google.com/file/d/1oFtCkl5ML-6ylDrPlwf60VvrI6Ecy4WX/view?usp=drive_link"
+                    class="btn btn-primary">Ficha Técnica</a>
+                </div>
             </div>
-            <div class="col me-5 pe-5">
+            <div class="col-lg-7 mt-5 mb-3">
+                <!-- Texto -->
                 <p>
                     Las avanzadas bombas de desplazamiento positivo de tornillo excéntrico de la reconocida marca
                     NETZSCH, pertenecientes a la serie NEMO, son altamente valoradas en diversas aplicaciones que
@@ -114,10 +119,10 @@
                     excéntrico con tolva Nemo, de inmersión y de trasvase. Estas bombas demuestran ser especialmente
                     eficaces en el manejo de productos de difícil bombeo.</p>
             </div>
-
         </div>
-        <div class="row">
-            <div class="col ms-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3">
+                <!-- Aplicaciones -->
                 <h4 class="h4">Aplicaciones de las Bombas NETZSCH Nemo:</h4>
                 <ul>
                     <li>Química, Pulpa y Papel</li>
@@ -129,7 +134,8 @@
                     <li>Tratamiento de aguas residuales y lodos</li>
                 </ul>
             </div>
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas de NETZSCH Nemo</h4>
                 <table class="table table-striped">
                     <thead>
@@ -238,22 +244,27 @@
     </div>
 
     {{-- Contenido Series Notos --}}
-    <div class=" m-2 p-2">
-        <div class="row m-1">
-            <h4 id="notos" class="h4">Bombas Multihusillo Notos</h4>
+    <div>
+        <div class="row">
+            <div class="col m-2 mt-3 pb-3">
+                <h4 id="notos" class="h4">Bombas Multihusillo Notos</h4>
+            </div>
         </div>
-        <div class="row m-5 ps-5">
-            <div class="col ms-5 ps-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3 ps-5">
                 <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/notos.png') }}" width="70%"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
-                    <h6 class="h6">Serie Notos</h6>
+                        <figcaption class="ms-5 ps-4">
+                            <h6 class="h6">Serie Notos</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://drive.google.com/file/d/1MNrU_LYx_QLo2lTIREy3PFlaEawgRY9a/view?usp=drive_link"
-                    class="btn btn-primary ms-4">Ficha Técnica</a>
+                <div class="ms-5">
+                    <a href="https://drive.google.com/file/d/1MNrU_LYx_QLo2lTIREy3PFlaEawgRY9a/view?usp=drive_link"
+                    class="btn btn-primary">Ficha Técnica</a>
+                </div>
             </div>
-            <div class="col me-5 pe-5">
+            <div class="col-lg-7 mt-5 mb-3">
+                <!-- Texto -->
                 <p>
                     Las bombas NOTOS están diseñadas para trabajar con líquidos de baja a alta lubricación con baja a
                     alta viscosidad, así como medios sensibles al corte o químicamente agresivos.
@@ -267,10 +278,10 @@
                     relevantes en los sectores del petróleo y el gas, y la petroquímica.
                 </p>
             </div>
-
         </div>
-        <div class="row">
-            <div class="col ms-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3">
+                <!-- Aplicaciones -->
                 <h4 class="h4">Aplicaciones de las Bombas NETZSCH Notos:</h4>
                 <ul>
                     <li>Alimentario y farmacéutico</li>
@@ -281,14 +292,14 @@
                     <li>Batería</li>
                 </ul>
             </div>
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <p>
                     Las bombas de dos husillos NOTOS, tienen capacidad de autocebado, son muy útiles en diferentes áreas
                     como el petróleo y el gas, el transporte por marítimo, la generación de energía y las fábricas de
                     productos químicos. También se usan en lugares donde se almacenan grandes cantidades de líquidos en
                     tanques. Estas bombas son duraderas.
                 </p>
-
                 <h4 class="h4">Especificaciones Técnicas de NETZSCH Notos</h4>
                 <table class="table table-striped">
                     <thead>
@@ -337,22 +348,27 @@
     </div>
 
     {{-- Contenido Series Tornado --}}
-    <div class=" m-2 p-2">
-        <div class="row m-1">
-            <h4 id="tornado" class="h4">Bombas Lobulares Tornado</h4>
+    <div>
+        <div class="row">
+            <div class="col m-2 mt-3 pb-3">
+                <h4 id="tornado" class="h4">Bombas Lobulares Tornado</h4>
+            </div>
         </div>
-        <div class="row m-5 ps-5">
-            <div class="col ms-5 ps-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3 ps-5">
                 <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/tornado.png') }}" width="70%"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
-                    <h6 class="h6">Serie Tornado</h6>
+                        <figcaption class="ms-5 ps-4">
+                            <h6 class="h6">Serie Tornado</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://drive.google.com/file/d/1Bo1tqsddE8MD6uENHJDquM3aaA05Zvn7/view?usp=drive_link"
-                    class="btn btn-primary ms-4">Ficha Técnica</a>
+                <div class="ms-5">
+                    <a href="https://drive.google.com/file/d/1Bo1tqsddE8MD6uENHJDquM3aaA05Zvn7/view?usp=drive_link"
+                    class="btn btn-primary">Ficha Técnica</a>
+                </div>
             </div>
-            <div class="col me-5 pe-5">
+            <div class="col-lg-7 mt-5 mb-3">
+                <!-- Texto -->
                 <p>
                     Potentes bombas lobulares con la máxima seguridad operativa.
                     Las bombas lobulares autocebantes y sin válvulas TORNADO son especialmente potentes y requieren poco
@@ -362,10 +378,10 @@
                     la velocidad de casi todos los medios en una amplia variedad de aplicaciones. Son utilizadas para la
                     dosificación, la extracción continua y suave de materiales.</p>
             </div>
-
         </div>
-        <div class="row">
-            <div class="col ms-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3">
+                <!-- Aplicaciones -->
                 <h4 class="h4">Aplicaciones de las Bombas NETZSCH Tornado:</h4>
                 <ul>
                     <li>Alimentario y farmacéutico</li>
@@ -376,7 +392,8 @@
                     <li>Batería</li>
                 </ul>
             </div>
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas de Serie Tornado</h4>
                 <table class="table table-striped">
                     <thead>
@@ -431,22 +448,27 @@
     </div>
 
     {{-- Contenido Series Peripro --}}
-    <div class=" m-2 p-2">
-        <div class="row m-1">
-            <h4 id="peripro" class="h4">Bombas Peristálticas Peripro</h4>
+    <div>
+        <div class="row">
+            <div class="col m-2 mt-3 pb-3">
+                <h4 id="peripro" class="h4">Bombas Peristálticas Peripro</h4>
+            </div>
         </div>
-        <div class="row m-5 ps-5">
-            <div class="col ms-5 ps-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3 ps-5">
                 <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/peripro.png') }}" width="70%"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
-                    <h6 class="h6">Serie Peripro</h6>
+                        <figcaption class="ms-5 ps-4">
+                            <h6 class="h6">Serie Peripro</h6>
                 </figcaption>
                 {{-- direccion de catalogo --}}
-                <a href="https://drive.google.com/file/d/1y_UPHbWQdRjZoDPFL9u5CVN4ZbgDt3cu/view?usp=drive_link"
-                    class="btn btn-primary ms-4">Ficha Técnica</a>
+                <div class="ms-5">
+                    <a href="https://drive.google.com/file/d/1y_UPHbWQdRjZoDPFL9u5CVN4ZbgDt3cu/view?usp=drive_link"
+                    class="btn btn-primary">Ficha Técnica</a>
+                </div>
             </div>
-            <div class="col me-5 pe-5">
+            <div class="col-lg-7 mt-5 mb-3">
+                <!-- Texto -->
                 <p>
                     Las bombas peristálticas NETZSCH son particularmente resistentes y fáciles de mantener. Resistentes,
                     fiables y potentes: las bombas peristálticas PERIPRO son especialmente adecuadas para medios
@@ -462,12 +484,11 @@
                 <li>Larga vida útil de la manguera gracias al gran tamaño de los rodillos</li>
                 <li>Sin sellos mecánicos ni válvulas (pocas piezas de desgaste)</li>
                 <li>Resistencia de la manguera a las altas temperaturas</li>
-
             </div>
-
         </div>
-        <div class="row">
-            <div class="col ms-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-12 mt-5 mb-5">
+                <!-- Aplicaciones -->
                 <h4 class="h4">Aplicaciones de las Bombas NETZSCH Peripro:</h4>
                 <ul>
                     <li>Alimentario y farmacéutico</li>
@@ -482,19 +503,22 @@
     </div>
 
     {{-- Contenido Series Trituradora --}}
-    <div class=" m-2 p-2">
-        <div class="row m-1">
-            <h4 id="trituradora" class="h4">Sistemas de Trituración</h4>
+    <div>
+        <div class="row">
+            <div class="col m-2 mt-3 pb-3">
+                <h4 id="trituradora" class="h4">Sistemas de Trituración</h4>
+            </div>
         </div>
-        <div class="row m-5 ps-5">
-            <div class="col ms-5 ps-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3 ps-5">
                 <figure class="figure"><img src="{{ asset('imagenes/bombas/netzsch/trituradora.png') }}"
                         width="70%" class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
-                    <h6 class="h6">Serie Trituradora</h6>
+                        <figcaption class="ms-5 ps-4">
+                            <h6 class="h6">Serie Trituradora</h6>
                 </figcaption>
             </div>
-            <div class="col me-5 pe-5">
+            <div class="col-lg-7 mt-5 mb-3">
+                <!-- Texto -->
                 <p>
                     Robustos, versátiles y potentes: le ofrecemos sistemas de trituración de alto rendimiento para
                     proteger sus equipos y las unidades de bombeo que contienen. Estos sistemas aseguran que las
@@ -509,10 +533,10 @@
                     de aplicaciones, desde el tratamiento de aguas residuales hasta los residuos de alimentos y frutas.
                 </p>
             </div>
-
         </div>
-        <div class="row">
-            <div class="col ms-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+            <div class="col-lg-5 mt-3 mb-3">
+                <!-- Aplicaciones -->
                 <h4 class="h4">Aplicaciones de Sistemas de Trituración:</h4>
                 <ul>
                     <li>Medio Ambiente y Energía</li>
@@ -520,7 +544,8 @@
                     <li>Minería</li>
                 </ul>
             </div>
-            <div class="col me-5" style="overflow-x:auto;">
+            <!-- Tabla -->
+            <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas de Sistemas de Trituración</h4>
                 <table class="table table-striped">
                     <thead>
