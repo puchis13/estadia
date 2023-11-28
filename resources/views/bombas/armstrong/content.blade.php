@@ -84,23 +84,25 @@
           <div>
               <div class="row">
                   <div class="col m-2 mt-3 pb-3">
-                      <h4 id="4300" class="h4">Bombas Verticales en Línea Armstrong Modelo 4300</h4>
+                      <h4 id="4300">Bombas Verticales en Línea Armstrong Modelo 4300</h4>
                   </div>
               </div>
-              <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                  <div class="col-lg-5 mt-3 mb-3 pe-5">
-                      <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4300.png') }}" width="100%"
-                              class="figure-img img-fluid rounded" alt=""></figure>
-                      <figcaption class="ms-5 ps-5">
-                          <h6 class="h6">Serie 4300</h6>
+              <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 ">
+                  <div class="col-md-6 mt-3">
+                      <figure class="figure">
+                          <img src="{{ asset('imagenes/bombas/armstrong/4300.png') }}" width="100%"
+                              class="figure-img img-fluid rounded" alt="">
+                      </figure>
+                      <figcaption class="d-flex justify-content-center">
+                          <h6>Serie 4300</h6>
                       </figcaption>
-                      {{-- direccion de catalogo --}}
-                      <div class="ms-5 ps-4">
+                      <div class="d-flex justify-content-center">
                           <a href="https://drive.google.com/file/d/1J1I821J9AZvo-WCQcGec7wpUFiStFiKD/view?usp=sharing"
                               class="btn btn-primary">Ficha Técnica</a>
                       </div>
                   </div>
-                  <div class="col-lg-7 mt-5 mb-3">
+
+                  <div class="col-md-6 mt-lg-5 text-justify">
                       <!-- Texto -->
                       <p>
                           La Serie 4300 es el mejor diseño de bombas HVAC comerciales disponibles desde 1969, este
@@ -113,11 +115,12 @@
 
                       </p>
                   </div>
+
               </div>
-              <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                  <div class="col-lg-5 mt-3 mb-3">
+              <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+                  <div class="col-md-6 mt-lg-5 text-justify">
                       <!-- Aplicaciones -->
-                      <h4 class="h4">Aplicaciones</h4>
+                      <h4>Aplicaciones</h4>
                       <ul>
                           <li>Bombeo de (Agua glicol)</li>
                           <li>Bombeo HVAV</li>
@@ -125,7 +128,7 @@
                       </ul>
                   </div>
                   <!-- Tabla -->
-                  <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                  <div class="col-md-6 mt-lg-5 text-justify " style="overflow-x:auto;">
                       <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped">
                           <thead>
@@ -420,24 +423,25 @@
           <div>
               <div class="row">
                   <div class="col m-2 mt-3 pb-3">
-                      <h4 id="circuladores" class="h4">Circuladores en Línea 1050-1060 </h4>
+                      <h4 id="circuladores">Circuladores en Línea 1050-1060 </h4>
                   </div>
               </div>
-              <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                  <div class="col-lg-5 mt-3 mb-3 pe-5">
+              <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+                  <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/circuladores.png') }}"
                               width="100%" class="figure-img img-fluid rounded" alt="">
                       </figure>
-                      <figcaption class="ms-5 ps-5">
-                          <h6 class="h6">Linea 1050-1060</h6>
+                      <figcaption class="d-flex justify-content-center">
+                          <h6>Linea 1050-1060</h6>
                       </figcaption>
                       {{-- direccion de catalogo --}}
-                      <div class="ms-5 ps-5">
+                      <div class="d-flex justify-content-center">
                           <a href="https://drive.google.com/file/d/189qFudN5-pO2i7ebzXtLV0vxpwptkS6O/view?usp=sharing"
                               class="btn btn-primary">Ficha Técnica</a>
                       </div>
                   </div>
-                  <div class="col-lg-7 mt-5 mb-3">
+                  <div class="col-md-6 mt-lg-5 text-justify">
+
                       <!-- Texto -->
                       <p>
                           Los circuladores en línea Modelo 1050 y 1060 de Armstrong son fabricados para trabajo continuo
@@ -460,7 +464,7 @@
                       </ul>
                   </div>
                   <!-- Tabla -->
-                  <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                  <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                       <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped ">
                           <thead>
@@ -614,25 +618,25 @@
           <div>
               <div class="row">
                   <div class="col m-2 mt-3 pb-3">
-                      <h4 id="4030" class="h4">Bomba Centrífuga tipo End Suction Montada en Base Serie 4030
+                      <h4 id="4030">Bomba Centrífuga tipo End Suction Montada en Base Serie 4030
                       </h4>
                   </div>
               </div>
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                  <div class="col-lg-5 mt-3 mb-3 pe-5">
+                  <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4030.png') }}"
                               width="100%" class="figure-img img-fluid rounded" alt="">
                       </figure>
-                      <figcaption class="ms-5 ps-5">
-                          <h6 class="h6">Serie 4030</h6>
+                      <figcaption class="d-flex justify-content-center">
+                          <h6>Serie 4030</h6>
                       </figcaption>
                       {{-- direccion de catalogo --}}
-                      <div class="ms-5 ps-4">
+                      <div class="d-flex justify-content-center">
                           <a href="https://drive.google.com/file/d/1HhVgXEROvVb8V5qK7T0RU5_JwCwg_Dt_/view?usp=drive_link"
                               class="btn btn-primary">Ficha Técnica</a>
                       </div>
                   </div>
-                  <div class="col-lg-7 mt-5 mb-3">
+                  <div class="col-md-6 mt-lg-5 text-justify">
                       <!-- Texto -->
                       <p>
                           Esta bomba centrifuga horizontal es sumamente robusta y esta diseñadapara darle mantenimiento
@@ -656,7 +660,7 @@
                       </ul>
                   </div>
                   <!-- Tabla -->
-                  <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                  <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                       <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped">
                           <thead>
@@ -971,29 +975,28 @@
           <div>
               <div class="row">
                   <div class="col m-2 mt-3 pb-3">
-                      <h4 id="4270" class="h4">Bomba Centrífuga Horizontal Acoplada Directamente a Motor
+                      <h4 id="4270">Bomba Centrífuga Horizontal Acoplada Directamente a Motor
                           Serie 4270</h4>
                   </div>
               </div>
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                  <div class="col-lg-5 mt-3 mb-3 pe-5">
+                  <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4270.png') }}"
                               width="100%" class="figure-img img-fluid rounded" alt="">
                       </figure>
-                      <figcaption class="ms-5 ps-5">
-                          <h6 class="h6">Series 4270</h6>
+                      <figcaption class="d-flex justify-content-center">
+                          <h6>Series 4270</h6>
                       </figcaption>
                       {{-- direccion de catalogo --}}
-                      <div class="ms-5 ps-5 mb-2 mt-2">
+                      <div class="d-flex justify-content-center ">
                           <a href="https://drive.google.com/file/d/1qlbvIhZB4egWmHkNe-R-MBLGiK5zH_pb/view?usp=sharing"
-                              class="btn btn-primary">Brochure</a>
-                      </div>
-                      <div class="ms-5 ps-5">
+                              class="btn btn-primary m-2">Brochure</a>
                           <a href="https://drive.google.com/file/d/1vK0KtdX53Yl-oG6jI063E0fgargfVMgz/view?usp=sharing"
-                              class="btn btn-primary">Ficha Técnica</a>
+                              class="btn btn-primary m-2">Ficha Técnica</a>
                       </div>
+
                   </div>
-                  <div class="col-lg-7 mt-5 mb-3">
+                  <div class="col-md-6 mt-lg-5 text-justify">
                       <!-- Texto -->
                       <p>
                           La serie 4270 de Armstrong son diseñadas para una larga vida y trabajo continuo. El material
@@ -1011,7 +1014,7 @@
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                   <div class="col-lg-5 mt-3 mb-3">
                       <!-- Aplicaciones -->
-                      <h4 class="h4">Aplicaciones</h4>
+                      <h4>Aplicaciones</h4>
                       <ul>
                           <li>Torres de enfriamientos</li>
                           <li>HVAC</li>
@@ -1019,7 +1022,7 @@
                       </ul>
                   </div>
                   <!-- Tabla -->
-                  <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                  <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                       <h4 class="h4">Especificaciones Técnicas</h4>
                       <table class="table table-striped ">
                           <thead>
@@ -1128,24 +1131,24 @@
           <div>
               <div class="row">
                   <div class="col m-2 mt-3 pb-3">
-                      <h4 id="FirePak" class="h4">Sistemas Contra Incendios Armados Armstrong</h4>
+                      <h4 id="FirePak">Sistemas Contra Incendios Armados Armstrong</h4>
                   </div>
               </div>
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                  <div class="col-lg-5 mt-3 mb-3 pe-5">
+                  <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/FirePak.png') }}"
                               width="100%" class="figure-img img-fluid rounded" alt="">
                       </figure>
-                      <figcaption class="ms-5 ps-2">
-                          <h6 class="h6">Firepak Horizontal Split</h6>
+                      <figcaption class="d-flex justify-content-center">
+                          <h6>Firepak Horizontal Split</h6>
                       </figcaption>
                       {{-- direccion de catalogo --}}
-                      <div class="ms-5 ps-4">
+                      <div class="d-flex justify-content-center">
                           <a href="https://drive.google.com/file/d/1Q9BBkaPLG1umzFiEWmEmuA6Of4cAtqIn/view?usp=drive_link"
                               class="btn btn-primary">Ficha Técnica</a>
                       </div>
                   </div>
-                  <div class="col-lg-7 mt-5 mb-3">
+                  <div class="col-md-6 mt-lg-5 text-justify">
                       <!-- Texto -->
                       <b>
                           Caja Partida Horizontal (Firepak Horizontal Split)</b>
@@ -1174,7 +1177,7 @@
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                   <div class="col">
                       <!-- Aplicaciones -->
-                      <h4 class="h4">Rango de aplicaciones del FirePak VIL</h4>
+                      <h4>Rango de aplicaciones del FirePak VIL</h4>
                       <ul>
                           <li>Conexión: Hasta 8”</li>
                           <li>Potencia: Hasta 150” hp</li>
@@ -1184,7 +1187,7 @@
                   </div>
                   <div class="col">
                       <!-- Aplicaciones -->
-                      <h4 class="h4">Rango de aplicaciones del FirePak HSC</h4>
+                      <h4>Rango de aplicaciones del FirePak HSC</h4>
                       <ul>
                           <li>Conexión: Hasta 12”</li>
                           <li>Potencia: Hasta 250 hp</li>

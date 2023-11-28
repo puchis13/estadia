@@ -3,7 +3,6 @@
         <div>
             {{-- Logo --}}
             <div class="text-center">
-
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/altamira/logo.png') }}" width=40%
                         class="figure-img img-fluid rounded" alt="...">
@@ -16,49 +15,59 @@
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
 
                     {{-- Imagen de Series Tx --}}
-                    <div class="col">
+                    <div class="col mb-3">
                         <figure class="figure">
                             <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="47%"
                                     class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
+                            <figcaption class="figure-caption">
                                 <h6 class="h6">Series TX</h6>
                             </figcaption>
                         </figure>
                     </div>
 
                     {{-- Imagen de Series KOR --}}
-                    <div class="col">
+                    <div class="col mb-3">
                         <figure class="figure">
                             <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="57%"
                                     class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
+                            <figcaption class="figure-caption">
                                 <h6 class="h6">Series KOR</h6>
                             </figcaption>
                         </figure>
                     </div>
 
                     {{-- Imagen de Series Flux --}}
-                    <div class="col">
+                    <div class="col mb-3">
                         <figure class="figure">
                             <a href="#flux"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
                                     class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
+                            <figcaption class="figure-caption">
                                 <h6 class="h6">Series Flux</h6>
                             </figcaption>
                         </figure>
                     </div>
 
                     {{-- Imagen de Series EKRC Y Eco-Kal --}}
-                    <div class="col">
+                    <div class="col mb-3">
                         <figure class="figure">
                             <a href="#ekrc"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
+                            <figcaption class="figure-caption">
                                 <h6 class="h6">Series EKRC y Eco-Kal</h6>
                             </figcaption>
                         </figure>
                     </div>
 
+                    {{-- Imagen de Series XLB --}}
+                    <div class="col mb-3">
+                        <figure class="figure">
+                            <a href="#xlb"><img src="{{ asset('imagenes/bombas/altamira/xlb.png') }}" width="80%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption">
+                                <h6 class="h6">Series XLB</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
                     {{-- Cierre de Fila --}}
                 </div>
 
@@ -77,19 +86,19 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="100%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="40%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption class="ms-5 ps-4">
+                    <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Series TX</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="ms-5">
+                    <div class="d-flex justify-content-center">
                         <a href="https://www.vde.com.mx/media/amasty/amfile/attach/prEMfUpGuuFHVmYwDX1mldYpFVcNaVfw.pdf"
-                            class="btn btn-primary">Ficha Ténica</a>
+                            class="btn btn-primary">Ficha Técnica</a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     {{-- Texto --}}
                     <p>
                         Las <b>Bombas Multietapas Altamira TX</b> son ideales para aplicaciones industriales
@@ -108,7 +117,7 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones de las Series TX</h4>
                     <ul>
@@ -129,7 +138,7 @@
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico</h4>
                     <table class="table table-striped">
                         <thead>
@@ -227,23 +236,23 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
-                    <figure class="figure ps-5"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}"
-                            width="100%" class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption class="ms-5 ps-5">
-                        <h6 class="h6">Series KOR</h6>
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}"
+                            width="40%" class="figure-img img-fluid rounded" alt=""></figure>
+                            <figcaption class="d-flex justify-content-center">
+                                <h6 class="h6">Series KOR</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="m-2 ms-5">
+                    <div class="d-flex justify-content-center">
                         <a href="https://drive.google.com/file/d/1jicJtimdpoTUPZYqImZ9dX6GvDFy3JZf/view?usp=drive_link"
-                            class="btn btn-primary ms-4">Ficha KOR 4”</a>
+                            class="btn btn-primary mt-2 mb-2">Ficha KOR 4”</a>
                     </div>
-                    <div class="m-2 ms-5">
+                    <div class="d-flex justify-content-center">
                         <a href="https://www.vde.com.mx/media/amasty/amfile/attach/KgBuHWztLWi6wL4V2QTzBDGKjMFW5ePW.pdf"
-                            class="btn btn-primary ms-4">Ficha KOR 6” 8” 10” </a>
+                            class="btn btn-primary">Ficha KOR 6” 8” 10” </a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         La familia de <b>Bombas Sumergibles Altamira de la Serie KOR </b> son totalmente en acero
@@ -255,7 +264,7 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones de la serie KOR bombear agua de:</h4>
                     <ul>
@@ -268,7 +277,7 @@
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Rangos de Operación</h4>
                     <table class="table table-striped ">
                         <thead>
@@ -378,19 +387,19 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption class="ms-5 ps-5">
+                    <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Series Flux</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="ms-5 ps-4">
+                    <div class="d-flex justify-content-center">
                         <a href="https://www.vde.com.mx/amfile/file/download/file/717/product/1118/"
                             class="btn btn-primary">Ficha Técnica</a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         Las bombas <b>bombas Serie Flux de Altamira son una amplia gama de Motobombas
@@ -401,7 +410,7 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones de las bombas Altamira Flux</h4>
                     <ul>
@@ -418,7 +427,7 @@
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de la Serie Flux:</h4>
                     <table class="table table-striped">
                         <thead>
@@ -486,21 +495,21 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="60%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption class="ms-5">
+                    <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Serie EKRC</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="ms-5">
+                    <div class="d-flex justify-content-center">
                         <a href="https://drive.google.com/file/d/1WHK3xLg5aLM3CPTybyUbBwYOfrw8-R8a/view"
                             class="btn btn-primary">Ficha EKRC</a>
                     </div>
                 </div>
                 <!-- Texto -->
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <p>
                         Las bombas de calor Hidrocontrol son muy competitivas en el mercado, además la serie EKRC tienen
                         un display de LCD y un robusto intercambiador de calor construido en titanio, refrigerante
@@ -516,7 +525,7 @@
             </div>
             <!-- Tabla -->
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-12 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -606,20 +615,20 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/altamira/ecokal.jpg') }}"
-                            width="60%" class="figure-img img-fluid rounded" alt="">
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/ecokal.jpg') }}"
+                            width="50%" class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption class="ms-4">
+                    <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Serie Eco-Kal</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="ms-4">
+                    <div class="d-flex justify-content-center">
                         <a href="https://drive.google.com/file/d/1NChOmaDmm6ltMKufbeEweQYwXoXAdZ6u/view"
                             class="btn btn-primary">Ficha Eco-Kal</a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         La bomba de calor Eco-Kal es muy silenciosa gracias al ventilador de baja velocidad y al
@@ -636,7 +645,7 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <!-- Tabla -->
-                <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-12 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -702,6 +711,128 @@
                                 <td scope="col">Cementar 2 x 2 (H-H)</td>
                                 <td scope="col">Si</td>
                                 <td scope="col">101</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        {{-- Contenido Series XLB --}}
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="xlb" class="h4">Tanques Precargados Altamira Serie Pro XLB </h4>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/xlb.png') }}" width="60%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Series XLB</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <div class="d-flex justify-content-center">
+                        <a href="https://drive.google.com/file/d/1lkYVY-7j3nWz4teq4zkN2kFKs9eYJeAl/view?usp=sharing"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    {{-- Texto --}}
+                    <p>
+                        Los tanques Altamira precargados de Diafragma son usados para sistemas hidroneumáticos de agua a
+                        presión. La serie PRO-XLB está diseñada para aplicaciones que exigen mucho mayor resistencia,
+                        por ejemplo:
+                    </p>
+                    <p>
+                        Aplicaciones a la intemperie, lluvia acida, exposición solar y rayos UV, resistencia a la
+                        corrosión ó humedad, también son los ideales para zonas costeras y ambientes salino y
+                        temperaturas ambientes de hasta 52 grados centígrados. Además cumplen con la certificaciones NSF
+                        y ANSI.
+                    </p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Aplicaciones -->
+                    <h4 class="h4">Aplicaciones de las Series TX</h4>
+                    <ul>
+
+                        <li>Sistemas de purificación de agua</li>
+                        <li>Sistemas de agua a presión </li>
+                        <li>Hidroneumaticos </li>
+                    </ul>
+                </div>
+                <!-- Tabla -->
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
+                    <h4 class="h4">Especificaciones Técnicas de tanques Altamira PRO XLB:</h4>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="border-top border-danger">
+                                <th scope="col" class="border-bottom border-dark">Modelo</th>
+                                <th scope="col" class="border-bottom border-dark">Capacidad del Tanque</th>
+                                <th scope="col" class="border-bottom border-dark">Presión Máxima</th>
+                                <th scope="col" class="border-bottom border-dark">Diámetro de conexión en pulg</th>
+                                <th scope="col" class="border-bottom border-dark">20/40 PSI</th>
+                                <th scope="col" class="border-bottom border-dark">30/50 PSI</th>
+                                <th scope="col" class="border-bottom border-dark">40/60 PSI</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="col">Altapro XLB20</td>
+                                <td scope="col">20 Gal</td>
+                                <td scope="col">125 PSI</td>
+                                <td scope="col">1” NPT hembra</td>
+                                <td scope="col">7.3</td>
+                                <td scope="col">6.1</td>
+                                <td scope="col">5.3</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">Altapro XLB26</td>
+                                <td scope="col">26 Gal</td>
+                                <td scope="col">125 PSI</td>
+                                <td scope="col">1” NPT hembra</td>
+                                <td scope="col">8.9</td>
+                                <td scope="col">7.7</td>
+                                <td scope="col">6.7</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">Altapro XLB45</td>
+                                <td scope="col">45 Gal</td>
+                                <td scope="col">125 PSI</td>
+                                <td scope="col">1” NPT hembra</td>
+                                <td scope="col">16.5</td>
+                                <td scope="col">13.9</td>
+                                <td scope="col">12.1</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">Altapro XLB65</td>
+                                <td scope="col">65 Gal</td>
+                                <td scope="col">125 PSI</td>
+                                <td scope="col">1” NPT hembra</td>
+                                <td scope="col">23.9</td>
+                                <td scope="col">20</td>
+                                <td scope="col">17.4</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">Altapro XLB86</td>
+                                <td scope="col">86 Gal</td>
+                                <td scope="col">125 PSI</td>
+                                <td scope="col">1” NPT hembra</td>
+                                <td scope="col">30.9</td>
+                                <td scope="col">25.9</td>
+                                <td scope="col">22.5</td>
+                            </tr>
+                            <tr class="border-bottom border-dark">
+                                <td scope="col">Altapro XLB119</td>
+                                <td scope="col">119 Gal</td>
+                                <td scope="col">125 PSI</td>
+                                <td scope="col">1” NPT hembra</td>
+                                <td scope="col">42.9</td>
+                                <td scope="col">35.9</td>
+                                <td scope="col">31.3</td>
                             </tr>
                         </tbody>
                     </table>

@@ -29,7 +29,7 @@
 }
 /* Herader de Blog */
 .header-blog {
-    background: #3789C8 url(../imagenes/blog/portada.jpg) center center no-repeat;
+    background: url(../imagenes/blog/portada.jpg) center center no-repeat;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;

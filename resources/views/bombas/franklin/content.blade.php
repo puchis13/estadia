@@ -3,18 +3,16 @@
         <div>
             {{-- Logo --}}
             <div class="text-center">
-
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/franklin/logo.png') }}" width="100%"
                         style="background: lightskyblue" class="figure-img img-fluid rounded" alt="...">
                 </figure>
-
             </div>
 
             {{-- Imagenes al seleccionar --}}
             <div>
                 {{-- Esto es la Fila --}}
-                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
 
                     {{-- Imagen de Series STS --}}
                     <div class="col">
@@ -60,6 +58,28 @@
                         </figure>
                     </div>
 
+                    {{-- Imagen de Series XS --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#xs"><img src="{{ asset('imagenes/bombas/franklin/xs.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie XS</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    {{-- Imagen de Series SubDrive --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#SubDrive"><img src="{{ asset('imagenes/bombas/franklin/SubDrive.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie SubDrive QuickPAK Connect</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
                     {{-- Cierre de Fila --}}
                 </div>
 
@@ -78,14 +98,15 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/sts.png') }}" width="100%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/franklin/sts.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption class="ms-5 ps-5">
+                    <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Serie STS 5" 6" 8" 9"</h6>
                     </figcaption>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         La Serie STS 5" 6" 8" 9" están hechas de tazones en fundición de hierro dúctil de primera
@@ -96,7 +117,7 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-6 mt-3 mb-3 ps-5">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
@@ -108,13 +129,14 @@
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-6 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico de 5", 6", 8", 9"</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
                                 <th scope="col" class="border-bottom border-dark">Serie</th>
                                 <th scope="col" class="border-bottom border-dark">Rangos GPM</th>
+                                <th scope="col" class="border-bottom border-dark"></th>
 
                             </tr>
                         </thead>
@@ -161,14 +183,15 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/tri.png') }}" width="100%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/franklin/tri.png') }}" width="70%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                            <figcaption class="ms-5 ps-3">
-                                <h6 class="h6">Serie Tri-Seal High Capacity 4" y 6"</h6>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Serie Tri-Seal High Capacity 4" y 6"</h6>
                     </figcaption>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         Las bombas de alta capacidad cuentan con diámetros de 4 pulgadas y son accionadas por motores
@@ -179,7 +202,7 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                <div class="col-md-4 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
@@ -191,7 +214,7 @@
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-8 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Rendimiento Hidráulico</h4>
                     <table class="table table-striped">
                         <thead>
@@ -559,20 +582,21 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/enca.png') }}" width="100%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/franklin/enca.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                            <figcaption class="ms-4">
-                                <h6 class="h6">Motores Sumergibles Rebobinables y Encapsulados Franklin</h6>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Motores Sumergibles Rebobinables y Encapsulados Franklin</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="ms-5 ps-5"> 
+                    <div class="d-flex justify-content-center">
                         <a
                             href="https://franklinagua.com/media/62938/M1479sp-Cat%C3%A1logo-Motores-Sumergibles.pdf"class="btn btn-primary ms-4">Ficha
                             Técnica</a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         Descubre la excelencia en motores sumergibles con Franklin Electric, el líder mundial en su
@@ -588,7 +612,7 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
@@ -602,7 +626,7 @@
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas de los Motores Sumergibles</h4>
                     <table class="table table-striped">
                         <thead>
@@ -664,20 +688,21 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/franklin/VFD.png') }}" width="100%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/franklin/VFD.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                            <figcaption class="ms-4 ps-5">
-                                <h6 class="h6">Serie VFD</h6>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Serie VFD</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="ms-4"> 
+                    <div class="d-flex justify-content-center">
                         <a href="https://drive.google.com/file/d/14dZsuzwbpbXN_UojdnGuQvKuC3QFxwqf/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha
-                        Técnica</a>
+                            class="btn btn-primary">Ficha
+                            Técnica</a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         El variador de frecuencia (VFD) SubDrive Connect Plus™ de Franklin Electric está diseñado
@@ -688,7 +713,7 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
@@ -701,26 +726,19 @@
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
-                    <h4 class="h4">Especificaciones Técnicas de los Motores Sumergibles</h4>
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
+                    <h4 class="h4">Variador de Frecuencia - SubDrive Connect Plus</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
                             <tr scope="col">
-                                <th colspan="8" class="text-center">Variador de Frecuencia - SubDrive Connect Plus
+                                <th colspan="4" class="text-center">Entrada Monofásica
                                 </th>
                             </tr>
                             <th scope="col" class="border-bottom border-dark">Voltaje Nominal</th>
-                            <tr scope="col">
-                                <th colspan="2" class="text-center">Entrada Monofásica</th>
-                            </tr>
-                            <th scope="col" class="border-bottom border-dark">Salida Nominal (HP)</th>
-                            <th scope="col" class="border-bottom border-dark">Salida Nominal (Amps)</th>
-                            <th scope="col" class="border-bottom border-dark">Entrada Trifásica</th>
                             <th scope="col" class="border-bottom border-dark">Salida Nominal (HP)</th>
                             <th scope="col" class="border-bottom border-dark">Salida Nominal (Amps)</th>
                             <th scope="col" class="border-bottom border-dark">No. de Parte</th>
-                            <th scope="col" class="border-bottom border-dark">Aplicaciones Sumergibles</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -728,62 +746,79 @@
                                 <td scope="col">230</td>
                                 <td scope="col">3</td>
                                 <td scope="col">11</td>
-                                <td scope="col">7.5</td>
-                                <td scope="col">27</td>
                                 <td scope="col">SDCP-SUB0723</td>
                             </tr>
                             <tr>
                                 <td scope="col">230</td>
                                 <td scope="col">5</td>
                                 <td scope="col">18</td>
+                                <td scope="col">SDCP-SUB1023</td>
+                            </tr>
+                            <tr class="border-bottom border-dark">
+                                <td scope="col">230</td>
+                                <td scope="col">7.5</td>
+                                <td scope="col">27</td>
+                                <td scope="col">SDCP-SUB1523</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="border-top border-danger">
+                            <tr scope="col">
+                                <th colspan="4" class="text-center">Entrada Trifásica</th>
+                            </tr>
+                            <th scope="col" class="border-bottom border-dark">Voltaje Nominal</th>
+                            <th scope="col" class="border-bottom border-dark">Salida Nominal (HP)</th>
+                            <th scope="col" class="border-bottom border-dark">Salida Nominal (Amps)</th>
+                            <th scope="col" class="border-bottom border-dark">No. de Parte</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="col">230</td>
+                                <td scope="col">7.5</td>
+                                <td scope="col">27</td>
+                                <td scope="col">SDCP-SUB0723</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">230</td>
                                 <td scope="col">10</td>
                                 <td scope="col">37</td>
                                 <td scope="col">SDCP-SUB1023</td>
                             </tr>
                             <tr>
                                 <td scope="col">230</td>
-                                <td scope="col">7.5</td>
-                                <td scope="col">27</td>
                                 <td scope="col">15</td>
                                 <td scope="col">48</td>
                                 <td scope="col">SDCP-SUB1523</td>
                             </tr>
                             <tr>
                                 <td scope="col">460</td>
-                                <td scope="col">-</td>
-                                <td scope="col">-</td>
                                 <td scope="col">10</td>
                                 <td scope="col">18</td>
                                 <td scope="col">SDCP-SUB1043</td>
                             </tr>
                             <tr>
                                 <td scope="col">460</td>
-                                <td scope="col">-</td>
-                                <td scope="col">-</td>
                                 <td scope="col">15</td>
                                 <td scope="col">26</td>
                                 <td scope="col">SDCP-SUB1543</td>
                             </tr>
                             <tr>
                                 <td scope="col">460</td>
-                                <td scope="col">-</td>
-                                <td scope="col">-</td>
                                 <td scope="col">20</td>
                                 <td scope="col">31</td>
                                 <td scope="col">SDCP-SUB2043</td>
                             </tr>
                             <tr>
                                 <td scope="col">460</td>
-                                <td scope="col">-</td>
-                                <td scope="col">-</td>
                                 <td scope="col">25</td>
                                 <td scope="col">39.5</td>
                                 <td scope="col">SDCP-SUB2543</td>
                             </tr>
                             <tr class="border-bottom border-dark">
                                 <td scope="col">460</td>
-                                <td scope="col">-</td>
-                                <td scope="col">-</td>
                                 <td scope="col">30</td>
                                 <td scope="col">47.5</td>
                                 <td scope="col">SDCP-SUB3043</td>
@@ -794,6 +829,292 @@
             </div>
         </div>
 
+        {{-- Contenido Series Xs --}}
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="xs" class="h4">Bomba Serie XS</h4>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/franklin/xs.png') }}" width="55%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Serie XS</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <div class="d-flex justify-content-center">
+                        <a
+                            href="https://drive.google.com/file/d/1Pw9bsVcFZOTmSj3LFSn1FVJjO3moxK8I/view?usp=sharing"class="btn btn-primary">Ficha
+                            Técnica</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Texto -->
+                    <p>
+                        La Serie XS es una bomba centrifuga que puede ser acoplada de forma horizontal o vertical en la
+                        descarga, esta bomba se convierte en su mejor opción de bombeo para aplicaciones agrícolas e
+                        industriales de superficie.
+                    </p>
+                    <p>
+                        Sus materiales en hierro vaciado reforzado incrementan su durabilidad por lo que tambien es una
+                        bomba de trabajo continuo. Tiene la capacidad de acoplarse a motores estándares JP por ultimo la
+                        linea XS va de tamanos desde 7.5 Hp hasta 150Hp
+                    </p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Aplicaciones -->
+                    <h4 class="h4">Aplicaciones</h4>
+                    <ul>
+                        <li>Irrigacion</li>
+                        <li>Servicios generals </li>
+                        <li>Industrial ligero</li>
+                        <li>Municipal</li>
+                        <li>Comercial</li>
+                    </ul>
+                </div>
+                <!-- Tabla -->
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
+                    <h4 class="h4">Especificaciones Técnicas de Serie XS:</h4>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="border-top border-danger">
+                                <th scope="col" class="border-bottom border-dark">Modelo</th>
+                                <th scope="col" class="border-bottom border-dark">Flujo Máximo (GPM)</th>
+                                <th scope="col" class="border-bottom border-dark">Carga Máxima (Pies)</th>
+                                <th scope="col" class="border-bottom border-dark">Motores (HP)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="col">XS-3×2.5-13</td>
+                                <td scope="col">500</td>
+                                <td scope="col">190</td>
+                                <td scope="col">10 a 20 HP</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">XS-4×3-13</td>
+                                <td scope="col">850</td>
+                                <td scope="col">180</td>
+                                <td scope="col">7.5 a 40 HP</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">XS-6×4-13</td>
+                                <td scope="col">1400</td>
+                                <td scope="col">180</td>
+                                <td scope="col">20 a 50 HP</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">XS-8×6-13</td>
+                                <td scope="col">2100</td>
+                                <td scope="col">175</td>
+                                <td scope="col">25 a 75 HP</td>
+                            </tr>
+                            <tr class="border-bottom border-dark">
+                                <td scope="col">XS-10×8-13</td>
+                                <td scope="col">4500</td>
+                                <td scope="col">165</td>
+                                <td scope="col">60 a 150 HP</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        {{-- Contenido Series SubDrive --}}
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="SubDrive" class="h4">Serie SubDrive QuickPAK Connect de Franklin </h4>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/franklin/SubDrive.png') }}" width="55%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Serie SubDrive QuickPAK Connect</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <div class="d-flex justify-content-center">
+                        <a
+                            href="https://drive.google.com/file/d/1V8iaUR_2_K2M_rRizPhEWfRI7S25ihSu/view?usp=sharing"class="btn btn-primary">Ficha
+                            Técnica</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Texto -->
+                    <p>
+                        Este sistema de presurización constante de Franklin Electric incluye bomba, motor de alta
+                        eficiencia Magforce de 4” y variador además de que viene con un tablero tipo NEMA 3R que agrega
+                        seguridad y durabilidad al equipo.
+                    </p>
+                    <p>
+                        El diseño compacto de la unidad es ideal para montaje en pared; funciona con tanques de presión
+                        pequeños o tanques más grandes existentes (Se ordenan por separado) Equipos desde 7- 90 GPM y
+                        0.75hp- 5hp.
+                    </p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Aplicaciones -->
+                    <h4 class="h4">Aplicaciones</h4>
+                    <ul>
+                        <li>Sistemas de Agua Residenciales</li>
+                        <li>Sistemas de Irrigación de Jardines</li>
+                        <li>Sistemas de Tratamiento de Agua</li>
+                        <li>Sistemas Geotérmicos</li>
+                        <li>Presurización Constante</li>
+                    </ul>
+                </div>
+                <!-- Tabla -->
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
+                    <h4 class="h4">Especificaciones Técnicas</h4>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="border-top border-danger">
+                                <th colspan="3" class="border-bottom border-dark text-center">Quickpak</th>
+
+                            </tr>
+                            <tr>
+                                <th scope="col" class="border-bottom border-dark">No. Parte</th>
+                                <th scope="col" class="border-bottom border-dark">Modelo</th>
+                                <th scope="col" class="border-bottom border-dark">GPM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="col">93806224C</td>
+                                <td scope="col">7PMQP-1.5HP-3RC</td>
+                                <td scope="col">7</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806425C</td>
+                                <td scope="col">7PMQP-2.0HP-3RC</td>
+                                <td scope="col">7</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806526C</td>
+                                <td scope="col">7PMQP-3.0HP-3RC</td>
+                                <td scope="col">7</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806234C</td>
+                                <td scope="col">10PMQP-1.5HP-3RC</td>
+                                <td scope="col">10</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806435C</td>
+                                <td scope="col">10PMQP-2.0HP-3RC</td>
+                                <td scope="col">10</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806536C</td>
+                                <td scope="col">10PMQP-3.0HP-3RC</td>
+                                <td scope="col">10</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806244C</td>
+                                <td scope="col">15PMQP-1.5HP-3RC</td>
+                                <td scope="col">15</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806445C</td>
+                                <td scope="col">15PMQP-2.0HP-3RC</td>
+                                <td scope="col">15</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806546C</td>
+                                <td scope="col">15PMQP-3.0HP-3RC</td>
+                                <td scope="col">15</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806254C</td>
+                                <td scope="col">20PMQP-1.5HP-3RC</td>
+                                <td scope="col">20</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806455C</td>
+                                <td scope="col">20PMQP-2.0HP-3RC</td>
+                                <td scope="col">20</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806556C</td>
+                                <td scope="col">20PMQP-3.0HP-3RC</td>
+                                <td scope="col">20</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806264C</td>
+                                <td scope="col">25PMQP-1.5HP-3RC</td>
+                                <td scope="col">25</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806465C</td>
+                                <td scope="col">25PMQP-2.0HP-3RC</td>
+                                <td scope="col">25</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806566C</td>
+                                <td scope="col">25PMQP-3.0HP-3RC</td>
+                                <td scope="col">25</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806274C</td>
+                                <td scope="col">35PMQP-1.5HP-3RC</td>
+                                <td scope="col">35</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806475C</td>
+                                <td scope="col">35PMQP-2.0HP-3RC</td>
+                                <td scope="col">35</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806576C</td>
+                                <td scope="col">35PMQP-3.0HP-3RC</td>
+                                <td scope="col">35</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806586C</td>
+                                <td scope="col">60PMQP-3.0HP-3RC</td>
+                                <td scope="col">60</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806596C</td>
+                                <td scope="col">90PMQP-3.0HP-3RC</td>
+                                <td scope="col">90</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806600C</td>
+                                <td scope="col">35PMQP-5.0HP-3RC</td>
+                                <td scope="col">35</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806601C</td>
+                                <td scope="col">45PMQP-5.0HP-3RC</td>
+                                <td scope="col">45</td>
+                            </tr>
+                            <tr>
+                                <td scope="col">93806602C</td>
+                                <td scope="col">60PMQP-5.0HP-3RC</td>
+                                <td scope="col">60</td>
+                            </tr>
+                            <tr class="border-bottom border-dark">
+                                <td scope="col">93806603C</td>
+                                <td scope="col">90PMQP-5.0HP-3RC</td>
+                                <td scope="col">90</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
 
 
         {{-- Fin de container --}}

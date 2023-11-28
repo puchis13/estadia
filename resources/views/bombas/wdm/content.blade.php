@@ -8,13 +8,12 @@
                     <img src="{{ asset('imagenes/bombas/wdm/logo.png') }}" width="50%"
                         class="figure-img img-fluid rounded" alt="...">
                 </figure>
-
             </div>
 
             {{-- Imagenes al seleccionar --}}
             <div>
                 {{-- Esto es la Fila --}}
-                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
 
                     {{-- Imagen de Series HE,QE,KE --}}
                     <div class="col">

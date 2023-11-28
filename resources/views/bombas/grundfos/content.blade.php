@@ -5,7 +5,7 @@
             <div class="text-center">
 
                 <figure class="figure">
-                    <img src="{{ asset('imagenes/bombas/grundfos/logo.png') }}" style="background: cornflowerblue"
+                    <img src="{{ asset('imagenes/bombas/grundfos/logo.png') }}" width="30%"
                         class="figure-img img-fluid rounded" alt="...">
                 </figure>
 
@@ -56,19 +56,20 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/grundfos/CR.png') }}" width="100%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/grundfos/CR.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                    <figcaption class="ms-5 ps-5">
+                    <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Serie CR</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                        <div class="ms-5 ps-4">
+                    <div class="d-flex justify-content-center">
                         <a href="https://drive.google.com/file/d/1iZlQD-hOpV2MM4yKcsEBZh3r0HzwS4Ce/view?usp=drive_link"
                             class="btn btn-primary">Ficha Técnica</a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         Bombas centrifugas multietapas verticales en linea energeticamente eficientes. Disponibles en
@@ -81,20 +82,20 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
-                        <li>Alimentacion de calderas.</li>
-                        <li>Riego.</li>
-                        <li>Sistemas contra incendio.</li>
-                        <li>Sistemas de lavado y limpieza.</li>
-                        <li>Suministro industrial de agua.</li>
-                        <li>Suministro de productos quimicos. </li>
+                        <li>Alimentacion de calderas</li>
+                        <li>Riego</li>
+                        <li>Sistemas contra incendio</li>
+                        <li>Sistemas de lavado y limpieza</li>
+                        <li>Suministro industrial de agua</li>
+                        <li>Suministro de productos quimicos</li>
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
@@ -199,19 +200,20 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3 ps-5">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/grundfos/SP.png') }}" width="100%"
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/grundfos/SP.png') }}" width="80%"
                             class="figure-img img-fluid rounded" alt=""></figure>
-                            <figcaption class="ms-5 ps-5">
-                                <h6 class="h6">Serie SP</h6>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Serie SP</h6>
                     </figcaption>
                     {{-- direccion de catalogo --}}
-                    <div class="ms-5 ps-2">
+                    <div class="d-flex justify-content-center">
                         <a href="https://drive.google.com/file/d/1rXe-LHRuls5u8tweVfEou97DK4y23JYA/view?usp=drive_link"
-                        class="btn btn-primary ms-4">Ficha Técnica</a>
+                            class="btn btn-primary">Ficha Técnica</a>
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
                         Reconocidas por su alta eficiencia y confiabilidad. Construidas totalmente en acero inoxidable Y
@@ -222,17 +224,17 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-                <div class="col-lg-5 mt-3 mb-3">
+                <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
                     <h4 class="h4">Aplicaciones</h4>
                     <ul>
-                        <li>Extracción de aguas subterráneas para abastecimiento de redes.</li>
-                        <li>Irrigación agrícola.</li>
-                        <li>Aumento de presión.</li>
+                        <li>Extracción de aguas subterráneas para abastecimiento de redes</li>
+                        <li>Irrigación agrícola</li>
+                        <li>Aumento de presión</li>
                     </ul>
                 </div>
                 <!-- Tabla -->
-                <div class="col-lg-7 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+                <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
