@@ -38,6 +38,39 @@
                         </figure>
                     </div>
 
+                    {{-- Imagen de CM  & CME --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#CME"><img src="{{ asset('imagenes/bombas/grundfos/CME.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie CM & CME</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    {{-- Imagen de Serie MTR --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#MTR"><img src="{{ asset('imagenes/bombas/grundfos/MTR.png') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie MTR</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    {{-- Imagen de Serie DME --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#DME"><img src="{{ asset('imagenes/bombas/grundfos/DME_NEG.png') }}"
+                                    width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h6 class="h6">Serie DME</h6>
+                            </figcaption>
+                        </figure>
+                    </div>
+
                     {{-- Cierre de Fila --}}
                 </div>
 
@@ -58,7 +91,7 @@
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
                     <figure class="figure d-flex justify-content-center"><img
-                            src="{{ asset('imagenes/bombas/grundfos/CR.png') }}" width="80%"
+                            src="{{ asset('imagenes/bombas/grundfos/CR.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Serie CR</h6>
@@ -202,7 +235,7 @@
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
                     <figure class="figure d-flex justify-content-center"><img
-                            src="{{ asset('imagenes/bombas/grundfos/SP.png') }}" width="80%"
+                            src="{{ asset('imagenes/bombas/grundfos/SP.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Serie SP</h6>
@@ -372,7 +405,147 @@
             </div>
         </div>
 
+        {{-- Contenido CM  & CME --}}
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="CME" class="h4">CM & CME Multietapas Horizontal</h4>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/grundfos/CME.png') }}" width="60%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">CM & CME Multietapas Horizontal</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <div class="d-flex justify-content-center">
+                        <a href="https://drive.google.com/file/d/1E6TRUCDV9kGnHFmzQc9kQxxkwXlKbeWP/view?usp=sharing"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Texto -->
+                    <p>
+                        La serie CM son bombas centrífugas multipasos horizontales, de fin de línea y autocebantes.
+                    </p>
+                    <p>
+                        Estas bombas se caracterizan por ser una bomba silenciosa y compacta. Se encuentra disponible en
+                        acero inoxidable AISI 316/DIN 1.4401:
+                    </p>
+                    <li>Potencia: 0.3 Hp-10Hp</li>
+                    <li>Temperatura: -30º C +120º C</li>
+                    <li>Presión: 142PSI-232 PSI</li>
+                    <li>Flujo: 1m3 /h - 30m3 /h</li>
+                    <!-- Aplicaciones -->
+                    <h4 class="h4 mt-3">Aplicaciones</h4>
+                    <ul>
+                        <li>Tratamiento de agua</li>
+                        <li>Fertirrigación</li>
+                        <li>Calefacción industrial</li>
+                        <li>Riego por goteo</li>
+                        <li>Micro aspersión y manguera</li>
+                    </ul>
+                </div>
 
+            </div>
+        </div>
+
+        {{-- Contenido Serie MTR --}}
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="MTR" class="h4">Bombas centrífugas multietapas Serie MTR</h4>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/grundfos/MTR.png') }}" width="60%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Serie MTR</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <div class="d-flex justify-content-center">
+                        <a href="https://drive.google.com/file/d/1GbvjlDVMUbELANB_viqdsfkHiHSRBIe-/view?usp=drive_link"
+                            class="btn btn-primary">Ficha Técnica</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Texto -->
+                    <p>
+                        La serie MTR son bombas centrífugas multietapas verticales para montaje en la parte superior del
+                        tanque. Se caracterizan por ser bombas compactas de alta presión para trabajar con líquidos
+                        agresivos a altas temperaturas y fiables para una amplia gama de aplicaciones especializadas de
+                        lavado y limpieza. Así como completas soluciones de agua por energía solar, para un suministro
+                        de agua fiable sin constantes costes energéticos.
+                    </p>
+
+                    <li>Temperatura líquida: 14 .. 194 °F</li>
+                    <li>Altura máxima: 881 ft</li>
+                    <li>Caudal máxima: 449 GPM US</li>
+                    <li>Presión máxima: 363 psi</li>
+
+                    <!-- Aplicaciones -->
+                    <h4 class="h4 mt-3">Aplicaciones</h4>
+                    <ul>
+                        <li>Mecanizado</li>
+                        <li>Lavado y limpieza</li>
+                        <li>Soluciones para bombeo solar</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        {{-- Contenido Serie DME --}}
+        <div>
+            <div class="row">
+                <div class="col m-2 mt-3 pb-3">
+                    <h4 id="DME" class="h4">Bombas Dosificadoras Grundfos DME, DMS y DDI</h4>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
+                <div class="col-md-6 mt-3">
+                    <figure class="figure d-flex justify-content-center"><img
+                            src="{{ asset('imagenes/bombas/grundfos/DME_NEG.png') }}" width="60%"
+                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figcaption class="d-flex justify-content-center">
+                        <h6 class="h6">Serie DME</h6>
+                    </figcaption>
+                    {{-- direccion de catalogo --}}
+                    <div class="d-flex justify-content-center">
+                        <a href="https://drive.google.com/file/d/1-83q_Xjr6-YTt-erJYIwn7qG0Xjn-5vo/view?usp=sharing" class="btn btn-primary">Ficha Técnica</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-lg-5 text-justify">
+                    <!-- Texto -->
+                    <p>
+                        Son bombas dosificadoras con diseños inovadores y capaces de soportar altas presiones, la
+                        programación del accionamiento y caudal es muy sencillo. Además, con la comunicación Fieldbus
+                        siempre esta informado sobre su bomba y del control de su sistema de dosificación.
+                    </p>
+                    <p>
+                        Las bombas dosificadoras de las Series DME, DMS y DDI están diseñadas para la dosificación de
+                        químicos en una gran cantidad de aplicaciones industriales. Pertecenen a la gama Smart Digital y
+                        son más precisas, versátiles y más fáciles de operar que los equipos con control analógico.
+                    </p>
+                    <!-- Aplicaciones -->
+                    <h4 class="h4 mt-3">Aplicaciones de las Series DME, DMS y DDI:</h4>
+                    <ul>
+                        <li>Sistemas de agua potable</li>
+                        <li>Tratamiento de agua potable</li>
+                        <li>Tratamiento de agua de refrigeración</li>
+                        <li>Tratamiento de aguas de proceso</li>
+                        <li>Tratamiento de aguas residuales</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
 
         {{-- Fin de container --}}
     </div>

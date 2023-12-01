@@ -12,7 +12,7 @@
             {{-- Imagenes al seleccionar --}}
             <div>
                 {{-- Esto es la Fila --}}
-                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-md-5 g-2 g-lg-3">
 
                     {{-- Imagen de Series Tx --}}
                     <div class="col mb-3">

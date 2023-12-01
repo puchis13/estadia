@@ -14,14 +14,12 @@
     </div>
 
     <!-- Parrafos y Imagenes -->
+
+    
     <div>
-        <div class="row">
-            <div class="col m-2 mt-3 pb-3">
-                <h1 class="h1" style="color: #262626">¿Qué es un impulsor?</h1>
-            </div>
-        </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-md-6 mt-5">
+            <div class="col-md-6">
+                <h1 class="h1" style="color: #262626">¿Qué es un impulsor?</h1>
                 <p>
                     El impulsor es el principal componente de una bomba centrífuga.
                 </p>

@@ -4,7 +4,7 @@
         <a href="{{ route('impulsores') }}" style="text-decoration: none; color: #262626;">
                 <div>
                     <img src="{{ asset('imagenes/blog/impulsores.png') }}" width="100%" class="img-fluid rounded" alt="...">
-                    <div class="d-flex justify">
+                    <div>
                         <h5 class="h5">¿Qué es un impulsor?</h5>
                     </div>
                     <div>
